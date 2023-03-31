@@ -23,7 +23,7 @@
 
 #links{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: 1.5rem;
 }
@@ -64,16 +64,55 @@
 }
 
 #footer{
+  padding: 2rem 5rem;
+  background-color: rgb(93 88 86);
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  z-index: 10;
 }
 
 #footer-head{
   width: 100%;
+  height: max-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid white;
+}
+
+#footer-head-logo > img{
+  height: 120px;
+}
+
+#footer-head-socials{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#footer-head-socials > i{
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(109 105 103);
+  border-radius: 50%;
+  padding: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#footer-info{
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+}
+
+#footer-info-title{
+  font-size: 2rem;
 }
