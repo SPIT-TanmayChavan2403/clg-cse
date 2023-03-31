@@ -16,7 +16,7 @@ function Publications(props){
                     dof: "15/04/2013",
                     dop: "12/06/2015",
                     status: "Published",
-                    position: {float: "left"}
+                    position: {left: "0%"}
                 }} />
                 <Card data={{
                     number: '2.',
@@ -26,7 +26,7 @@ function Publications(props){
                     dof: "15/04/2013",
                     dop: "12/06/2015",
                     status: "Published",
-                    position: {float: "right"}
+                    position: {right: "0%"}
                 }} />
                 <Card data={{
                     number: '3.',
@@ -36,7 +36,7 @@ function Publications(props){
                     dof: "15/04/2013",
                     dop: "12/06/2015",
                     status: "Published",
-                    position: {float: "left"}
+                    position: {left: "0%"}
                 }} />
                 <Card data={{
                     number: '4.',
@@ -46,7 +46,7 @@ function Publications(props){
                     dof: "15/04/2013",
                     dop: "12/06/2015",
                     status: "Published",
-                    position: {float: "right"}
+                    position: {right: "0%"}
                 }} />
                 <Card data={{
                     number: '5.',
@@ -56,7 +56,7 @@ function Publications(props){
                     dof: "15/04/2013",
                     dop: "12/06/2015",
                     status: "Published",
-                    position: {float: "left"}
+                    position: {left: "0%"}
                 }} />
             </div>
         </div>
@@ -66,7 +66,6 @@ function Publications(props){
 function Card(props){
     return(
         <div className="card">
-            <div className="card-squarebg" style={props.data.position} />   
             <div className="card-overlay">
                 <div className="card-overlay-leftsection">
                     <div className="card-overlay-heading">
@@ -96,6 +95,7 @@ function Card(props){
                     </div>
                 </div>
             </div>
+            <div className="card-squarebg" style={props.data.position} />   
         </div>
     )
 }

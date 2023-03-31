@@ -7,7 +7,7 @@
 
 .outer-wrapper{
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,5 +15,8 @@
 
 .container{
   width: 85%;
-  height: 90%;
+  row-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
 }

@@ -8,14 +8,18 @@
     width: 25%;
     height: 100%;
     min-width: 290px;
+    text-align: center;
     background-color: #D9D9D9;
 }
 
 .card{
     width: 100%;
-    height: 55%;
     margin: 30px 0px;
+    display: flex;
     position: relative;
+    height: fit-content;
+    padding: 40px 0px 40px 40px;
+/*    justify-content: center;*/
 }
 
 
@@ -35,23 +39,23 @@
 
 
 .card-squarebg{
+    top: 0%;
     width: 25%;
+    z-index: -1;
     height: 100%;
     min-width: 290px;
+    position: absolute;
     background-color: #948D8D;
 }
 
 .card-overlay{
-    top: 50%;
-    left: 50%;
     width: 93%;
-    min-height: 78%;
     display: flex;
-    position: absolute;
+    padding: 20px 0px;
     justify-content: space-between;
-    transform: translate(-50%, -50%);
     background-color: whitesmoke;
 }
+
 
 .card-overlay-leftsection{
     width: 8%;
@@ -65,7 +69,7 @@
 
 .card-overlay-heading{
     width: 100%;
-    height: 30%;
+/*    height: 30%;*/
     padding: 5px;
     display: flex;
     min-width: 55px;
@@ -87,8 +91,7 @@
 
 .card-overlay-content{
     width: 100%;
-    height: 70%;
-
+/*    height: 70%;*/
 }
 
 .COC-ul{
@@ -117,8 +120,21 @@
 
 
 @media screen and (max-width: 700px){
-
     .card-overlay-rightsection{
-        width: 75%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card-squarebg{
+        width: 100%;
+    }
+
+    .card{
+        padding: 25px;
+    }
+
+    .card-overlay{
+        width: 100%;
     }
 }
