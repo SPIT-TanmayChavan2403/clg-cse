@@ -1,4 +1,5 @@
 import './App.css';
+import Publications from './pages/research/publications';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Publications />
       <div id="footer">
         <div id="footer-head">
           <div id="footer-head-logo">
