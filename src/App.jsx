@@ -13,11 +13,17 @@ import {Routes, Route, useLocation } from 'react-router-dom';
 import Committees from './pages/extra_curricular/committee';
 
 function App(props) {
-    const [ image, updateImage ] = useState("hero.jpg");
+    const [image, updateImage] = useState("hero.jpg");
     const location = useLocation();
 
     useEffect(() => {
-        updateImage(location.pathname.split('/').slice(location.pathname.split('/').length - 1)[0] + ".png")
+        let url = location.pathname.split('/');
+        let imageName = url.slice(location.pathname.split('/').length - 1);
+        if (imageName == ""){
+            updateImage("hero" + ".png")
+        } else {
+            updateImage(imageName + ".png")
+        }
     }, [location]);
 
     return (
