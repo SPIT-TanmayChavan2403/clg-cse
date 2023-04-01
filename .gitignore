@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# github key
+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
 # dependencies
 /node_modules
 /.pnp

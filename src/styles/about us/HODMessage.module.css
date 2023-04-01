@@ -1,0 +1,48 @@
+#message{
+    position: relative;
+    padding: var(--main-padding);
+    width: 100%;
+    height: 120vh;
+}
+
+#title, #subtitle{
+    position: absolute;
+    position: absolute;
+    width: calc(72% - 8rem);
+    right: calc(var(--main-padding) - 1rem);
+    font-size: 3rem;
+    font-weight: 700;
+    top: 10%;
+}
+
+#subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    top: 20%;
+}
+
+#img{
+    position: absolute;
+    height: 65%;
+    width: 28%;
+    padding: 2rem;
+    background-color: var(--bg-dark);
+    top: var(--main-padding);
+    left: var(--main-padding);
+}
+
+#img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#desc{
+    position: absolute;
+    padding: 2rem;
+    background-color: var(--bg-medium);
+    width: calc(72% - 8rem);
+    right: var(--main-padding);
+    top: 30%;
+    font-size: 1.2rem;
+}
