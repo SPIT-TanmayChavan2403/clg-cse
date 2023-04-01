@@ -32,7 +32,6 @@ export default function Home(){
                 </div>
             </div>
             <div id="video-banner">
-                {/* https://youtu.be/I28Rbrxy9PU */}
                 <div id="video-banner-title">
                     Computer Engineering @ S.P.I.T
                 </div>
