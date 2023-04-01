@@ -10,13 +10,103 @@ function App() {
             <img src="./clg_logo.png" alt="" />
           </div>
           <div id="links">
-            <div className="links-link">Training</div>
+
+            {/* link */}
+            <div className="links-link">
+              Training
+              <div className="links-link-menu">
+                <div className="links-link-menu-item">
+                  Internship
+                </div>
+                <div className="links-link-menu-item">
+                  Placements
+                </div>
+              </div>
+            </div>
+
+            {/* link */}
             <div className="links-link">Projects</div>
-            <div className="links-link">Awards</div>
-            <div className="links-link">Extra Curricular</div>
-            <div className="links-link">Research</div>
-            <div className="links-link">Faculty</div>
-            <div className="links-link">About Us</div>
+
+            {/* link */}
+            <div className="links-link">
+              Awards
+              <div className="links-link-menu">
+                <div className="links-link-menu-item">
+                  Student Awards
+                </div>
+                <div className="links-link-menu-item">
+                  Faculty Awards
+                </div>
+              </div>
+            </div>
+
+            {/* link */}
+            <div className="links-link">
+              Extra Curricular
+              <div className="links-link-menu">
+                <div className="links-link-menu-item">
+                  Workshops
+                </div>
+                <div className="links-link-menu-item">
+                  Guest Lectures
+                </div>
+                <div className="links-link-menu-item">
+                  Committees
+                </div>
+                <div className="links-link-menu-item">
+                  Value added courses
+                </div>
+              </div>
+            </div>
+
+            {/* link */}
+            <div className="links-link">
+              Research
+              <div className="links-link-menu">
+                <div className="links-link-menu-item">
+                  Patents
+                </div>
+                <div className="links-link-menu-item">
+                  Publications
+                </div>
+              </div>
+            </div>
+
+            {/* link */}
+            <div className="links-link">
+              Faculty
+              <div className="links-link-menu">
+                <div className="links-link-menu-item">
+                  Teaching staff
+                </div>
+                <div className="links-link-menu-item">
+                  Technical and support staff
+                </div>
+              </div>
+            </div>
+
+            {/* link */}
+            <div className="links-link">
+              About Us
+              <div className="links-link-menu">
+                <div className="links-link-menu-item">
+                  Objectives
+                </div>
+                <div className="links-link-menu-item">
+                  HOD message
+                </div>
+                <div className="links-link-menu-item">
+                  Program outcomes
+                </div>
+                <div className="links-link-menu-item">
+                  Course outline
+                </div>
+                <div className="links-link-menu-item">
+                  Infrastructure
+                </div>
+              </div>
+            </div>
+            
           </div>
           <div id="account">
             <i className="fa-solid fa-magnifying-glass"></i>
