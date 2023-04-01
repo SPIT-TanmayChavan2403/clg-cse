@@ -5,7 +5,6 @@ import Internships from './pages/training/internship';
 import HODMessage from './pages/about us/HODMessage';
 import Library from './pages/about us/infrastructure/library'
 import Objectives from './pages/about us/Objectives';
-// import Infrastructure from './pages/about us/Infrastructue';
 import Placements from './pages/training/placements';
 import Patents from './pages/research/patents';
 import Header from './pages/Header';
