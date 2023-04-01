@@ -11,6 +11,7 @@ import Patents from './pages/research/patents';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
 import {Routes, Route, useLocation } from 'react-router-dom';
+import Committees from './pages/extra_curricular/committee';
 
 function App(props) {
     const [ image, updateImage ] = useState("hero.jpg");
@@ -30,6 +31,7 @@ function App(props) {
                   <Route path="/training/internship" element={<Internships />} />
                   <Route path="/aboutus/objectives" element={<Objectives />} /> 
                   <Route path="/aboutus/infrastructure/library" element={<Library />} /> 
+                  <Route path="/extra-curriculars/committees" element={<Committees />} /> 
               </Routes>
             <Footer />
         </div>
