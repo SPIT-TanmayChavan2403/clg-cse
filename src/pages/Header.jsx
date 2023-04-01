@@ -50,7 +50,7 @@ function Header(props){
 	                  Guest Lectures
 	                </div>
 	                <div className="links-link-menu-item">
-	                  Committees
+	                  	<a href="/extra-curriculars/committees">Committees</a>
 	                </div>
 	                <div className="links-link-menu-item">
 	                  Value added courses
