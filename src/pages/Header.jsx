@@ -15,7 +15,7 @@ function Header(props){
 	              Training
 	              <div className="links-link-menu">
 	                <div className="links-link-menu-item">
-	                  	Internship
+	                  	<Link to="/training/internship">Internship</Link>
 	                </div>
 	                <div className="links-link-menu-item">
 						<Link to="research/placements">Placements</Link>
@@ -63,7 +63,7 @@ function Header(props){
 	              Research
 	              <div className="links-link-menu">
 	                <div className="links-link-menu-item">
-	                  Patents
+	                  <a href="/research/patents">Patents</a>
 	                </div>
 	                <div className="links-link-menu-item">
 	                  Publications
@@ -89,7 +89,7 @@ function Header(props){
 	              About Us
 	              <div className="links-link-menu">
 	                <div className="links-link-menu-item">
-	                  Objectives
+	                  <Link to="/aboutus/objectives">Objectives</Link>
 	                </div>
 	                <div className="links-link-menu-item">
 	                  HOD message
@@ -101,7 +101,7 @@ function Header(props){
 	                  Course outline
 	                </div>
 	                <div className="links-link-menu-item">
-	                  Infrastructure
+	                  <Link to="/aboutus/infrastructure/library">Infrastructure</Link>
 	                </div>
 	              </div>
 	            </div>

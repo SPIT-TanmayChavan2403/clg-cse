@@ -5,8 +5,6 @@ import Header from "../Header";
 
 export default function Objectives(){
     return(
-        <>
-            <Header />
             <div id={styles.objective_main}>
                 <div className={styles.content}>
                     <div className={styles.title}>
@@ -67,7 +65,5 @@ export default function Objectives(){
                     </div>
                 </div>
             </div>
-            <Footer />
-        </>
     )
 }
