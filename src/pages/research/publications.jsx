@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../styles/publications.css'
+import styles from '../../styles/publications.module.css'
 
 function Publications(props){
     return(
         <div className="outer-wrapper">
             <div className="container">
-                <div id="title">
-                    <h1 className='year'>2020 - 2021</h1>
+                <div id={styles.title}>
+                    <h1 className={styles.year}>2020 - 2021</h1>
                 </div>
                 <Card data={{
                     number: '1.',
@@ -65,37 +65,37 @@ function Publications(props){
 
 function Card(props){
     return(
-        <div className="card">
-            <div className="card-overlay">
-                <div className="card-overlay-leftsection">
-                    <div className="card-overlay-heading">
-                        <h1 className='COH-heading'>{props.data.number}</h1>
+        <div className={styles.card}>
+            <div className={styles.cardOverlay}>
+                <div className={styles.cardOverlayLeftsection}>
+                    <div className={styles.cardOverlayHeading}>
+                        <h1 className={styles.COHheading}>{props.data.number}</h1>
                     </div>
                 </div>    
-                <div className="card-overlay-rightsection">
-                    <div className="card-overlay-heading">
+                <div className={styles.cardOverlayRightsection}>
+                    <div className={styles.cardOverlayHeading}>
                         <h3 >{props.data.title}</h3>
                         <h3> {props.data.nameofInventor}</h3>
                     </div>
-                    <div className="card-overlay-content">
-                        <ul className='COC-ul'>
-                            <li className='COC-li'>
+                    <div className={styles.cardOverlayContent}>
+                        <ul className={styles.COCul}>
+                            <li className={styles.COCli}>
                                 <p>{props.data.applicationNo}</p>
                             </li>
-                            <li className='COC-li'>
+                            <li className={styles.COCli}>
                                 <p>{props.data.dof}</p>
                             </li>
-                            <li className='COC-li'>
+                            <li className={styles.COCli}>
                                 <p>{props.data.dop}</p>
                             </li>
-                            <li className='COC-li'>
+                            <li className={styles.COCli}>
                                 <p>{props.data.status}</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="card-squarebg" style={props.data.position} />   
+            <div className={styles.cardSquarebg} style={props.data.position} />   
         </div>
     )
 }

@@ -1,0 +1,19 @@
+#table{
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.row{
+	width: 100%;
+}
+
+.data{
+	width: 20%;
+	text-align: center;
+	border: 4px solid white;
+}
+
+.block{
+	width: 100%;
+	padding: 20px 0px;
+}
