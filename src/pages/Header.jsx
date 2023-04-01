@@ -1,3 +1,6 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+
 function Header(props){
 	return(
 		<div id="header">
@@ -12,10 +15,10 @@ function Header(props){
 	              Training
 	              <div className="links-link-menu">
 	                <div className="links-link-menu-item">
-	                  Internship
+	                  	Internship
 	                </div>
 	                <div className="links-link-menu-item">
-	                  Placements
+						<Link to="research/placements">Placements</Link>
 	                </div>
 	              </div>
 	            </div>
@@ -110,7 +113,7 @@ function Header(props){
 	          </div>
 	        </nav>
 	        <div id="hero">
-	          <img src="./hero.jpg" alt="" />
+	          <img src={props.img} alt="" />
 	          <div className="hero-title">
 	            Department of Computer Science 
 	          </div>

@@ -10,8 +10,6 @@ export default function Home(){
     }
     return(
         <>
-            <Header />
-            
             <div id="home">
                 <div id="banner">
                     <div id="banner-info">
@@ -56,8 +54,6 @@ export default function Home(){
                     </div>
                 </div>
             </div>
-
-            <Footer />
         </>
     )
 }
