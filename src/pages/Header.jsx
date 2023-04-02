@@ -67,26 +67,6 @@ function Header(props){
 						</div>
 						</div>
 
-<<<<<<< Updated upstream
-						{/* link */}
-						<div className="links-link">
-						Extra Curricular
-						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="training/placements">
-							Workshops
-							</StyledLink>
-							<StyledLink to="training/placements">
-								Guest Lectures
-							</StyledLink>
-							<StyledLink to="/extra-curriculars/committees">
-								Committees
-							</StyledLink>
-							<StyledLink to="training/placements">
-								Value added courses
-							</StyledLink>
-						</div>
-						</div>
-=======
 	            {/* link */}
 	            <div className="links-link">
 	              Extra Curricular
@@ -105,7 +85,6 @@ function Header(props){
 					</StyledLink>
 	              </div>
 	            </div>
->>>>>>> Stashed changes
 
 						{/* link */}
 						<div className="links-link">
