@@ -80,7 +80,7 @@ function Header(props){
 					<StyledLink to="/extra-curriculars/committees">
 						Committees
 					</StyledLink>
-					<StyledLink to="training/placements">
+					<StyledLink to="/extra-curriculars/valueaddedcorses">
 						Value added courses
 					</StyledLink>
 	              </div>
@@ -103,7 +103,7 @@ function Header(props){
 						<div className="links-link" >
 						Faculty
 						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="training/placements">
+							<StyledLink to="/faculty/teachingstaff">
 								Teaching staff
 							</StyledLink>
 							<StyledLink to="/faculty/technicalstaff">
@@ -122,7 +122,7 @@ function Header(props){
 							<StyledLink to="/aboutus/hodmessage">
 								HOD message
 							</StyledLink>
-							<StyledLink to="training/placements">
+							<StyledLink to="/aboutus/infrastructure/programoutcomes">
 								Program outcomes
 							</StyledLink>
 							<StyledLink to="/aboutus/infrastructure/courseoutline">
@@ -131,7 +131,7 @@ function Header(props){
 							<StyledLink to="/aboutus/infrastructure/library">
 								Library
 							</StyledLink>
-							<StyledLink to="/aboutus/infrastructure/library">
+							<StyledLink to="/aboutus/infrastructure/department">
 								Department
 							</StyledLink>
 						</div>

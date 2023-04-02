@@ -1,0 +1,70 @@
+.header{
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(224, 224, 224);
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    height: auto;
+}
+
+.container:hover{
+    background-color: rgb(172, 164, 164);
+    cursor: default;
+
+}
+
+.image1{
+    padding: 10px;
+}
+
+@media screen and (max-width:830px) {
+    .container{
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        font-size: 16px;
+        justify-content: center;
+        margin: auto;
+        }
+
+        .intro{
+            align-items: center;
+            height: fit-content;
+            width: fit-content;
+            font-size: 16px;
+            justify-content: center;
+            margin: auto;
+            }
+    .image1{
+        height: fit-content;
+        width: fit-content;
+    }
+    .header{
+        justify-content: center;
+        align-items: center;
+    }
+    .textContainer{
+        padding: 0px 15px;
+    }
+}
