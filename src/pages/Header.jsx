@@ -53,7 +53,7 @@ function Header(props){
 	                  	<a href="/extra-curriculars/committees">Committees</a>
 	                </div>
 	                <div className="links-link-menu-item">
-	                  Value added courses
+	                  <a href="/extra-curriculars/value-added-courses">Value added courses </a>
 	                </div>
 	              </div>
 	            </div>

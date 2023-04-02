@@ -13,6 +13,7 @@ import Footer from './pages/Footer';
 import {Routes, Route, useLocation } from 'react-router-dom';
 import Committees from './pages/extra_curricular/committee';
 import ProgramOutcomes from './pages/about us/ProgramOutcomes';
+import ValueAddedCourse from './pages/extra_curricular/ValueAddedCourses';
 
 function App(props) {
     const [ image, updateImage ] = useState("hero.jpg");
@@ -34,6 +35,7 @@ function App(props) {
                   <Route path="/aboutus/infrastructure/library" element={<Library />} /> 
                   <Route path="/aboutus/program-outcomes" element={<ProgramOutcomes />} /> 
                   <Route path="/extra-curriculars/committees" element={<Committees />} /> 
+                  <Route path="/extra-curriculars/value-added-courses" element={<ValueAddedCourse />} /> 
               </Routes>
             <Footer />
         </div>
