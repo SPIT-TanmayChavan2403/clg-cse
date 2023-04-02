@@ -1,4 +1,4 @@
-import styles from '../../../styles/about us/Infrastructure.module.css'
+import styles from '../../../styles/about us/Library.module.css'
 
 export default function Library(){
     return(

@@ -23,17 +23,18 @@ function App(props) {
     useEffect(() => {
         let url = location.pathname.split('/');
         let imageName = url.slice(location.pathname.split('/').length - 1);
-        if (imageName == ""){
-            updateImage("./banner/hero" + ".png")
+        console.log(imageName);
+        if (imageName[0] === ""){
+            updateImage("./banner/hero.png")
         } else {
-            updateImage( './banner/' + imageName + ".png")
+            updateImage( './banner/' + imageName[0] + ".png")
         }
     }, [location]);
 
     return (
         <div className="App">
             
-            <Header img={image}/>
+            <Header img={image} alt="header"/>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/training/internship" element={<Internships />} />

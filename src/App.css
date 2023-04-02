@@ -21,6 +21,10 @@
   height: 80px;
 }
 
+#menubtn{
+  display: none;
+}
+
 #links{
   display: flex;
   justify-content: center;
@@ -152,8 +156,46 @@
     height: 50px;
   }
 
+  #account{
+    display: none;
+  }
+
+  #menu{
+    position: relative;
+  }
+
+  #menubtn{
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
   #links{
     display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    font-size: 1rem;
+    top: 2rem;
+    right: 0;
+    background-color: var(--bg-light);
+    color:black;
+  }
+
+  #links.active{
+    display: flex;
+  }
+
+  .links-link-menu{
+    top: 0%;
+    padding: .5rem;
+    background-color: var(--bg-light);
+    border-radius: 5px;
+    color: black;
+    left: auto;
+    right: 95%;
   }
 
   #hero{
@@ -166,7 +208,7 @@
   }
 
   .hero-title{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .hero-subtitle{

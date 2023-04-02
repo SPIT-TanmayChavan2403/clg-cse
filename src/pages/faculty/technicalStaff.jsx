@@ -22,7 +22,7 @@ function Block(props){
     return(
         <div className={styles.section}>
             <div className={styles.imageContainer}>
-                <img src={props.img} alt="Staff image" className={styles.image} />
+                <img src={props.img} alt="Staff" className={styles.image} />
             </div>
             <div className={styles.textInnerContainer}>
                 <div className={styles.textInnerContainer}>
