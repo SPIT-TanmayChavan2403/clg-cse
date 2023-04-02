@@ -18,7 +18,9 @@ function Header(props){
 		<div id="header">
 	        <nav>
 	          <div id="logo">
-	            <img src="./clg_logo.png" alt="" />
+	            <Link to="/">
+					<img src="./clg_logo.png" alt="" />
+				</Link>
 	          </div>
 	          <div id="links">
 
@@ -109,7 +111,7 @@ function Header(props){
 					<StyledLink to="research/placements">
 						Program outcomes
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="/aboutus/infrastructure/courseoutline">
 						Course outline
 					</StyledLink>
 					<StyledLink to="/aboutus/infrastructure/library">
