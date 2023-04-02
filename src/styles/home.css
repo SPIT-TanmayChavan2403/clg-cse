@@ -86,6 +86,9 @@
 
 #video-banner-info-desc{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     right: 0;
     top: 0;
     width: 65%;
@@ -94,4 +97,18 @@
     padding: 2rem;
     padding-left: 11rem;
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1400) {
+    #banner-info-title{
+        font-size: 3.1rem;
+    }
+
+    #banner-info-subtitle{
+        font-size: 1.6rem;
+    }
+
+    #video-banner-info-desc{
+        font-size: 1.1rem;
+    }
 }

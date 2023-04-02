@@ -31,7 +31,7 @@ function Header(props){
 				  	<StyledLink to="/training/internship">
 						Internship
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Placements
 					</StyledLink>
 	              </div>
@@ -44,10 +44,10 @@ function Header(props){
 	            <div className="links-link">
 	              Awards
 	              <div className="links-link-menu">
-				  	<StyledLink to="research/placements">
+				  	<StyledLink to="training/placements">
 				  		Student Awards
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Faculty Awards
 					</StyledLink>
 	              </div>
@@ -57,16 +57,16 @@ function Header(props){
 	            <div className="links-link">
 	              Extra Curricular
 	              <div className="links-link-menu">
-				  	<StyledLink to="research/placements">
+				  	<StyledLink to="training/placements">
 					  Workshops
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Guest Lectures
 					</StyledLink>
 					<StyledLink to="/extra-curriculars/committees">
 						Committees
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Value added courses
 					</StyledLink>
 	              </div>
@@ -76,10 +76,10 @@ function Header(props){
 	            <div className="links-link">
 	              Research
 	              <div className="links-link-menu">
-				  	<StyledLink to="research/placements">
+				  	<StyledLink to="/research/patents">
 						Patents
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Publications
 					</StyledLink>
 	              </div>
@@ -89,10 +89,10 @@ function Header(props){
 	            <div className="links-link">
 	              Faculty
 	              <div className="links-link-menu">
-				  	<StyledLink to="research/placements">
+				  	<StyledLink to="training/placements">
 						Teaching staff
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Technical and support staff
 					</StyledLink>
 	              </div>
@@ -105,10 +105,10 @@ function Header(props){
 				  	<StyledLink to="/aboutus/objectives">
 						Objectives
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="/aboutus/hodmessage">
 						HOD message
 					</StyledLink>
-					<StyledLink to="research/placements">
+					<StyledLink to="training/placements">
 						Program outcomes
 					</StyledLink>
 					<StyledLink to="/aboutus/infrastructure/courseoutline">

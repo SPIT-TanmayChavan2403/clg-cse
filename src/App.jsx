@@ -32,13 +32,18 @@ function App(props) {
             <Header img={image}/>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/research/patents" element={<Patents />} />
-                <Route path="/research/placements" element={<Placements />} />
                 <Route path="/training/internship" element={<Internships />} />
-                <Route path="/aboutus/objectives" element={<Objectives />} />
-                <Route path="/aboutus/infrastructure/library" element={<Library />} />
+                <Route path="/training/placements" element={<Placements />} />
+
                 <Route path="/extra-curriculars/committees" element={<Committees />} />
+
+                <Route path="/research/patents" element={<Patents />} />
+
+
+                <Route path="/aboutus/objectives" element={<Objectives />} />
+                <Route path="/aboutus/hodmessage" element={<HODMessage />} />
                 <Route path="/aboutus/infrastructure/courseoutline" element={<CourseOutline />} />
+                <Route path="/aboutus/infrastructure/library" element={<Library />} />
               </Routes>
             <Footer />
         </div>
