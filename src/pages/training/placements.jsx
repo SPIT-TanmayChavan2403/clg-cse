@@ -34,7 +34,7 @@ function Card(props){
                 <h2 className={styles.cardYearTitle}>{props.data.heading}</h2>
             </div>
             <div className={styles.imageContainer}>
-                <img className={styles.chartImage} src={props.data.img} />
+                <img className={styles.chartImage} alt="card" src={props.data.img} />
             </div>
             <div className={styles.title}>
                 <h2> {props.data.title} </h2>

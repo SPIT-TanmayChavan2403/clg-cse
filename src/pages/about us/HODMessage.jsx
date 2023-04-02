@@ -1,8 +1,5 @@
 import styles from '../../styles/about us/HODMessage.module.css'
 
-import Footer from "../Footer";
-import Header from "../Header";
-
 export default function HODMessage(){
     return(
         <div id={styles.message}>

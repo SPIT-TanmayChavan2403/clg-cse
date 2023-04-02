@@ -15,6 +15,11 @@ import CourseOutline from './pages/about us/Course outline';
 import FacultyAwards from './pages/awards/facultyAwards';
 import StudentAwards from './pages/awards/studentAwards';
 import TechnicalStaff from './pages/faculty/technicalStaff';
+import Department from './pages/about us/infrastructure/department';
+import Workshops from './pages/extra_curricular/workshops';
+import ProgramOutcomes from './pages/about us/ProgramOutcomes';
+import ValueAddedCourse from './pages/extra_curricular/ValueAddedCourses';
+import TeachingStaff from './pages/faculty/teachingStaff';
 
 function App(props) {
     const [image, updateImage] = useState("hero.jpg");
@@ -23,17 +28,17 @@ function App(props) {
     useEffect(() => {
         let url = location.pathname.split('/');
         let imageName = url.slice(location.pathname.split('/').length - 1);
-        if (imageName == ""){
-            updateImage("./banner/hero" + ".png")
+        if (imageName[0] === ""){
+            updateImage("./banner/hero.png")
         } else {
-            updateImage( './banner/' + imageName + ".png")
+            updateImage('./banner/' + imageName + ".png")
         }
     }, [location]);
 
     return (
         <div className="App">
             
-            <Header img={image}/>
+            <Header img={image} alt="header"/>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/training/internship" element={<Internships />} />
@@ -41,12 +46,17 @@ function App(props) {
                 <Route path="/awards/facultyawards" element={<FacultyAwards />} />
                 <Route path="/awards/studentawards" element={<StudentAwards />} />
                 <Route path="/extra-curriculars/committees" element={<Committees />} />
+                <Route path="/extra-curriculars/workshops" element={<Workshops />} />
+                <Route path="/extra-curriculars/valueaddedcorses" element={<ValueAddedCourse />} />
                 <Route path="/research/patents" element={<Patents />} />
                 <Route path="/aboutus/objectives" element={<Objectives />} />
                 <Route path="/aboutus/hodmessage" element={<HODMessage />} />
                 <Route path="/aboutus/infrastructure/courseoutline" element={<CourseOutline />} />
+                <Route path="/aboutus/infrastructure/programoutcomes" element={<ProgramOutcomes />} />
                 <Route path="/aboutus/infrastructure/library" element={<Library />} />
+                <Route path="/aboutus/infrastructure/department" element={<Department />} />
                 <Route path="/faculty/technicalstaff" element={<TechnicalStaff />} />
+                <Route path="/faculty/teachingstaff" element={<TeachingStaff />} />
               </Routes>
             <Footer />
         </div>

@@ -65,25 +65,25 @@ function Internships(props){
         		</table>
         		<table id={styles.table}>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2014 - 2015 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2014 - 2015 </h3></a>
         			</tr>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2015 - 2016 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2015 - 2016 </h3></a>
         			</tr>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2016 - 2017 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2016 - 2017 </h3></a>
         			</tr>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2017 - 2018 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2017 - 2018 </h3></a>
         			</tr>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2018 - 2019 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2018 - 2019 </h3></a>
         			</tr>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2019 - 2020 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2019 - 2020 </h3></a>
         			</tr>
         			<tr>
-        				<a href="#"> <h3 className={styles.links}>Internship 2020 - 2021 </h3></a>
+        				<a href="/"> <h3 className={styles.links}>Internship 2020 - 2021 </h3></a>
         			</tr>
         		</table>
         	</div>

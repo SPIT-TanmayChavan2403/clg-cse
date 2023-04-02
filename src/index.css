@@ -1,6 +1,8 @@
 :root{
   --bg-dark: rgb(93, 88, 86);
+  --bg-medium-dark: rgb(148, 141, 141);
   --bg-medium: rgb(217, 217, 217);
+  --bg-medium-light: rgb(238, 238, 238);
   --bg-light: rgb(245, 245, 245);
   --main-padding: 4rem;
 }

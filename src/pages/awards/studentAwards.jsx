@@ -26,7 +26,7 @@ function StudentAwards(props){
 function ImageBlock(props){
     return(
         <div className={styles.imageBlockContainer}>
-            <img className={styles.image} src={props.img} alt="Award image" />
+            <img className={styles.image} src={props.img} alt="Award" />
         </div>
     )
 }

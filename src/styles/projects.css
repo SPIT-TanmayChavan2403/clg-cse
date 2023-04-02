@@ -1,0 +1,12 @@
+.container {
+    display: block;
+    padding: 2rem;
+}
+
+.contents {
+    font-size: 1.5rem;
+}
+
+.contents > p {
+    padding: .5rem 2rem;
+}
