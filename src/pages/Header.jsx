@@ -44,10 +44,10 @@ function Header(props){
 	            <div className="links-link">
 	              Awards
 	              <div className="links-link-menu">
-				  	<StyledLink to="training/placements">
+				  	<StyledLink to="/awards/studentawards">
 				  		Student Awards
 					</StyledLink>
-					<StyledLink to="training/placements">
+					<StyledLink to="/awards/facultyawards">
 						Faculty Awards
 					</StyledLink>
 	              </div>
@@ -92,7 +92,7 @@ function Header(props){
 				  	<StyledLink to="training/placements">
 						Teaching staff
 					</StyledLink>
-					<StyledLink to="training/placements">
+					<StyledLink to="/faculty/technicalstaff">
 						Technical and support staff
 					</StyledLink>
 	              </div>
