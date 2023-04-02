@@ -15,6 +15,8 @@ import CourseOutline from './pages/about us/Course outline';
 import FacultyAwards from './pages/awards/facultyAwards';
 import StudentAwards from './pages/awards/studentAwards';
 import TechnicalStaff from './pages/faculty/technicalStaff';
+import Department from './pages/about us/infrastructure/department';
+import Workshops from './pages/extra_curricular/workshops';
 
 function App(props) {
     const [image, updateImage] = useState("hero.jpg");
@@ -23,11 +25,18 @@ function App(props) {
     useEffect(() => {
         let url = location.pathname.split('/');
         let imageName = url.slice(location.pathname.split('/').length - 1);
+<<<<<<< Updated upstream
         console.log(imageName);
         if (imageName[0] === ""){
             updateImage("./banner/hero.png")
         } else {
             updateImage( './banner/' + imageName[0] + ".png")
+=======
+        if (imageName[0] === ""){
+            updateImage("./banner/hero.png")
+        } else {
+            updateImage('./banner/' + imageName + ".png")
+>>>>>>> Stashed changes
         }
     }, [location]);
 
@@ -42,11 +51,13 @@ function App(props) {
                 <Route path="/awards/facultyawards" element={<FacultyAwards />} />
                 <Route path="/awards/studentawards" element={<StudentAwards />} />
                 <Route path="/extra-curriculars/committees" element={<Committees />} />
+                <Route path="/extra-curriculars/workshops" element={<Workshops />} />
                 <Route path="/research/patents" element={<Patents />} />
                 <Route path="/aboutus/objectives" element={<Objectives />} />
                 <Route path="/aboutus/hodmessage" element={<HODMessage />} />
                 <Route path="/aboutus/infrastructure/courseoutline" element={<CourseOutline />} />
-                <Route path="/aboutus/infrastructure/library" element={<Library />} />
+                {/* <Route path="/aboutus/infrastructure/library" element={<Library />} /> */}
+                <Route path="/aboutus/infrastructure/library" element={<Department />} />
                 <Route path="/faculty/technicalstaff" element={<TechnicalStaff />} />
               </Routes>
             <Footer />
