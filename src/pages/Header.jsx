@@ -95,7 +95,7 @@ function Header(props){
 	                  HOD message
 	                </div>
 	                <div className="links-link-menu-item">
-	                  Program outcomes
+	                  <a href="/aboutus/program-outcomes"> Program outcomes </a>
 	                </div>
 	                <div className="links-link-menu-item">
 	                  Course outline
