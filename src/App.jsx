@@ -29,7 +29,7 @@ function App(props) {
     return (
         <div className="App">
             <Header img={image}/>
-            <Routes>
+              <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/research/patents" element={<Patents />} />
                   <Route path="/research/placements" element={<Placements />} />
