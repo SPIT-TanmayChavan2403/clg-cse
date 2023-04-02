@@ -7,7 +7,6 @@
 
 #title, #subtitle{
     position: absolute;
-    position: absolute;
     width: calc(72% - 8rem);
     right: calc(var(--main-padding) - 1rem);
     font-size: 3rem;
@@ -45,4 +44,41 @@
     right: var(--main-padding);
     top: 30%;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 992px){
+    #message{
+        height: 160vh;
+    }
+    #img{
+        position: absolute;
+        height: 25%;
+        width: 50%;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    #title, #subtitle{
+        font-size: 1.4rem;
+        font-weight: 700;
+        width: fit-content;
+        left: 55%;
+        top: 10%;
+    }
+    
+    #subtitle{
+        font-size: 1rem;
+        font-weight: 400;
+        top: 20%;
+    }
+
+    #desc{
+        padding: 1rem;
+        width: 90%;
+        right: var(--main-padding);
+        left: 1rem;
+        top: 30%;
+        font-size: 1rem;
+    }
+
 }

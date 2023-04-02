@@ -50,3 +50,38 @@
 .list_item > span{
     padding: 1rem;
 }
+
+@media screen and (max-width: 992px){
+
+    #objective_main{
+        padding: 2rem;
+    }
+
+    .content{
+        padding-bottom: 1rem;
+    }
+    
+    .title{
+        width: 60%;
+        padding: 1rem;
+        display: flex;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .title > i{
+        margin-right: 1rem;
+    }
+    
+    .desc{
+        font-size: 1rem;
+    }
+    
+    .list_item{
+        padding: 1rem;
+    }
+    
+    .list_item > span{
+        padding: 1rem;
+    }
+}
