@@ -5,7 +5,7 @@ export default function Library(){
         <>
             <div id={styles.objective_main}>
                 <div id={styles.outter_content}>
-                The department library strives to connects outstanding faculty and brilliant students to the knowledge and state of-the-art of their disciplines, and strengthens the aspirations of teaching work thereby supporting the institute’s march towards its vision.
+                    The department library strives to connects outstanding faculty and brilliant students to the knowledge and state of-the-art of their disciplines, and strengthens the aspirations of teaching work thereby supporting the institute’s march towards its vision.
                 </div>
                 <div className={styles.content}>
                     <div className={styles.title}>

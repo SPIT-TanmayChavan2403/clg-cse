@@ -1,12 +1,26 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import styled from 'styled-components';
+
+const StyledLink = styled(Link)`
+	padding: .5rem;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+
+    &:hover{
+        background-color: var(--bg-medium);
+    }
+`;
 
 function Header(props){
 	return(
 		<div id="header">
 	        <nav>
 	          <div id="logo">
-	            <img src="./clg_logo.png" alt="" />
+	            <Link to="/">
+					<img src="./clg_logo.png" alt="" />
+				</Link>
 	          </div>
 	          <div id="links">
 
@@ -14,12 +28,12 @@ function Header(props){
 	            <div className="links-link">
 	              Training
 	              <div className="links-link-menu">
-	                <div className="links-link-menu-item">
-	                  	<Link to="/training/internship">Internship</Link>
-	                </div>
-	                <div className="links-link-menu-item">
-						<Link to="research/placements">Placements</Link>
-	                </div>
+				  	<StyledLink to="/training/internship">
+						Internship
+					</StyledLink>
+					<StyledLink to="training/placements">
+						Placements
+					</StyledLink>
 	              </div>
 	            </div>
 
@@ -30,12 +44,12 @@ function Header(props){
 	            <div className="links-link">
 	              Awards
 	              <div className="links-link-menu">
-	                <div className="links-link-menu-item">
-	                  Student Awards
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Faculty Awards
-	                </div>
+				  	<StyledLink to="/awards/studentawards">
+				  		Student Awards
+					</StyledLink>
+					<StyledLink to="/awards/facultyawards">
+						Faculty Awards
+					</StyledLink>
 	              </div>
 	            </div>
 
@@ -43,18 +57,18 @@ function Header(props){
 	            <div className="links-link">
 	              Extra Curricular
 	              <div className="links-link-menu">
-	                <div className="links-link-menu-item">
-	                  Workshops
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Guest Lectures
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Committees
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Value added courses
-	                </div>
+				  	<StyledLink to="training/placements">
+					  Workshops
+					</StyledLink>
+					<StyledLink to="training/placements">
+						Guest Lectures
+					</StyledLink>
+					<StyledLink to="/extra-curriculars/committees">
+						Committees
+					</StyledLink>
+					<StyledLink to="training/placements">
+						Value added courses
+					</StyledLink>
 	              </div>
 	            </div>
 
@@ -62,12 +76,12 @@ function Header(props){
 	            <div className="links-link">
 	              Research
 	              <div className="links-link-menu">
-	                <div className="links-link-menu-item">
-	                  <a href="/research/patents">Patents</a>
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Publications
-	                </div>
+				  	<StyledLink to="/research/patents">
+						Patents
+					</StyledLink>
+					<StyledLink to="training/placements">
+						Publications
+					</StyledLink>
 	              </div>
 	            </div>
 
@@ -75,12 +89,12 @@ function Header(props){
 	            <div className="links-link">
 	              Faculty
 	              <div className="links-link-menu">
-	                <div className="links-link-menu-item">
-	                  Teaching staff
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Technical and support staff
-	                </div>
+				  	<StyledLink to="training/placements">
+						Teaching staff
+					</StyledLink>
+					<StyledLink to="/faculty/technicalstaff">
+						Technical and support staff
+					</StyledLink>
 	              </div>
 	            </div>
 
@@ -88,21 +102,21 @@ function Header(props){
 	            <div className="links-link">
 	              About Us
 	              <div className="links-link-menu">
-	                <div className="links-link-menu-item">
-	                  <Link to="/aboutus/objectives">Objectives</Link>
-	                </div>
-	                <div className="links-link-menu-item">
-	                  HOD message
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Program outcomes
-	                </div>
-	                <div className="links-link-menu-item">
-	                  Course outline
-	                </div>
-	                <div className="links-link-menu-item">
-	                  <Link to="/aboutus/infrastructure/library">Infrastructure</Link>
-	                </div>
+				  	<StyledLink to="/aboutus/objectives">
+						Objectives
+					</StyledLink>
+					<StyledLink to="/aboutus/hodmessage">
+						HOD message
+					</StyledLink>
+					<StyledLink to="training/placements">
+						Program outcomes
+					</StyledLink>
+					<StyledLink to="/aboutus/infrastructure/courseoutline">
+						Course outline
+					</StyledLink>
+					<StyledLink to="/aboutus/infrastructure/library">
+						Infrastructure
+					</StyledLink>
 	              </div>
 	            </div>
 	            

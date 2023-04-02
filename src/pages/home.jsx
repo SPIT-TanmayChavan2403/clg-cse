@@ -1,13 +1,19 @@
 import '../styles/home.css'
-import Header from './Header';
-import Footer from './Footer';
-
 
 export default function Home(){
-    const iframeStyles ={
+    let iframeStyles ={
         height: 70 +'%',
         width: 45 + '%'
     }
+
+    if(window.innerWidth < 992){
+        iframeStyles ={
+            height: 28 +'%',
+            width: 90 + '%'
+        }
+    }
+
+
     return(
         <>
             <div id="home">
@@ -43,7 +49,7 @@ export default function Home(){
                             <iframe src='https://www.youtube.com/embed/I28Rbrxy9PU'
                                     frameborder='0'
                                     allow='autoplay; encrypted-media'
-                                    allowfullscreen
+                                    allowFullScreen
                                     title='video'
                                     style={iframeStyles}
                             />
