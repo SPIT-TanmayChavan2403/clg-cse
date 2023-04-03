@@ -20,12 +20,14 @@ import Workshops from './pages/extra_curricular/workshops';
 import ProgramOutcomes from './pages/about us/ProgramOutcomes';
 import ValueAddedCourse from './pages/extra_curricular/ValueAddedCourses';
 import TeachingStaff from './pages/faculty/teachingStaff';
+import { Projects } from './pages/projects/projects';
 
 function App(props) {
     const [image, updateImage] = useState("hero.jpg");
     const location = useLocation();
 
     useEffect(() => {
+        console.log(window.innerWidth);
         let url = location.pathname.split('/');
         let imageName = url.slice(location.pathname.split('/').length - 1);
         if (imageName[0] === ""){
@@ -57,6 +59,7 @@ function App(props) {
                 <Route path="/aboutus/infrastructure/department" element={<Department />} />
                 <Route path="/faculty/technicalstaff" element={<TechnicalStaff />} />
                 <Route path="/faculty/teachingstaff" element={<TeachingStaff />} />
+                <Route path="/projects" element={<Projects />} />
               </Routes>
             <Footer />
         </div>

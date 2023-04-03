@@ -52,7 +52,14 @@ function Header(props){
 						</div>
 
 						{/* link */}
-						<div className="links-link">Projects</div>
+						<div className="links-link">
+							Projects
+							<div className="links-link-menu" onClick={toggleMenu}>
+								<StyledLink to="/projects">
+									Projects
+								</StyledLink>
+							</div>
+						</div>
 
 						{/* link */}
 						<div className="links-link">
