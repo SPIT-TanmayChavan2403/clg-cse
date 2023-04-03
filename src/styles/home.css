@@ -181,7 +181,7 @@
     }
 }
 
-@media screen and (max-width: 1400) {
+@media only screen and (max-width: 1400px) {
     
     #banner-info-title{
         font-size: 3.1rem;
@@ -192,6 +192,11 @@
     }
 
     #video-banner-info-desc{
-        font-size: 1.1rem;
+        font-size: 1.1rem !important;
+    }
+
+    #video-banner-info-link{
+        justify-content: flex-start;
+        align-items: center;
     }
 }

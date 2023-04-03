@@ -6,7 +6,7 @@ export default function TeachingStaff(props){
             <div className="container">
                 <div className={styles.container}>
                     <div className={styles.image1}>
-                        <img src="./profile.png" alt="Profile image" height="250" width="200"/>
+                        <img src="./profile.png" alt="Profile" height="250" width="200"/>
                     </div>
 
                     <div className={styles.textContainer}>
@@ -29,7 +29,7 @@ export default function TeachingStaff(props){
                 <br />
                 <div className={styles.container}>
                     <div className={styles.image1}>
-                        <img src="./profile.png" alt="Profile image" height="250" width="200" />
+                        <img src="./profile.png" alt="Profile" height="250" width="200" />
                     </div>
                     <div className={styles.textContainer}>
                         <p className={styles.header}>Dr. Sudhir Namdeorao Dhage <br />
@@ -51,7 +51,7 @@ export default function TeachingStaff(props){
                 <br />
                 <div className={styles.container}>
                     <div className={styles.image1}>
-                        <img src="./profile.png" alt="Profile image" height="250" width="200"/>
+                        <img src="./profile.png" alt="Profile" height="250" width="200"/>
                     </div>
                     <div className={styles.textContainer}>
                         <p className={styles.header}>Dr. Preetida Vinayakray Jani <br />

@@ -1,8 +1,5 @@
 import styles from '../../styles/about us/Objectives.module.css'
 
-import Footer from "../Footer";
-import Header from "../Header";
-
 export default function Objectives(){
     return(
             <div id={styles.objective_main}>

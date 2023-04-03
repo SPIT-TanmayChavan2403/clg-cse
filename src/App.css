@@ -240,7 +240,7 @@
   }
 }
 
-@media screen and (max-width: 1400) {
+@media screen and (max-width: 1400px) {
   #links{
     font-size: 1.2rem;
   }
