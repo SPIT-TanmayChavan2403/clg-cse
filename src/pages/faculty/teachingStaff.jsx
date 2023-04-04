@@ -40,7 +40,7 @@ export default function TeachingStaff(props){
             <FacultyCard dept={dept} />
         ))}
         <div className={styles.container}>
-        <a href="https://mca.spit.ac.in/index.php/facult/" target="_blank" className={styles.facultyHeadingMCA}> Faculties for MCA <FiExternalLink />  </a>
+        <a href="https://mca.spit.ac.in/index.php/facult/" rel="noreferrer" target="_blank" className={styles.facultyHeadingMCA}> Faculties for MCA <FiExternalLink />  </a>
         </div>
     </div>
     )

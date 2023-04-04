@@ -99,7 +99,7 @@ function Header(){
 					<div className="links-link">
 						committees
 						<div className="links-link-menu">
-							<StyledLink to="http://itsa.spit.ac.in/">
+							<StyledLink to="http://itsa.spit.ac.in/" target="_blank">
 								ACSES
 							</StyledLink>
 						</div>
