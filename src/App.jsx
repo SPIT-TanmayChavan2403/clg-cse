@@ -51,7 +51,7 @@ function App(props) {
                 <Route path="/aboutus/infrastructure/library" element={<Library />} />
                 <Route path="/aboutus/infrastructure/department" element={<Department />} />
                 <Route path="/faculty/technicalstaff" element={<TechnicalStaff />} />
-                <Route path="/faculty/teachingstaff" element={<TeachingStaff />} />
+                <Route path="/faculty" element={<TeachingStaff />} />
                 <Route path="/projects" element={<Projects />} />
               </Routes>
             <Footer />
