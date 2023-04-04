@@ -38,19 +38,8 @@ function Header(){
 			  <div id="d-menu">
 			  	<div id="links">
 					{/* link */}
-					<div className="links-link" >
+					<div className="links-link"onClick={()=>{navigate('/')}} >
 						home
-						<div className="links-link-menu">
-							<StyledLink to="/">
-								AIML
-							</StyledLink>
-							<StyledLink to="/">
-								DS
-							</StyledLink>
-							<StyledLink to="https://mca.spit.ac.in/">
-								MCA
-							</StyledLink>
-						</div>
 					</div>
 
 					{/* link */}
@@ -114,7 +103,7 @@ function Header(){
 	        <div id="hero">
 	          <img src="./banner/hero.png" alt="" />
 	          <div className="hero-title">
-	            Department of Computer Science 
+	            Department of Computer Science and Engineering
 	          </div>
 	          <div className="hero-subtitle">
 	            Sardar Patel Institute of Technology

@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: capitalize;
 }
 
@@ -83,19 +83,21 @@
 
 .hero-title, .hero-subtitle{
   position: absolute;
-  width: max-content;
+  width: 90%;
   top: 35%;
   left: 50%;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   color: white;
   transform: translate(-50%, 0);
+  text-align: center;
 }
 
 .hero-subtitle{
   top: 50%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
+  text-align: center;
 }
 
 #footer{
