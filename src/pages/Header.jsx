@@ -101,7 +101,7 @@ function Header(){
 	          </div>
 	        </nav>
 	        <div id="hero">
-	          <img src="./banner/hero.png" alt="" />
+	          <img src="./banner/spit-banner.jpg" alt="" />
 	          <div className="hero-title">
 	            Department of Computer Science and Engineering
 	          </div>

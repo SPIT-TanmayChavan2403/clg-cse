@@ -1,14 +1,25 @@
-#wrapper{
-    width: 40vw;
-    height: 40vh;
-    overflow: hidden;
+#aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.aboutDept {
+    font-size: 30px;
 }
 
+#wrapper{
+    width: 740px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 25px 0;
+}
 .mainSlide{
-    background-color: red;
+    background-color: transparent;
     object-fit: cover;
 }
-
 .carousel .slider-wrapper{
     width: 50%;
 }
