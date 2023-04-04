@@ -1,4 +1,4 @@
-.outerWrapper {}
+/* .outerWrapper {}
 
 .heading {
     background: #948D8D;
@@ -99,4 +99,18 @@
 }
 .space {
     height: 15px;
+} */
+.outerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 28px;
+    padding: 20px;
+}
+.comingSoonImage {
+    width: 420px;
+    height: 250px;
 }

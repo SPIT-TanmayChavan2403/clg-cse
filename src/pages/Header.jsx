@@ -72,13 +72,13 @@ function Header(){
 					<div className="links-link">
 						events
 						<div className="links-link-menu">
-							<StyledLink to="/">
+							<StyledLink to="/events/workshops">
 								workshops
 							</StyledLink>
-							<StyledLink to="/">
+							<StyledLink to="/events/guest-talks">
 								Guest talk
 							</StyledLink>
-							<StyledLink to="/">
+							<StyledLink to="/events/value-added-courses">
 								value added courses
 							</StyledLink>
 						</div>

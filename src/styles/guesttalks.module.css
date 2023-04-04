@@ -1,0 +1,16 @@
+.outerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.comingSoonImage {
+    width: 420px;
+    height: 250px;
+}

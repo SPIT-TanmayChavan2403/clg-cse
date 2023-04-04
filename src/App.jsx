@@ -15,9 +15,10 @@ import FacultyAwards from './pages/awards/facultyAwards';
 import StudentAwards from './pages/awards/studentAwards';
 import TechnicalStaff from './pages/faculty/technicalStaff';
 import Department from './pages/about us/infrastructure/department';
-import Workshops from './pages/extra_curricular/workshops';
+import Workshops from './pages/events/workshops';
 import ProgramOutcomes from './pages/about us/ProgramOutcomes';
-import ValueAddedCourse from './pages/extra_curricular/ValueAddedCourses';
+import GuestTalks from './pages/events/guestTalks';
+import ValueAddedCourse from './pages/events/valueAddedCourses';
 import TeachingStaff from './pages/faculty/teachingStaff';
 import { Projects } from './pages/projects/projects';
 import AboutUs from './pages/about us/aboutus';
@@ -38,8 +39,9 @@ function App(props) {
                 <Route path="/faculty/:slug" element={<FacultyInfo />} />
                 <Route path="/academics/aiml" element={<AimlAcademics />} />
                 <Route path="/academics/ds" element={<DsAcademics />} />
-                <Route path="/internship" element={<Internships />} />
-                <Route path="/placements" element={<Placements />} />
+                <Route path="/events/value-added-courses" element={<ValueAddedCourse />} />
+                <Route path="/events/guest-talks" element={<GuestTalks />} />
+                <Route path="/events/workshops" element={<Workshops />} />
 
 
 
@@ -62,6 +64,8 @@ function App(props) {
                 <Route path="/faculty/technicalstaff" element={<TechnicalStaff />} />
                 <Route path="/faculty" element={<TeachingStaff />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="/internship" element={<Internships />} />
+                <Route path="/placements" element={<Placements />} />
               </Routes>
             <Footer />
         </div>

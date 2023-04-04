@@ -1,4 +1,4 @@
-.section{
+/* .section{
     width: 80%;
     margin: 30px 0px;
     display: flex;
@@ -61,4 +61,21 @@
         width: 100%;
         padding: 15px;
     }
+} */
+
+.outerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.comingSoonImage {
+    width: 420px;
+    height: 250px;
 }
