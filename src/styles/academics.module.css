@@ -1,0 +1,38 @@
+#aiml, #ds{
+    padding: var(--main-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 80%;
+    grid-auto-rows: max-content;
+    align-items: center;
+}
+
+.heading{
+    font-size: 2.5rem;
+    height: 100%;
+    background-color: var(--bg-dark);
+    color: white;
+    text-align: center;
+}
+
+.listitem{
+    font-size: 1.3rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-medium);
+}
+
+.listitem a{
+    text-decoration: none;
+    margin-left: .5rem;
+}

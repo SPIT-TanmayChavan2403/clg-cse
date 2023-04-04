@@ -38,7 +38,7 @@ function Header(){
 			  <div id="d-menu">
 			  	<div id="links">
 					{/* link */}
-					<div className="links-link" onClick={()=>{navigate('/')}}>
+					<div className="links-link" >
 						home
 						<div className="links-link-menu">
 							<StyledLink to="/">
@@ -47,7 +47,7 @@ function Header(){
 							<StyledLink to="/">
 								DS
 							</StyledLink>
-							<StyledLink to="/">
+							<StyledLink to="https://mca.spit.ac.in/">
 								MCA
 							</StyledLink>
 						</div>
@@ -62,10 +62,10 @@ function Header(){
 					<div className="links-link">
 						Academics
 						<div className="links-link-menu">
-							<StyledLink to="/">
+							<StyledLink to="/academics/aiml">
 								UG AIML
 							</StyledLink>
-							<StyledLink to="/">
+							<StyledLink to="/academics/ds">
 								UG DS
 							</StyledLink>
 							<StyledLink to="https://mca.spit.ac.in/">

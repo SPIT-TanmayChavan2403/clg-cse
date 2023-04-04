@@ -21,6 +21,9 @@ import ValueAddedCourse from './pages/extra_curricular/ValueAddedCourses';
 import TeachingStaff from './pages/faculty/teachingStaff';
 import { Projects } from './pages/projects/projects';
 import AboutUs from './pages/about us/aboutus';
+import FacultyInfo from './pages/faculty/facultyInfo';
+import AimlAcademics from './pages/academics/aimlAcademics';
+import DsAcademics from './pages/academics/dsAcademics';
 
 function App(props) {
 
@@ -31,13 +34,19 @@ function App(props) {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/aboutus" element={<AboutUs />} />
+                <Route path="/faculty" element={<TeachingStaff />} />
+                <Route path="/faculty/info" element={<FacultyInfo />} />
+                <Route path="/academics/aiml" element={<AimlAcademics />} />
+                <Route path="/academics/ds" element={<DsAcademics />} />
+                <Route path="/internship" element={<Internships />} />
+                <Route path="/placements" element={<Placements />} />
 
 
 
 
 
-                <Route path="/training/internship" element={<Internships />} />
-                <Route path="/training/placements" element={<Placements />} />
+
+
                 <Route path="/awards/facultyawards" element={<FacultyAwards />} />
                 <Route path="/awards/studentawards" element={<StudentAwards />} />
                 <Route path="/extra-curriculars/committees" element={<Committees />} />
