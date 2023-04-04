@@ -2,6 +2,7 @@ import '../styles/home.css'
 
 export default function Home(){
     return(
+        <>
         <div id="home">
             <div id="hod-message">
                 <div id="hod-message-title">
@@ -13,7 +14,7 @@ export default function Home(){
                     </p>
                 </div>
                 <div id="hod-message-subtitle">
-                    HOD of Computer Science Department
+                    HOD of Computer Science and Engineering Department
                 </div>
                 <div id="hod-message-desc">
                     <i className="fa-solid fa-quote-left"></i>
@@ -28,5 +29,23 @@ export default function Home(){
                 <p>Important Links</p>
             </div>
         </div>
+        <div className='content'>
+            <h2 className="programOffered"> Programs offered by the department </h2>
+                <div className="cardContainer">
+                    <div className="card">
+                        <span className="programTitle"> CSE - AIML </span> <br />
+                        <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
+                    </div>
+                    <div className="card">
+                        <span className="programTitle"> CSE - DS </span> <br />
+                        <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
+                    </div>
+                    <div className="card">
+                        <span className="programTitle"> MCA </span> <br />
+                        <a href="https://mca.spit.ac.in/" rel="noreferrer" target="_blank" className="knowMore"> Know More </a>
+                    </div>
+                </div>
+        </div>
+        </>
     )
 }
