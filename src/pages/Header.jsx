@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import styled from 'styled-components';
 
 const StyledLink = styled(Link)`
@@ -17,13 +17,15 @@ const StyledLink = styled(Link)`
 	}
 `;
 
-function Header(props){
+function Header(){
 
-	function toggleMenu(){
-		const links = document.getElementById("links");
+	let navigate = useNavigate();
 
-		links.classList.toggle("active");
-	}
+	// function toggleMenu(){
+	// 	const links = document.getElementById("links");
+
+	// 	links.classList.toggle("active");
+	// }
 
 	return(
 		<div id="header">
@@ -33,125 +35,84 @@ function Header(props){
 					<img src="./clg_logo.png" alt="" />
 				</Link>
 	          </div>
-			  <div id="menu">
-			  		<i id="menubtn" className="fa-solid fa-bars" onClick={toggleMenu}>
-					</i>
-					<div id="links">
+			  <div id="d-menu">
+			  	<div id="links">
+					{/* link */}
+					<div className="links-link" onClick={()=>{navigate('/')}}>
+						home
+						<div className="links-link-menu">
+							<StyledLink to="/">
+								AIML
+							</StyledLink>
+							<StyledLink to="/">
+								DS
+							</StyledLink>
+							<StyledLink to="/">
+								MCA
+							</StyledLink>
+						</div>
+					</div>
 
-						{/* link */}
-						<div className="links-link">
-						Training
-						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="/training/internship">
-								Internship
-							</StyledLink>
-							<StyledLink to="training/placements">
-								Placements
-							</StyledLink>
-						</div>
-						</div>
+					{/* link */}
+					<div className="links-link" onClick={()=>{navigate('/aboutus')}}>
+						About us
+					</div>
 
-						{/* link */}
-						<div className="links-link">
-							Projects
-							<div className="links-link-menu" onClick={toggleMenu}>
-								<StyledLink to="/projects">
-									Projects
-								</StyledLink>
-							</div>
+					{/* link */}
+					<div className="links-link">
+						Academics
+						<div className="links-link-menu">
+							<StyledLink to="/">
+								UG AIML
+							</StyledLink>
+							<StyledLink to="/">
+								UG DS
+							</StyledLink>
+							<StyledLink to="https://mca.spit.ac.in/">
+								PG MCA
+							</StyledLink>
 						</div>
+					</div>
 
-						{/* link */}
-						<div className="links-link">
-						Awards
-						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="/awards/studentawards">
-								Student Awards
-							</StyledLink>
-							<StyledLink to="/awards/facultyawards">
-								Faculty Awards
-							</StyledLink>
-						</div>
-						</div>
+					{/* link */}
+					<div className="links-link">
+						faculty
+					</div>
 
-	            {/* link */}
-	            <div className="links-link">
-	              Extra Curricular
-	              <div className="links-link-menu">
-				  	<StyledLink to="/extra-curriculars/workshops">
-					  Workshops
-					</StyledLink>
-					<StyledLink to="training/placements">
-						Guest Lectures
-					</StyledLink>
-					<StyledLink to="/extra-curriculars/committees">
-						Committees
-					</StyledLink>
-					<StyledLink to="/extra-curriculars/valueaddedcorses">
-						Value added courses
-					</StyledLink>
-	              </div>
-	            </div>
+					{/* link */}
+					<div className="links-link">
+						events
+						<div className="links-link-menu">
+							<StyledLink to="/">
+								workshops
+							</StyledLink>
+							<StyledLink to="/">
+								Guest talk
+							</StyledLink>
+							<StyledLink to="/">
+								value added courses
+							</StyledLink>
+						</div>
+					</div>
 
-						{/* link */}
-						<div className="links-link">
-						Research
-						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="/research/patents">
-								Patents
+					{/* link */}
+					<div className="links-link">
+						committees
+						<div className="links-link-menu">
+							<StyledLink to="http://itsa.spit.ac.in/">
+								ACSES
 							</StyledLink>
-							<StyledLink to="training/placements">
-								Publications
-							</StyledLink>
-						</div>
-						</div>
-
-						{/* link */}
-						<div className="links-link" >
-						Faculty
-						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="/faculty/teachingstaff">
-								Teaching staff
-							</StyledLink>
-							<StyledLink to="/faculty/technicalstaff">
-								Technical and support staff
-							</StyledLink>
-						</div>
-						</div>
-
-						{/* link */}
-						<div className="links-link">
-						About Us
-						<div className="links-link-menu" onClick={toggleMenu}>
-							<StyledLink to="/aboutus/objectives">
-								Objectives
-							</StyledLink>
-							<StyledLink to="/aboutus/hodmessage">
-								HOD message
-							</StyledLink>
-							<StyledLink to="/aboutus/infrastructure/programoutcomes">
-								Program outcomes
-							</StyledLink>
-							<StyledLink to="/aboutus/infrastructure/courseoutline">
-								Course outline
-							</StyledLink>
-							<StyledLink to="/aboutus/infrastructure/library">
-								Library
-							</StyledLink>
-							<StyledLink to="/aboutus/infrastructure/department">
-								Department
-							</StyledLink>
-						</div>
 						</div>
 					</div>
 				</div>
+			  </div>
 	          <div id="account">
 	            <i className="fa-solid fa-magnifying-glass"></i>
 	            <i className="fa-solid fa-circle-user"></i>
 	          </div>
 	        </nav>
 	        <div id="hero">
-	          <img src={props.img} alt="" />
+	          <img src="./banner/hero.png" alt="" />
 	          <div className="hero-title">
 	            Department of Computer Science 
 	          </div>

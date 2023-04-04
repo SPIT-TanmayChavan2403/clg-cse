@@ -1,65 +1,32 @@
 import '../styles/home.css'
 
 export default function Home(){
-    let iframeStyles ={
-        height: 70 +'%',
-        width: 45 + '%'
-    }
-
-    if(window.innerWidth < 992){
-        iframeStyles ={
-            height: 28 +'%',
-            width: 90 + '%'
-        }
-    }
-
-
     return(
-        <>
-            <div id="home">
-                <div id="banner">
-                    <div id="banner-info">
-                        <div id="banner-info-title">
-                            Lorem ipsum
-                        </div>
-                        <div id="banner-info-subtitle">
-                            2022510081
-                        </div>
-                        <div id="banner-info-subtitle">
-                            <p>FY</p>
-                            <p>MCA</p>
-                        </div>
-                        <div id="banner-info-desc">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis illum rerum, amet quae sed mollitia, maiores itaque ducimus debitis, voluptatibus expedita vitae adipisci harum hic deleniti placeat modi dicta.
-                            Quis veritatis dolorum, harum molestias minima natus saepe possimus ipsam officiis consequatur non deleniti, dolores ducimus porro nisi officia nam in ex id ullam, tempora fugit cupiditate culpa alias. Itaque?
-                            At quasi quia ipsam, odit exercitationem, provident reprehenderit tempore numquam dolorem veritatis corrupti itaque quae asperiores atque rem, dignissimos doloremque. Voluptas itaque debitis a tempore aspernatur cum natus nisi facilis.
-                            Itaque qui aut eaque distinctio voluptas aperiam voluptatum pariatur dicta doloremque et fugit rerum saepe possimus.
-                        </div>
-                    </div>
-                    <div id="banner-img">
-                        <img src="./banner_img2.jpg" alt="" />
-                    </div>
+        <div id="home">
+            <div id="hod-message">
+                <div id="hod-message-title">
+                    <p>
+                        Message from HOD
+                    </p>
+                    <p>
+                        Dr. Dhananjay Kalbande
+                    </p>
                 </div>
-                <div id="video-banner">
-                    <div id="video-banner-title">
-                        Computer Engineering @ S.P.I.T
-                    </div>
-                    <div id="video-banner-info">
-                        <div id="video-banner-info-link">
-                            <iframe src='https://www.youtube.com/embed/I28Rbrxy9PU'
-                                    frameborder='0'
-                                    allow='autoplay; encrypted-media'
-                                    allowFullScreen
-                                    title='video'
-                                    style={iframeStyles}
-                            />
-                        </div>
-                        <div id="video-banner-info-desc">
-                        The Department of Computer Engineering was established in the year 1995 and it is one of the earliest departments of the Institute. The department consists of 14 faculty members, 2 technical assistants and around 230 students working towards their Bachelors', Masters' and Doctoral degrees. The department attracts high quality students from all over Maharashtra and also from the country and has an impressive placement record and results. Many of the graduates choose to join some of the best institutions of higher learning around the world, whereas some prefer to gain a few years of work experience before deciding their next course of action.Still some others choose to chase their dream by opening their own start-ups, joining government firms and so on. Strong placements and results, highly qualified staff and laboratory facilities, research publications are some of the strengths of the department.
-                        </div>
-                    </div>
+                <div id="hod-message-subtitle">
+                    HOD of Computer Science Department
+                </div>
+                <div id="hod-message-desc">
+                    <i className="fa-solid fa-quote-left"></i>
+                    I have great pleasure in expressing my thoughts as the Principal of Sardar Patel Institute of Technology (SPIT), the Numero Uno, self-financed, autonomous Institution of Maharashtra. We are a constituent of Bharatiya Vidya Bhavan, not just a conglomeration of more than 300 institutions, but a culture, a saga, a holy journey, started by Dr. K.M. Munshi with the support of Mahatma Gandhi in 1938. Imparting value-based education with Indian cultural ethos has always been the motto of Bhavan.
+                    Engineers & technologists form the backbone of any nation's economic development. 
+                    We focus on “How to learn?” rather than “What to learn?”. We believe in multidisciplinary exposure to the learners, yet ensuring growth in one vertical, cherishing human sensitivity and empathy. We have thoughtfully articulated a unique academic model towards this. Our splendid academic performance, sparkling placements (quantitative and qualitative), enrollment for higher studies at the best places of the world, prizes won by our students in national/international level technical competitions, in past many years are the true testimonials for this.
+                    On behalf of all stakeholders of SPIT, I welcome you to this family and look forward to your valuable association with us for a better tomorrow. Let's grow together…
+                    <i className="fa-solid fa-quote-right right"></i>
                 </div>
             </div>
-        </>
+            <div id="important-links">
+                <p>Important Links</p>
+            </div>
+        </div>
     )
 }
