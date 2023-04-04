@@ -3,13 +3,9 @@ import { facultyData } from "../../metadata/facultyData"
 import { Link } from "react-router-dom"
 import { FiExternalLink } from 'react-icons/fi'
 
-export default function TeachingStaff(props){
-    const deptList = ["CSE-DS","CSE-AIML"];
-    return(
-        <div>
-        {
-        deptList.map(dept => (
-            <div className={styles.container}>
+const FacultyCard = ({dept}) => {
+    return (
+        <div className={styles.container}>
                 <h2 className={styles.facultyHeading}> Faculties for {dept} </h2>
                 <div className={styles.cardContainer}>
                     {
@@ -33,6 +29,16 @@ export default function TeachingStaff(props){
                     }
                 </div>
             </div>
+    )
+}
+
+export default function TeachingStaff(props){
+    const deptList = ["CSE-DS","CSE-AIML"];
+    return(
+        <div>
+        {
+        deptList.map(dept => (
+            <FacultyCard dept={dept} />
         ))}
         <div className={styles.container}>
         <a href="https://mca.spit.ac.in/index.php/facult/" target="_blank" className={styles.facultyHeadingMCA}> Faculties for MCA <FiExternalLink />  </a>
