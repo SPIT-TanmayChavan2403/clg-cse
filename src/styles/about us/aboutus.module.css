@@ -1,0 +1,14 @@
+#wrapper{
+    width: 40vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.mainSlide{
+    background-color: red;
+    object-fit: cover;
+}
+
+.carousel .slider-wrapper{
+    width: 50%;
+}
