@@ -1,4 +1,4 @@
-.header{
+/* .header{
     font-size: 20px;
     font-weight: bold;
     width: fit-content;
@@ -67,4 +67,65 @@
     .textContainer{
         padding: 0px 15px;
     }
+} */
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cardContainer {
+    max-width: 1140px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.facultyHeading {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 25px;
+    color: #FFF;
+    background-color: #1b1b1b;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+}
+.rrdLink {
+    text-decoration: none;
+}
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 35px 0;
+    width: 500px;
+    flex-basis: 50%;
+    color: #1b1b1b;
+    
+}
+.cardImg {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+.cardData {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: auto 25px;
+    width: 100%;
+}
+.cardName {
+    font-size: 20px;
+    font-weight: 700;
+}
+.designation {
+    font-size: 18px;
+    font-weight: 500;
+}
+.qualification {
+    font-size: 16px;
+    font-weight: 400;
 }
