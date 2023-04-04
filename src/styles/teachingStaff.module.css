@@ -102,7 +102,8 @@
     width: 500px;
     flex-basis: 50%;
     color: #1b1b1b;
-    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 10px;
 }
 .cardImg {
     width: 130px;
@@ -128,4 +129,15 @@
 .qualification {
     font-size: 16px;
     font-weight: 400;
+}
+.facultyHeadingMCA {
+    font-size: 28px;
+        font-weight: 500;
+        margin: 25px;
+        color: #FFF;
+        background-color: #1b1b1b;
+        padding: 10px;
+        width: 400px;
+        text-align: center;
+        text-decoration: none;
 }
