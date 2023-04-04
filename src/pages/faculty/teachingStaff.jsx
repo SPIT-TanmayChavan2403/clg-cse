@@ -11,12 +11,11 @@ export default function TeachingStaff(props){
                 <div className={styles.cardContainer}>
                     {
                         facultyData[dept].map(item => (
+                            
                             <Link 
-                            to={{
-                                pathname: item.id,
-                                state: item
-                            }} 
-                            className={styles.rrdLink}>
+                            to="/faculty/info" 
+                            className={styles.rrdLink}
+                            state={item}>
                                 <div className={styles.card}>
                                     <img src={item.image} alt="" className={styles.cardImg} />
                                     <div className={styles.cardData}>

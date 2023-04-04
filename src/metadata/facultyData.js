@@ -6,13 +6,13 @@ export const facultyData = {
       image: "/faculty/prof-dayanand-ambawade.jpg",
       designation: "Associate Professor",
       qualification: "M.Tech (Electronics & Telecomm.), Pursuing (Ph.D.)",
-      contact_short: "dd_ambawade{at}spit.ac.in Phone: 26287250/26707440",
+      contact_short: "dd_ambawade@spit.ac.in Phone: 26287250/26707440",
       education:
         "Currently Pursuing Doctoral research studies at S.P.I.T research centre, Mumbai University\
                     M.Tech (Communication) IIT, Bombay\
                     B.E. (Electronics)",
       data: {
-        "Area of Interest": [
+        "Area of Interests": [
           "My areas of interests are in network architecture, protocols and their performance analysis, traffic management.",
           "I am interested in security in general and statistical and anomaly analysis of network traffic to detect intrusions in particular.",
           "I am studying architecture and performance issues in integrated network defense mechanisms and Open Source Security Information Management (OSSIM).",
@@ -169,8 +169,8 @@ export const facultyData = {
           "Log Analysis: Centralised log server (syslog-ng), webalizer and SARG etc.",
           "Network Management Tools: Nagios, Icinga, Cacti, OpenNMS, OpManager etc.",
         ],
-        "Conact Information":
-          "dd_ambawade{at}spit.ac.in\
+        "Contact Information":
+          "dd_ambawade@spit.ac.in\
                     Extension: 381\
                     Room No. 507, 5th Floor, Electronics & Telecommunication Department ,\
                     Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
@@ -223,7 +223,7 @@ export const facultyData = {
           "Organizer for the orientation program on “Structured Programming Approach” Sept. in 2012.",
         ],
         "Contact Information":
-          "sheetal_chaudhari{at}spit.ac.in\
+          "sheetal_chaudhari@spit.ac.in\
                     Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,\
                     Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
@@ -294,7 +294,7 @@ export const facultyData = {
           "M. Agarwal, M. Mehra, R. Pawar, and D. Shah. 2011. Secure authentication using dynamic virtual keyboard layout. In Proceedings of the International Conference & Workshop on Emerging Trends in Technology (ICWET ’11). ACM, ICWET’11, February 25–26, 2011, Mumbai, Maharashtra. New York, NY, USA, 288-291. DOI: http://dx.doi.org/10.1145/1980022.1980087",
         ],
         "Contact Information":
-          "renuka_pawar{at}spit.ac.in\
+          "renuka_pawar@spit.ac.in\
                 Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,\
                 Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
@@ -320,7 +320,7 @@ export const facultyData = {
           "“A novel approach to HTML page creation using neural network” International Conference on Advanced Computing Technologies and Applications by ELESEVIER 2015",
         ],
         "Contact Information":
-          "aparna_halbe{at}spit.ac.in\
+          "aparna_halbe@spit.ac.in\
                 Extn: 341, Room No. 410, 4th Floor, Department of Information Technology,\
                 Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
       },
@@ -380,7 +380,7 @@ export const facultyData = {
             "Title of the Invention :Track on Park: Application Challan :TR-5, docket no, 65863,Application No.202021051448 dated 26/11/2020.",
             "Title of the Invention: Psychological distress detection,classification and assistance using AI, Application No.202121002700 dated 20/01/2021.",
         ],
-        "Area of Interest": [
+        "Area of Interests": [
             "Soft Computing",
             "Machine Learning",
             "Deep Learning",
@@ -552,7 +552,7 @@ export const facultyData = {
           "Attended 4-days Online Course on Examination Reforms conducted during 22-25 April, 2020 organized by AICTE.",
           "Attended 3-days Digital Symposium on AI for India from 26th Aug to 28th Aug.2020 by JIO, AI Division India.",
         ],
-        Others: [
+        "Other": [
           "Worked as an Expert to evaluate the Result Processing Software for MSBTE, Mumbai, India.",
           "Worked as a Technical Expert in the Scrutiny Work assigned by the AICTE, New Delhi, India.",
           "Worked as a Convener and Member of Syllabus Revision Committee of Mumbai University.",
@@ -569,7 +569,7 @@ export const facultyData = {
           "Worked As mentor in Maharashtra State Skill Development Society (MSSDS) in association with National Skill Development Corporation (NSDC) for state level skill competition for level 3 at L&T STA Madh, Oct 2021.",
         ],
         "Contact Information":
-          "Email: drkalbande{at}spit.ac.in Tel: +91 (22) – 26707440 Ext:366\
+          "Email: drkalbande@spit.ac.in Tel: +91 (22) – 26707440 Ext:366\
             Room No.608, 6th Floor,\
             Department of Computer Science and Engineering, Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
@@ -585,7 +585,7 @@ export const facultyData = {
             M.E. Electronics Engineering\
             B.E. Electronics Engineering",
       data: {
-        "Area of Interest": [
+        "Area of Interests": [
           "Pattern Recognition",
           "Communication and Networking",
           "Wireless Communication Networks",
@@ -660,7 +660,7 @@ export const facultyData = {
           "Course Coordinator, STTP on Internet of Thing: Recent Trends and Multidisciplinary Application in association with IET, June 2016.",
         ],
         "Contact Information":
-          "Email: sujata_kulkarni{at}spit.ac.in, Extension: 386\
+          "Email: sujata_kulkarni@spit.ac.in, Extension: 386\
                 Room No. 503, 5th Floor, Electronics & Telecommunication Department,\
                 Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
@@ -675,7 +675,7 @@ export const facultyData = {
         "ME Computer\
         BE Computer",
       data: {
-        "Areas of interest": [
+        "Area of Interests": [
           "Image Processing",
           "Machine Learning",
           "Artificial Intelligence",
@@ -767,7 +767,7 @@ export const facultyData = {
           "“Applications of Soft computing” for B.E. (Computer) students at Fr. Conceicao Rodrigues College of Engineering, Computer Engineering Department,Bandra, Mumbai on 13th October, 2016.",
         ],
         "Contact Information":
-          "nikahat_kazi{at}spit.ac.in\
+          "nikahat_kazi@spit.ac.in\
             Extn: 343, Room No. 411, 4th Floor, Department of Information Technology,\
             Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
       },
