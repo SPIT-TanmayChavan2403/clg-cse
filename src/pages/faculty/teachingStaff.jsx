@@ -12,7 +12,7 @@ const FacultyCard = ({dept}) => {
                         facultyData[dept].map(item => (
                             
                             <Link 
-                            to="/faculty/info" 
+                            to={item.id} 
                             className={styles.rrdLink}
                             state={item}>
                                 <div className={styles.card}>

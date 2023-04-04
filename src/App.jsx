@@ -35,7 +35,7 @@ function App(props) {
                 <Route path="/" element={<Home />} />
                 <Route path="/aboutus" element={<AboutUs />} />
                 <Route path="/faculty" element={<TeachingStaff />} />
-                <Route path="/faculty/info" element={<FacultyInfo />} />
+                <Route path="/faculty/:slug" element={<FacultyInfo />} />
                 <Route path="/academics/aiml" element={<AimlAcademics />} />
                 <Route path="/academics/ds" element={<DsAcademics />} />
                 <Route path="/internship" element={<Internships />} />
