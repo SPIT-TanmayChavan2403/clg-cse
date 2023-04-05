@@ -25,6 +25,7 @@ import AboutUs from './pages/about us/aboutus';
 import FacultyInfo from './pages/faculty/facultyInfo';
 import AimlAcademics from './pages/academics/aimlAcademics';
 import DsAcademics from './pages/academics/dsAcademics';
+import TimeTable from './pages/academics/timeTable';
 
 function App(props) {
 
@@ -38,6 +39,7 @@ function App(props) {
                 <Route path="/faculty" element={<TeachingStaff />} />
                 <Route path="/faculty/cse-ds/:slug" element={<FacultyInfo />} />
                 <Route path="/faculty/cse-aiml/:slug" element={<FacultyInfo />} />
+                <Route path="/cse-aiml/" element={<AimlAcademics />} />
                 <Route path="/academics/aiml" element={<AimlAcademics />} />
                 <Route path="/academics/ds" element={<DsAcademics />} />
                 <Route path="/events/value-added-courses" element={<ValueAddedCourse />} />

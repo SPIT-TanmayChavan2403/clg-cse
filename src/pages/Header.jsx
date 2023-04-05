@@ -51,10 +51,10 @@ function Header(){
 					<div className="links-link">
 						Academics
 						<div className="links-link-menu">
-							<StyledLink to="/academics/aiml">
+							<StyledLink to="/cse-aiml/">
 								UG AIML
 							</StyledLink>
-							<StyledLink to="/academics/ds">
+							<StyledLink to="/cse-ds/">
 								UG DS
 							</StyledLink>
 							<StyledLink to="https://mca.spit.ac.in/">
