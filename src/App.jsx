@@ -25,7 +25,6 @@ import AboutUs from './pages/about us/aboutus';
 import FacultyInfo from './pages/faculty/facultyInfo';
 import AimlAcademics from './pages/academics/aimlAcademics';
 import DsAcademics from './pages/academics/dsAcademics';
-import TimeTable from './pages/academics/timeTable';
 
 function App(props) {
 
