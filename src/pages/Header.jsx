@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link, useNavigate} from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -18,8 +18,13 @@ const StyledLink = styled(Link)`
 `;
 
 function Header(){
-
 	let navigate = useNavigate();
+
+	const [open, setOpen] = useState(false);
+
+	const handleClick = () => {
+		setOpen(!open);
+	}
 
 	// function toggleMenu(){
 	// 	const links = document.getElementById("links");
@@ -36,7 +41,7 @@ function Header(){
 				</Link>
 	          </div>
 			  <div id="d-menu">
-			  	<div id="links">
+			  	<div id="links" className={open ? "#links active" : "#links"}>
 					{/* link */}
 					<div className="links-link"onClick={()=>{navigate('/')}} >
 						home
@@ -99,6 +104,9 @@ function Header(){
 	            <i className="fa-solid fa-magnifying-glass"></i>
 	            <i className="fa-solid fa-circle-user"></i>
 	          </div>
+			  <div id="mobile" onClick={handleClick}>
+				<i id="bar" className={open ? "fas fa-times" : "fas fa-bars"}></i>
+			  </div>
 	        </nav>
 	        <div id="hero">
 	          <img src="./banner/spit-banner.jpg" alt="" />
