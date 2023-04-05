@@ -36,7 +36,8 @@ function App(props) {
                 <Route path="/" element={<Home />} />
                 <Route path="/aboutus" element={<AboutUs />} />
                 <Route path="/faculty" element={<TeachingStaff />} />
-                <Route path="/faculty/:slug" element={<FacultyInfo />} />
+                <Route path="/faculty/cse-ds/:slug" element={<FacultyInfo />} />
+                <Route path="/faculty/cse-aiml/:slug" element={<FacultyInfo />} />
                 <Route path="/academics/aiml" element={<AimlAcademics />} />
                 <Route path="/academics/ds" element={<DsAcademics />} />
                 <Route path="/events/value-added-courses" element={<ValueAddedCourse />} />

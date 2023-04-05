@@ -7,10 +7,16 @@ export const facultyData = {
       designation: "Associate Professor",
       qualification: "M.Tech (Electronics & Telecomm.), Pursuing (Ph.D.)",
       contact_short: "dd_ambawade@spit.ac.in Phone: 26287250/26707440",
-      education:
-        "Currently Pursuing Doctoral research studies at S.P.I.T research centre, Mumbai University\
-                    M.Tech (Communication) IIT, Bombay\
-                    B.E. (Electronics)",
+      education: [
+        "Currently Pursuing Doctoral research studies at S.P.I.T research centre, Mumbai University",
+        "M.Tech (Communication) IIT, Bombay",
+        "B.E. (Electronics)",
+      ],
+      contact: [
+        "dd_ambawade@spit.ac.in, Extension: 381",
+        "Room No. 507, 5th Floor, Electronics & Telecommunication Department,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
+      ],
       data: {
         "Area of Interests": [
           "My areas of interests are in network architecture, protocols and their performance analysis, traffic management.",
@@ -169,11 +175,6 @@ export const facultyData = {
           "Log Analysis: Centralised log server (syslog-ng), webalizer and SARG etc.",
           "Network Management Tools: Nagios, Icinga, Cacti, OpenNMS, OpManager etc.",
         ],
-        "Contact Information":
-          "dd_ambawade@spit.ac.in\
-                    Extension: 381\
-                    Room No. 507, 5th Floor, Electronics & Telecommunication Department ,\
-                    Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
     },
     {
@@ -182,9 +183,12 @@ export const facultyData = {
       image: "/faculty/prof-sheetal-chaudhari.png",
       designation: "Assistant Professor",
       qualification: "M.E.(Computer)",
-      education:
-        "M.E. (Computers)\
-            B.E. (Computers)",
+      education: ["M.E. (Computers)", "B.E. (Computers)"],
+      contact: [
+        "sheetal_chaudhari@spit.ac.in",
+        "Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
+      ],
       data: {
         "Area of Interests": [
           "Computer Networks",
@@ -222,10 +226,6 @@ export const facultyData = {
           "Coordinator for one week ISTE approved graded STTP on “Structured Programming Approach with Lab Exercises” I.T. department, SPIT, 31st Dec 2012 to 5th Jan 2013.",
           "Organizer for the orientation program on “Structured Programming Approach” Sept. in 2012.",
         ],
-        "Contact Information":
-          "sheetal_chaudhari@spit.ac.in\
-                    Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,\
-                    Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
     },
     {
@@ -234,9 +234,12 @@ export const facultyData = {
       image: "/faculty/prof-renuka-pawar.jpg",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E.(Computer) ",
-      education:
-        "M.E. (Computer)\
-            B.E. (Computer)",
+      education: ["M.E. (Computer)", "B.E. (Computer)"],
+      contact: [
+        "renuka_pawar@spit.ac.in",
+        "Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
+      ],
       data: {
         "Area of Interests": [
           "System and Web Security",
@@ -293,10 +296,6 @@ export const facultyData = {
           "M. Mehra, M. Agarwal, R. Pawar, and D. Shah. 2011. Mitigating denial of service attack using CAPTCHA mechanism. In Proceedings of the International Conference & Workshop on Emerging Trends in Technology (ICWET ’11). ACM, ICWET’11, February 25–26, 2011, Mumbai, Maharashtra. New York, NY, USA, 284-287. DOI: http://dx.doi.org/10.1145/1980022.1980086",
           "M. Agarwal, M. Mehra, R. Pawar, and D. Shah. 2011. Secure authentication using dynamic virtual keyboard layout. In Proceedings of the International Conference & Workshop on Emerging Trends in Technology (ICWET ’11). ACM, ICWET’11, February 25–26, 2011, Mumbai, Maharashtra. New York, NY, USA, 288-291. DOI: http://dx.doi.org/10.1145/1980022.1980087",
         ],
-        "Contact Information":
-          "renuka_pawar@spit.ac.in\
-                Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,\
-                Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
     },
     {
@@ -305,9 +304,12 @@ export const facultyData = {
       image: "/faculty/prof-aparna-halbe.jpg",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E. Computer science",
-      education:
-        "BE information Technology\
-            ME computer science",
+      education: ["BE information Technology", "ME computer science"],
+      contact: [
+        "aparna_halbe@spit.ac.in",
+        "Extn: 341, Room No. 410, 4th Floor, Department of Information Technology,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
+      ],
       data: {
         "Area of Interests": [
           "Big data analytics",
@@ -319,10 +321,6 @@ export const facultyData = {
           "“Generation of web page from document Image” IJAIS Proceedings on International Conference and workshop on Advanced Computing 2014",
           "“A novel approach to HTML page creation using neural network” International Conference on Advanced Computing Technologies and Applications by ELESEVIER 2015",
         ],
-        "Contact Information":
-          "aparna_halbe@spit.ac.in\
-                Extn: 341, Room No. 410, 4th Floor, Department of Information Technology,\
-                Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
       },
     },
   ],
@@ -333,180 +331,182 @@ export const facultyData = {
       image: "/faculty/dr-dhananjay-kalbande.jpg",
       designation: "Professor and Head of Department",
       qualification: "Post-Doctorate (TISS), Ph.D.,M.E.(I.T.), B.E.(Comp.)",
-      education:
-        "Professor & Head of Department\
-            Post-Doctorate (TISS), Ph.D.,M.E.(I.T.), B.E.(Comp.) \
-            Senior Research Fellow (NCW-TISS Project,T.I.S.S., Mumbai) \
-            Research Fellow (T.I.S.S. and M.I.T.(USA), CLIx-Project, Mumbai)",
+      education: [
+        "Post-Doctorate (TISS), Ph.D.,M.E.(I.T.), B.E.(Comp.)",
+        "Senior Research Fellow (NCW-TISS Project,T.I.S.S., Mumbai)",
+        "Research Fellow (T.I.S.S. and M.I.T.(USA), CLIx-Project, Mumbai)",
+      ],
+      contact: [
+        "Email: drkalbande@spit.ac.in Tel: +91 (22) – 26707440 Ext:366",
+        "Room No.608, 6th Floor,",
+        "Department of Computer Science and Engineering, Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
+      ],
       data: {
         "Post Ph.D Collaborative Research Completed": [
-          {
-            "Research work Title : Skin Image Analysis Software to recognize skin diseases:- A clinical study to recognize skin diseases at the early stage.":
-              [
+          [
+            "Research work Title : Skin Image Analysis Software to recognize skin diseases:- A clinical study to recognize skin diseases at the early stage.",
                 "Principal Investigator and Guide: Dr.Uday Khopkar,Professor & Head, Dept.of Dermatology,Seth G.S.Medical College and KEM Hospital.",
                 "Co-Investigators : Dr.Dhananjay Kalbande,Dr.Mithali Jage",
                 "Results of the Investigation are approved from Institutional Ethics Committee(IEC Committee) ,Seth G.S.Medical College & KEM Hospital.",
                 "Status : Completed",
-              ],
-          },
-          {
-            "Research work Title : Skin Image Analysis Software for diagnosis of chronic pruritic Skin Diseases at early stage.":
-              [
+          ],
+          [
+            "Research work Title : Skin Image Analysis Software for diagnosis of chronic pruritic Skin Diseases at early stage.",
                 "Principal Investigator and Guide: Dr.Uday Khopkar,Professor & Head, Dept.of Dermatology,Seth G.S.Medical College and KEM Hospital.",
                 "Co-Investigators : Dr.Dhananjay Kalbande,Dr. Akansha Chadha,Dr. Bhushan Darkase, Dr. Naziya M , Junior Resident, Seth G.S.Medical College & KEM Hospital.",
                 "Protocol is submitted to Institutional Ethics Committee(IEC Committee) ,Seth G.S.Medical College & KEM Hospital.",
                 "Status : In Process"
-              ],
-          },
-          {
-            "MIS Project: MIS Application for Skin and VD Department, KEM Hospital, Parel , Mumbai": []
-          }
+
+            ],
+          [
+            "MIS Project: MIS Application for Skin and VD Department, KEM Hospital, Parel , Mumbai"
+          ]
         ],
         "Visiting Faculty": [
-            "Worked as Guest Faculty (Artificial Intelligence and Deep Learning) at Lal Bahadur Shastri Institute of Management, Delhi from 22nd Oct 2020 to 15th Jan 2021 (Online Mode)"
+          "Worked as Guest Faculty (Artificial Intelligence and Deep Learning) at Lal Bahadur Shastri Institute of Management, Delhi from 22nd Oct 2020 to 15th Jan 2021 (Online Mode)",
         ],
         "Certification Done": [
-            "GCP Certificate: NIDA Clinical Trials Network CTN Expiration Date: 24 March 2022",
-            "GCP: Good Clinical Practices : Course Completion Date: 22 May 2015 ,CTN Expiration Date: 22 May 2018."
+          "GCP Certificate: NIDA Clinical Trials Network CTN Expiration Date: 24 March 2022",
+          "GCP: Good Clinical Practices : Course Completion Date: 22 May 2015 ,CTN Expiration Date: 22 May 2018.",
         ],
         "Patent Filed – 09": [
-            "Title of the Invention: “Skin Image Analysis Software for Skin Diseases” dated 24/02/2016 Time: 17:02:14, Docket No.4737.Application No.:201621006433",
-            "Title of the Invention :“AUTO-WALAS: An App for Vehicle Management” dated 21/03/2016 Time: 16:03:00, Docket No. 7129, Application No.: 201621009763.",
-            "Title of the Invention : Theoretical Concept Of “Business Process Framework In An Enterprise Architecture As Per The Architectural Level” dated 13/05/16 Application No. 201621011091 A.",
-            "Title of the Invention for joint patent with T.I.S.S.,Mumbai for a Post-Doctorate work for the Invention “ Mobile App for Prasutitikakaran and Tikakaran” published dated 26/08/16 Application No.201621026972 A.",
-            "Title of the Invention “F-MIOTH: Framework For Medical Iot (Internet Of Things In Healthcare” published dated 07/09/2018 Application No. 201821031554.",
-            "Title of the Invention “Skinzerflow : Skin Disease Detection Using Iot And Image Processing” published dated 07/09/2018 ,Application No. 201821032115.",
-            "Title of the Invention : Big Data Architecture For Predicting Malaria And Dengue Incidence., published dated: 29/11/2019, Application No. 201921046529",
-            "Title of the Invention :Track on Park: Application Challan :TR-5, docket no, 65863,Application No.202021051448 dated 26/11/2020.",
-            "Title of the Invention: Psychological distress detection,classification and assistance using AI, Application No.202121002700 dated 20/01/2021.",
+          "Title of the Invention: “Skin Image Analysis Software for Skin Diseases” dated 24/02/2016 Time: 17:02:14, Docket No.4737.Application No.:201621006433",
+          "Title of the Invention :“AUTO-WALAS: An App for Vehicle Management” dated 21/03/2016 Time: 16:03:00, Docket No. 7129, Application No.: 201621009763.",
+          "Title of the Invention : Theoretical Concept Of “Business Process Framework In An Enterprise Architecture As Per The Architectural Level” dated 13/05/16 Application No. 201621011091 A.",
+          "Title of the Invention for joint patent with T.I.S.S.,Mumbai for a Post-Doctorate work for the Invention “ Mobile App for Prasutitikakaran and Tikakaran” published dated 26/08/16 Application No.201621026972 A.",
+          "Title of the Invention “F-MIOTH: Framework For Medical Iot (Internet Of Things In Healthcare” published dated 07/09/2018 Application No. 201821031554.",
+          "Title of the Invention “Skinzerflow : Skin Disease Detection Using Iot And Image Processing” published dated 07/09/2018 ,Application No. 201821032115.",
+          "Title of the Invention : Big Data Architecture For Predicting Malaria And Dengue Incidence., published dated: 29/11/2019, Application No. 201921046529",
+          "Title of the Invention :Track on Park: Application Challan :TR-5, docket no, 65863,Application No.202021051448 dated 26/11/2020.",
+          "Title of the Invention: Psychological distress detection,classification and assistance using AI, Application No.202121002700 dated 20/01/2021.",
         ],
         "Area of Interests": [
-            "Soft Computing",
-            "Machine Learning",
-            "Deep Learning",
-            "Human Machine Interaction",
-            "User Experience Design",
-            "Artificial Intelligence for Social and Healthcare cause",
-            "Data and Image Analytics",
-            "IOT for Rural Healthcare"
+          "Soft Computing",
+          "Machine Learning",
+          "Deep Learning",
+          "Human Machine Interaction",
+          "User Experience Design",
+          "Artificial Intelligence for Social and Healthcare cause",
+          "Data and Image Analytics",
+          "IOT for Rural Healthcare",
         ],
         "Professional Affiliations": [
-            "Recognized PG Teacher & Ph.D.Guide of Mumbai University in Computer Engineering and Information Technology.",
-            "List of research topics currently guiding as part of the academic research program leading to the award of PhD Degree in Computer Engineering and Information Technology <a href='https://comp.spit.ac.in/files/2021/09/PhD-students-updated-2021.pdf'> Click here to see the details </a>"
+          "Recognized PG Teacher & Ph.D.Guide of Mumbai University in Computer Engineering and Information Technology.",
+          "List of research topics currently guiding as part of the academic research program leading to the award of PhD Degree in Computer Engineering and Information Technology",
         ],
         "National Journal": [
-            "D.R.Kalbande, Dr.G.T.Thampi, S.Sawalekar,” TPM “Total productive Maintenance“: A case study in Manufacturing Industry”, IIIE (National Journal of Indian Institute of Industrial Engineering) Journal,India Oct .2010.",
-            "Anjali Shrikant Yeole and Dhananjay Ramrao Kalbande , “IoT Technology Stack: Whole Host of Technology”, CSI Communications, Volume No 44 , Issue No. 1, April 2020 , special issue on Internet of things"
+          "D.R.Kalbande, Dr.G.T.Thampi, S.Sawalekar,” TPM “Total productive Maintenance“: A case study in Manufacturing Industry”, IIIE (National Journal of Indian Institute of Industrial Engineering) Journal,India Oct .2010.",
+          "Anjali Shrikant Yeole and Dhananjay Ramrao Kalbande , “IoT Technology Stack: Whole Host of Technology”, CSI Communications, Volume No 44 , Issue No. 1, April 2020 , special issue on Internet of things",
         ],
         "International Journal": [
-            "D.R.Kalbande, Dr.G.T.Thampi, “Multi-attribute and Multi-criteria Decision Making Model for technology selection using fuzzy logic”, Technia – International Journal of Computing Science and Communication Technologies, IJCSCT Vol. 2, Issue 1, India ,July 2009.",
-            "D.R.Kalbande, Manish Singh ,“Incidence Handling & Response System”, International Journal of Computer Science & Information Security IJCSIS, Vol. 2, June 2009, ISSN 1947-5500.( IMPACT FACTOR: 0.423)",
-            "D.R.Kalbande, Dr.G.T.Thampi ”Fuzzy neural model (FNM) for selecting ERP Technologies in a ongoing project settings”, Issue in CiiT International Journal of Artificial Intelligent Systems and Machine Learning Print: ISSN 0974 – 9667 & Online: ISSN 0974 – 9543, Nov. 2009 , (DOI: AIML112009005, IMPACT FACTOR: 0.763)",
-            "Shekhar Shah,D.R.Kalbande,Rudani,Presha Shah ,“Algorithm to access Office Files on Mobile Phones, Proceedings of International Journal of Computer Application (IJCA), ISSN: 0975 8887, Number 3, Article -4 March 2011 and also Published by Foundation of Computer Science. BibTeX",
-            "D.R.Kalbande, Dr.G.T.Thampi , ”An Empirical Formulation of cost of technology acquisition and cost reduction: A case study in Manufacturing Industries ,International Journal of Industrial Engineering and Technology (IJIET), March 2011., ISSN 0974 -3146 Volume 3, Number 2(2011),pp.215-222.",
-            "D. Kalbande, N. Deotale, P. Singhal, S. Shah, and G. Thampi, “An Advanced Technology Selection Model using Neuro Fuzzy Algorithm for Electronic Toll Collection System”, (IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 2, No. 4, 2011 ,pp.97-104. Impact Factor: 1.324",
-            "D.R.Kalbande, Harsh Panchal,Nisha Swaminathan ,Preeti Ramraj, ”ANFIS Based SPAM Filtering Model for Social Networking Websites”, International Journal of Computer Applications 44(11):32-36, April 2012. Published by Foundation of Computer Science, New York, USA.,DOI : 10.5120/6310-8635 ISSN: 0975 – 8887",
-            "Smita Patil, Yogita Mane, Kanchan Dabre, Puneet Devan, D.Kalbande,”An efficient Recommender System Using Collaborative Filtering Method with K-Means Approach” , International Journal of Engineering Research and Applications (IJERA) ISSN: 2248-9622,Mar’12, Page no. 30-35.Impact Factor: 5.011",
-            "Priyanka Kulkarni, D.R.Kalbande, Neelam Gulrajani, Srinath Warrior “Smart Card based Android Application for Public Transport Ticketing System”, International Journal of Computer Applications 60(11):29-32, December 2012. Published by Foundation of Computer Science, New York, USA,DOI: 10.5120/9738-4289. ISSN:0975-8887",
-            "Mahendra Mehra,Kailas Devadkar, Dhananjay.R.Kalbande, ”Mobile Cloud based Compiler : A Novel Framework For Academia”, International Journal of Advancements in Research & Technology,Volume 2,Issue4,April 2013 Page 445 ISSN 2278 7763.",
-            "Nilakshi Jain , Dr. Dhananjay R Kalbande, “Physical and Cyber Crime Using Digital Forensic Approach : A Complete Digital Forensic Tool”, accepted in Springer Book “Advances in Computing and Management” 2016 proceedings .",
-            "Nilakshi Jain , Dr. Dhananjay R Kalbande ,”A Comparative Study Based Digital Forensic Tool A Complete Automated Tool”, IJoFCS-International Journal of Forensic Computer Science ,Vol-09, Issue-01, pp 15-22 , October-2014 ISSN: 1980-7333.",
-            "Nilakshi Jain , Dr. Dhananjay R Kalbande ,Digital Forensic Models: A Complete Literature Review Published paper in IJSRD-International Journal of Scientific Research & Development Vol-01, Iss-01, Mar-2013 ISSN: 2320-7477.",
-            "Nilakshi Jain , Dr. Dhananjay R Kalbande ,Comparative Digital Forensic Model ,Published paper International Journal of Innovative Research in Science, Engineering and Technology Vol. 2, Issue 8, August 2013 ISSN: 2319-8753.",
-            "D.R.Kalbande,Surendra Rathod, “ Software development for Course and Program Outcome attainment” presented and published in Journal of Engineering Education Transformations, Volume, No, Month 2015, ISSN 2349-2473, eISSN 2394-1707, at College of Engineering ,Pune. ,Jan 2016, DOI: 10.16920/jeet/2016/v0i0/85634 .",
-            "Surendra Rathod,D.R.Kalbande “Improving Laboratory Experiences in Engineering Education”, presented and published in Journal of Engineering Education Transformations, Volume, No, Month 2015, ISSN 2349-2473, eISSN 2394-1707, at College of Engineering ,Pune. ,Jan 2016, DOI: 10.16920/jeet/2016/v29i4/90712",
-            "Mrs. Aarti M. Karande, Dr. D.R. Kalbande,” Soft Computing Approach for Measuring Business Process Agility in an Agile Environment”, International Journal of Computer Applications (0975 – 8887), Foundation of Computer Science (FCS), NY, USA ,.June 17. DOI: 10.5120/ijca2017914534",
-            "Aarti Karande, D.R.Kalbande ,” Selection of Enterprize Architecture based on agile parameters for SCM-based Case Study” , published in Scholedge International Journal of Business policy & Governance ,ISSN: 2394-3351, Vol04, Issue 05(2017) Pg.36-55.DOI : 10.19085/journal.sijbpg040501",
-            "Aarti Karande, D.R.Kalbande ,” Agile Parameter Affecting Supply Chain Mangement Strategy”, published in Int.Journal of Supply Chain Mgmt., Vol.6, No.4, Dec 2017. ISSN : 2050-7399.",
-            "Swati Kulkarni, Dhananjay Kalbande, Surekha Dholay and Avinash Sharma,” Cost Optimized Hybrid System in Digital Advertising Using Machine Learning,” Journal of Computational and Theoretical Nanoscience(JCTN)-Apr.2019.",
-            "Deepak Kapgate, Dhananjay Kalbande, Urmila Sharwankar, An optimized facial stimuli paradigmfor hybrid SSVEP+P300 brain computer interface” Journal of Neurosurgical Sciences, Publisher – EDIZIONI MINERVA MEDICA, July 2019. DOI : 10.23736/S0390-5616.19.04755-6, ISSN : 1827-1855, Science Citation Index Expanded (SCIE) & SCOPUS.",
-            "Deepak Kapgate, Dhananjay Kalbande, Urmila Sharwankar , “Adaptive classification to reduce non-stationarity in visual evoked potential brain-computer interfaces” , Bio-Algorithms and Med-Systems Journal, July 2019 , Publisher – WALTER DE GRUYTER, DOI : 10.1515/bams-2019-0020, ISSN: 1896-530X, ESCI (Thomson & Reuter)& SCOPUS.",
-            "Dr.Anjali Yeole Dhananjay Kalbande ,” Security and privacy issues in IoT devices and sensors networks:Machine learning to the rescue” , at Springer book titled “Internet of Things, Smart Computing and Technology :A road map ahead” from ‘Studies in System, Decision , and control’, Springer Book Series (Scopus Indexed”, Abstract accepted for Jan 2020 book series.",
-            "Surekha Arjapure, Dhananjay Kalbande,” Pothole detection using Deep Learning classifiers”, at International Journal of Recent Technology and Engineering (IJRTE),Scopus Indexed ,ISSN: 2277-38378, Vol-8, March 2020.DOI: 10.35940/ijrte.F7349.038620",
-            "Dhananjay Kalbande; Rohit Naik; Janvi Jatakia; Uday Khopkar,” An artificial intelligence approach for the recognition of early stages of eczema” , at International Journal of Medical Engineering and Informatics, Inderscience Publisher, 2020 Vol.12 No.1, pp.52 – 61, DOI: 10.1504/IJMEI.2020.105656.",
-            "Vedant Kumar, Siddhant Kumar, Parth Shingala, Pradhuman Singh, Dhananjay Kalbande,” AI Powered Holistic Solution for Travelers During Pandemic”, at International Journal of Engineering and Advanced Technology (IJEAT), (Scopus Indexed), Volume-9 Issue-6, August 2020, DOI: 10.35940/ijeat.F1428.089620.",
-            "Vrushali Joshi, Sarah Hawa, Shriya Akella, Shrishti Kaushik, Dhananjay Kalbande,” Analysis of Therapy Transcripts using Natural Language Processing,” at International Journal of Engineering and Advanced Technology (IJEAT),(Scopus Indexed), Volume-9 Issue-6, August 2020.",
-            "Garima Kaushik, Shaney Mantri, Shrishti Kaushik, Dr Dhananjay Kalbande, Dr B. N. Chaudhari. “ANALYSIS OF EFFECTIVENESS OF QUARANTINE MEASURES IN CONTROLLING COVID-19.” Journal of Critical Reviews 7.13 (Aug. 2020), 1655-1665. Print. doi:10.31838/jcr.07.16.261., http://www.jcreview.com/index.php?mno=98957., Also available at : medRxiv preprint doi: https://doi.org/10.1101/2020.04.21.20074245"
+          "D.R.Kalbande, Dr.G.T.Thampi, “Multi-attribute and Multi-criteria Decision Making Model for technology selection using fuzzy logic”, Technia – International Journal of Computing Science and Communication Technologies, IJCSCT Vol. 2, Issue 1, India ,July 2009.",
+          "D.R.Kalbande, Manish Singh ,“Incidence Handling & Response System”, International Journal of Computer Science & Information Security IJCSIS, Vol. 2, June 2009, ISSN 1947-5500.( IMPACT FACTOR: 0.423)",
+          "D.R.Kalbande, Dr.G.T.Thampi ”Fuzzy neural model (FNM) for selecting ERP Technologies in a ongoing project settings”, Issue in CiiT International Journal of Artificial Intelligent Systems and Machine Learning Print: ISSN 0974 – 9667 & Online: ISSN 0974 – 9543, Nov. 2009 , (DOI: AIML112009005, IMPACT FACTOR: 0.763)",
+          "Shekhar Shah,D.R.Kalbande,Rudani,Presha Shah ,“Algorithm to access Office Files on Mobile Phones, Proceedings of International Journal of Computer Application (IJCA), ISSN: 0975 8887, Number 3, Article -4 March 2011 and also Published by Foundation of Computer Science. BibTeX",
+          "D.R.Kalbande, Dr.G.T.Thampi , ”An Empirical Formulation of cost of technology acquisition and cost reduction: A case study in Manufacturing Industries ,International Journal of Industrial Engineering and Technology (IJIET), March 2011., ISSN 0974 -3146 Volume 3, Number 2(2011),pp.215-222.",
+          "D. Kalbande, N. Deotale, P. Singhal, S. Shah, and G. Thampi, “An Advanced Technology Selection Model using Neuro Fuzzy Algorithm for Electronic Toll Collection System”, (IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 2, No. 4, 2011 ,pp.97-104. Impact Factor: 1.324",
+          "D.R.Kalbande, Harsh Panchal,Nisha Swaminathan ,Preeti Ramraj, ”ANFIS Based SPAM Filtering Model for Social Networking Websites”, International Journal of Computer Applications 44(11):32-36, April 2012. Published by Foundation of Computer Science, New York, USA.,DOI : 10.5120/6310-8635 ISSN: 0975 – 8887",
+          "Smita Patil, Yogita Mane, Kanchan Dabre, Puneet Devan, D.Kalbande,”An efficient Recommender System Using Collaborative Filtering Method with K-Means Approach” , International Journal of Engineering Research and Applications (IJERA) ISSN: 2248-9622,Mar’12, Page no. 30-35.Impact Factor: 5.011",
+          "Priyanka Kulkarni, D.R.Kalbande, Neelam Gulrajani, Srinath Warrior “Smart Card based Android Application for Public Transport Ticketing System”, International Journal of Computer Applications 60(11):29-32, December 2012. Published by Foundation of Computer Science, New York, USA,DOI: 10.5120/9738-4289. ISSN:0975-8887",
+          "Mahendra Mehra,Kailas Devadkar, Dhananjay.R.Kalbande, ”Mobile Cloud based Compiler : A Novel Framework For Academia”, International Journal of Advancements in Research & Technology,Volume 2,Issue4,April 2013 Page 445 ISSN 2278 7763.",
+          "Nilakshi Jain , Dr. Dhananjay R Kalbande, “Physical and Cyber Crime Using Digital Forensic Approach : A Complete Digital Forensic Tool”, accepted in Springer Book “Advances in Computing and Management” 2016 proceedings .",
+          "Nilakshi Jain , Dr. Dhananjay R Kalbande ,”A Comparative Study Based Digital Forensic Tool A Complete Automated Tool”, IJoFCS-International Journal of Forensic Computer Science ,Vol-09, Issue-01, pp 15-22 , October-2014 ISSN: 1980-7333.",
+          "Nilakshi Jain , Dr. Dhananjay R Kalbande ,Digital Forensic Models: A Complete Literature Review Published paper in IJSRD-International Journal of Scientific Research & Development Vol-01, Iss-01, Mar-2013 ISSN: 2320-7477.",
+          "Nilakshi Jain , Dr. Dhananjay R Kalbande ,Comparative Digital Forensic Model ,Published paper International Journal of Innovative Research in Science, Engineering and Technology Vol. 2, Issue 8, August 2013 ISSN: 2319-8753.",
+          "D.R.Kalbande,Surendra Rathod, “ Software development for Course and Program Outcome attainment” presented and published in Journal of Engineering Education Transformations, Volume, No, Month 2015, ISSN 2349-2473, eISSN 2394-1707, at College of Engineering ,Pune. ,Jan 2016, DOI: 10.16920/jeet/2016/v0i0/85634 .",
+          "Surendra Rathod,D.R.Kalbande “Improving Laboratory Experiences in Engineering Education”, presented and published in Journal of Engineering Education Transformations, Volume, No, Month 2015, ISSN 2349-2473, eISSN 2394-1707, at College of Engineering ,Pune. ,Jan 2016, DOI: 10.16920/jeet/2016/v29i4/90712",
+          "Mrs. Aarti M. Karande, Dr. D.R. Kalbande,” Soft Computing Approach for Measuring Business Process Agility in an Agile Environment”, International Journal of Computer Applications (0975 – 8887), Foundation of Computer Science (FCS), NY, USA ,.June 17. DOI: 10.5120/ijca2017914534",
+          "Aarti Karande, D.R.Kalbande ,” Selection of Enterprize Architecture based on agile parameters for SCM-based Case Study” , published in Scholedge International Journal of Business policy & Governance ,ISSN: 2394-3351, Vol04, Issue 05(2017) Pg.36-55.DOI : 10.19085/journal.sijbpg040501",
+          "Aarti Karande, D.R.Kalbande ,” Agile Parameter Affecting Supply Chain Mangement Strategy”, published in Int.Journal of Supply Chain Mgmt., Vol.6, No.4, Dec 2017. ISSN : 2050-7399.",
+          "Swati Kulkarni, Dhananjay Kalbande, Surekha Dholay and Avinash Sharma,” Cost Optimized Hybrid System in Digital Advertising Using Machine Learning,” Journal of Computational and Theoretical Nanoscience(JCTN)-Apr.2019.",
+          "Deepak Kapgate, Dhananjay Kalbande, Urmila Sharwankar, An optimized facial stimuli paradigmfor hybrid SSVEP+P300 brain computer interface” Journal of Neurosurgical Sciences, Publisher – EDIZIONI MINERVA MEDICA, July 2019. DOI : 10.23736/S0390-5616.19.04755-6, ISSN : 1827-1855, Science Citation Index Expanded (SCIE) & SCOPUS.",
+          "Deepak Kapgate, Dhananjay Kalbande, Urmila Sharwankar , “Adaptive classification to reduce non-stationarity in visual evoked potential brain-computer interfaces” , Bio-Algorithms and Med-Systems Journal, July 2019 , Publisher – WALTER DE GRUYTER, DOI : 10.1515/bams-2019-0020, ISSN: 1896-530X, ESCI (Thomson & Reuter)& SCOPUS.",
+          "Dr.Anjali Yeole Dhananjay Kalbande ,” Security and privacy issues in IoT devices and sensors networks:Machine learning to the rescue” , at Springer book titled “Internet of Things, Smart Computing and Technology :A road map ahead” from ‘Studies in System, Decision , and control’, Springer Book Series (Scopus Indexed”, Abstract accepted for Jan 2020 book series.",
+          "Surekha Arjapure, Dhananjay Kalbande,” Pothole detection using Deep Learning classifiers”, at International Journal of Recent Technology and Engineering (IJRTE),Scopus Indexed ,ISSN: 2277-38378, Vol-8, March 2020.DOI: 10.35940/ijrte.F7349.038620",
+          "Dhananjay Kalbande; Rohit Naik; Janvi Jatakia; Uday Khopkar,” An artificial intelligence approach for the recognition of early stages of eczema” , at International Journal of Medical Engineering and Informatics, Inderscience Publisher, 2020 Vol.12 No.1, pp.52 – 61, DOI: 10.1504/IJMEI.2020.105656.",
+          "Vedant Kumar, Siddhant Kumar, Parth Shingala, Pradhuman Singh, Dhananjay Kalbande,” AI Powered Holistic Solution for Travelers During Pandemic”, at International Journal of Engineering and Advanced Technology (IJEAT), (Scopus Indexed), Volume-9 Issue-6, August 2020, DOI: 10.35940/ijeat.F1428.089620.",
+          "Vrushali Joshi, Sarah Hawa, Shriya Akella, Shrishti Kaushik, Dhananjay Kalbande,” Analysis of Therapy Transcripts using Natural Language Processing,” at International Journal of Engineering and Advanced Technology (IJEAT),(Scopus Indexed), Volume-9 Issue-6, August 2020.",
+          "Garima Kaushik, Shaney Mantri, Shrishti Kaushik, Dr Dhananjay Kalbande, Dr B. N. Chaudhari. “ANALYSIS OF EFFECTIVENESS OF QUARANTINE MEASURES IN CONTROLLING COVID-19.” Journal of Critical Reviews 7.13 (Aug. 2020), 1655-1665. Print. doi:10.31838/jcr.07.16.261., http://www.jcreview.com/index.php?mno=98957., Also available at : medRxiv preprint doi: https://doi.org/10.1101/2020.04.21.20074245",
         ],
         "National Conference": [
-            "MIS for Knowledge Management in the organizationat Bannari Amman Inst.of Technology, 2005.",
-            "Network Intrusion and detection Mechanismin the National Conference at Govt.College Engg., Abad, 2005.",
-            "A Novel Idea to speed the customer business in the context of Indian railwaysat K.J.Somaiya College, Mumbai, 2006.",
-            "Systolic Arrays and Recursion : A new approach for matrix multiplicationaccepted for publication in National Conference on Recent Advances in Computer Vision and Information Technology, Government College of Technology, Coimbatore, March 2010."
+          "MIS for Knowledge Management in the organizationat Bannari Amman Inst.of Technology, 2005.",
+          "Network Intrusion and detection Mechanismin the National Conference at Govt.College Engg., Abad, 2005.",
+          "A Novel Idea to speed the customer business in the context of Indian railwaysat K.J.Somaiya College, Mumbai, 2006.",
+          "Systolic Arrays and Recursion : A new approach for matrix multiplicationaccepted for publication in National Conference on Recent Advances in Computer Vision and Information Technology, Government College of Technology, Coimbatore, March 2010.",
         ],
         "International Conference": [
-            "Identifying the research areas in the realm of Information technology in Manufacturing at JMI University, Delhi in Jan 2006.",
-            "Neuro-Analytical Hierarchy Process (NAHP)Approach for Selecting ERP Technologies in a Ongoing Project Settings Presented and Published in proceedings of 2010 3rd IEEE International Conference on Computer Science and Information Technology,Chengdu,CHINA",
-            "Lip Reading Using Neural Networks, Published in IEEE2010 International Conference on Graphic and Image Processing (ICGIP December 2010) Manila, Philippines",
-            "Energy Conservation using Face Detection, Published in IEEE 2010 International Conference on Graphic and Image Processing (ICGIP December 2010) Manila, Philippines.",
-            "Total Productive Maintenance Accelerating OEE in a Manufacturing Industry leveraging pervasive technologies. Published in the Proceedings of IEEEInternational conference on Manufacturing Science & Technology (ICMST 2010), Kuala Lumpur, Malaysia 26- 28 Nov 2010.",
-            "Zip it Up SMS: A Path breaking Technology Model in the field of Mobile Messaging Presented and Published in proceedings of 2010 3rd IEEE International Conference on Computer Science and Information Technology,Chengdu,CHINA",
-            "Neural Network Based Empirical Model Development for E-Business (Mobile) Application, Presented and published in the Proceedings of International Conference & workshop on Emerging Trends and Technology(ICWET -ACM MUMBAI 25-26 Feb 2011) ,ACM International Digital Library, SIGART, USA.ISBN: ISBN:978-1-4503-0449-8,DOI:10.1145/1980022.1980353",
-            "Algorithm to access Office Files on Mobile Phones, Presented and published in the Proceedings of International Conference & workshop on Emerging Trends and Technology(ICWET -ACM MUMBAI 25-26 Feb 2011) , and ACM ,New York NY(USA), ISBN :978-1-4503-0449,DOI :10.1145/1980022.1980112",
-            "Neuro Analytical Hierarchy Process (NAHP) Approach for CAD/CAM/CIM Tool Selection in the Context of Small Manufacturing Industries,presented and published in IEEE-2012, International Conference ,ICCICT-2012,Mumbai,India. Print ISBN: 978-1-4577- 2077-2 DOI : 10.1109/ICCICT.2012.6398139.",
-            "Satellite Positioning Simulation System,Presented and published in IEEE-2012, International Conference ,ICCICT- 2012,Mumbai,India.DOI: 10.1109/ICCICT.2012.6398141",
-            "Demonstration of Signature Analysis using Intelligent Systems published and presented at 3rd International Conference on advances in Computing, communication and control , with Springer 18-19 Jan 2013",
-            "Emotion Detection from “The SMS of the Internet” Accepted for presentation in IEEE International Conference Dec 19-21 2013,,IEEE RAICS-2013,Trivandrum,Kerala,India",
-            "Voice enabled Android application for vehicular complaint system: Using GPS and GSM-SMS technology,Published in IEEE sponsored International Conf. on Information and Communication Technologies (WICT), Trivendrum Oct 30, 2012 DOI: 10.1109/WICT.2012.6409133 Publication Year: 2012 , Page(s): 520 – 524",
-            "Machine Learning Applied To Human Learning presented in IEEE Conference IEEE INDICON 2013,13-15 Jan 2013,IIT Bombay,Mumbai,India",
-            "Gesture detection system using smart watch based motion sensors Authors :Sumit G.,O.Karande,A.Pandya,Dr.D.R.Kalbande Presented and published in IEEE Conference (CSCITA –Approved by IEEE), April 4-5 2014,Mumbai.",
-            "Research on Educative Games for Autistic Children Authors: Sridari Iyer,Dr.D.R.Kalbande Presented and published in IEEE Conference (CSCITA –Approved by IEEE), April 4-5 2014,Mumbai.",
-            "Review of Mobile Data Offloading through Wi-Fi “Authors: Deepshikha H.,Dr.D.R.Kalbande Presented and published in IEEE Conference (CSCITA –Approved by IEE), April 4-5 2014,Mumbai",
-            "“Web service selection based on QoS using Feedforward Neural Network”. Authors: Aarti Karande,Dr.D.R.Kalbande Published in International Conference ICICT 2014,IEEE Delhi Section,in KIET,Gaziabad",
-            "Nilakshi Jain , Dr. Dhananjay R Kalbande ,” Computer Forensic Tool using History and Feedback Approach”, International Conference on Reliability, InfoCom Technologies and Optimizations IEEE Conference ,Delhi (ICRITO-2015). (Print ISBN: 978-1-4673-7231-2).",
-            "Nilakshi Jain , Shwetambari Pawar, Dr. Dhananjay R Kalbande , ”Network Security Analyzer: Detection and Prevention of Web Attacks Using Digital Forensic” , International Conference on ICT for Intelligent Systems (ICTIS – 2015)Ahmadabad. (Springer SIST), Series Title: Smart Innovation, Systems and Technologies (SIST) ISSN Number – 2190-3018.",
-            "Nilakshi Jain , Dr. Dhananjay R Kalbande , ”Physical and Cyber Crime Using Digital Forensic Approach”,International Conference on ICT for Intelligent Systems (ICTIS – 2015) Ahmadabad(Springer SIST), Series Title: Smart Innovation, Systems and Technologies (SIST) ISSN Number – 2190-3018.",
-            "Seema Kolkur ,Dhananjay Kalbande,”Review of Machine Learning Algorithms in R software for Diagnosis of ESD Diseases” , presented in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
-            "Anjali Yeole, Dhananjay Kalbande,” Use of Internet of Things (IoT) in Healthcare: A Survey “, accepted for presentation and publication in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
-            "Nilakshi Jain, Dhananjay Kalbande ,” Empirical relationship between Victim’s occupation and their knowledge of Digital Forensic ”, presented and published in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
-            "Nilakshi Jain ,Dhananjay Kalbande, “Computerized Forensic Approach Using Data Mining Techniques”, accepted presented and published in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
-            "Asha Bharambe,Dhananjay Kalbande, “Techniques and Approaches for Disease Outbreak Prediction: A Survey”, presented and published in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
-            "Ankit Srivastava ,Dhananjay Kalbande,” Neuro-Bi Approach For Management Information System For An Enterprise”, presented in 2016 International conference on Smart structure and system( 2016 IEEE ICSSS),at Saveetha Engineeing College,Anna University,Chennai, India, March 23,24 .2016.",
-            "Nikita Patil, Dhananjay Kalbande, “Demonstrating Protein Analysis for cancer Disease using Approximation Algorithms” presented ,3rd International conference on Electronics and communication system,ICECS.25-26 Feb.2016. Karpagam College of Engineering,Coimbatore,India.",
-            "Devashree Mehta, Faizaan Charania, Dhananjay Kalbande ,” Comparative Study of KNN and ENN approaches for the Netflix Challenge” presented and published in 2016 International Conference on Engineering and Technology (ICET). (IEEE Sponsored) 16 Dec – 17 Dec 2016.",
-            "Suvarnamala Sonune,Dhananjay Kalbande, “Issues in IoT Healthcare Platforms: A Critical Study and Review”, presented and published in 2016 International Conference on Engineering and Technology (ICET). (IEEE Sponsored) 16 Dec – 17 Dec 2016.",
-            "Dr.Mithali Jage, Dr.Uday Khopkar, Dr.Dhananjay Kalbande, Maitri Shroff, Sanskruti Shah, Shivani Inamdar ,Janvi Jatakia, Rohit Naik “ Artificial Intelligence enabled Machine Learning approach for recognizing early stage of Psoriasis and Eczema” presented in 10th ADC 2016, Asian Dermatological Congress, Oct.2016,Mumbai,India. The work presented in this Congress is a research outcome of collaborative research work with Skin and VD department ,Seth G.S.Medical College and KEM Hospital and SPIT,Mumbai.",
-            "Suvarnamala Sonune,Dhananjay Kalbande, “ IoT Enabled API for Secure Transfer of Medical Data”, Presented in IEEE sponsored 2017 International Conference on Intelligent Computing and control(I2C2-17) , at KCEEm Coimbatore , India. 23-24 June 2017.",
-            "Sridari Iyer,Dr.D.R.Kalbande, “Assess Autism level while playing Games “, presented in 2nd International conference on Communication system, computing and IT applications, IEEE-CSCITA , 7-8 April 2017,Mumbai., DOI: 10.1109/CSCITA.2017.8066573, ISBN: 978-1-5090-4381-1",
-            "Ayush Shah, Akash Dubey, Vishesh Hemnani, Divye Gala, D.R.Kalbande, “Smart Farming System : Crop Yield Prediction Using Regression Techniques” ,presented at International conference on Wireless communication (ICWiCOM-2017), 19-20 Jan 2018, in DJSCOE, Mumbai, India.( Paper to be published in Springer Digital Library under the series “Lecture notes on Data Engineering and Communication Technologies”.)",
-            "Anjai Yeole, D.R.Kalbande, “MAC based Group Management Protocol for IoT[MAC- GMP-IoT ]”, presented at International conference on Wireless communication (ICWiCOM-2017), 19-20 Jan 2018, in DJSCOE, Mumbai, India.( Paper to be published in Springer Digital Library under the series “Lecture notes on Data Engineering and Communication Technologies”.",
-            "D.R.Kalbande, Ms.Anushka Kanawade, Ms. Smruti Varvadekar ,” Comparative analysis of methods for monitoring activities of daily living for the elderly people”, presented at International conference on Wireless communication (ICWiCOM-2017), 19-20 Jan 2018, in DJSCOE, Mumbai, India.( Paper to be published in Springer Digital Library under the series “Lecture notes on Data Engineering and Communication Technologies”.",
-            "Ms. Pratiti Desai, Ms. Anushka Kanawade, Ms. Smruti Varvadekar, D.R.Kalbande, “ Gesture and Voice Recognition in Story Telling Application” presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
-            "Aditya Das, Shantanu Gawde ,Khyati Suratwala, D.R.Kalbande, “Sign Language Recognition using Deep Learning on custom processed static gesture images” , presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
-            "Sanket Agrawal, Rucha Rangnekar, Divye Gala, Sheryl Paul , D.R.Kalbande,” Detection of Breast Cancer from Mammograms using a Hybrid Approach of Deep Learning and Linear Classification”, presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
-            "Anjali Yeole , D.R.Kalbande ,” Change Management Approach for integrating IoT Technology in Healthcare System”, presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
-            "John Britto, D.R.Kalbande ,” Analysis of Technological Advances in Autism”, presented in International Conference on Incentive Computing and Informatics (ICICI 2017) ,sponsored by IEEE, in REC ,23-24 Nov.2017,Coimbtore ,TN, India.",
-            "Asha Bharambe, D.R.Kalbande ,”Dengue Outbreak Prediction using Data Mining Techniques” , presented in International Conference on Electrical, Electronics, Computers, Communication,Mechanical and Computing (EECCMC) on 28th & 29th January 2018 at Priyadarshini Engineering College, Chettiyappanur, Vaniyambadi – 635751, Vellore District, Tamil Nadu, India.",
-            "Twinkle Rambhia, Madhuri Dhodi ,Vaibhavi Patel, D.R.Kalbande ,” Design of an Intelligent system for Autism “, presented in 2018 International conference on Communication, Information, & Computing Technology (ICCICT), Feb 2-3 2018, Mumbai,India.",
-            "Aarti M. Karande , Dr. Dhananjay R. Kalbande, Dr. Avinash Sharma ,” SCM Enterprise solution using Soft Computing Techniques”, presented in 3rd International conference on Soft Computing: Theories and application(SoCTA 2018) at Dr. B.R.Ambedkar N.I.T., Jalandhar, Punjab on 21st Dec to 23rd Dec.2018.",
-            "Surekha Arjapure, Kalbande D.R.,” Review on Analysis Techniques for Road Pothole Detection” , presented in 3rd International conference on Soft Computing: Theories and application(SoCTA 2018) at Dr. B.R.Ambedkar N.I.T., Jalandhar, Punjab on 21st Dec to 23rd Dec.2018.",
-            "D.R. Kalbande, Dr.Uday Khopkar, Dr.Avinash Sharma, Neil Daftary,,Yash Kokate, and Royston Dmello,” Early stage detection of Psoriasis using Artificial Intelligence and Image Processing” , presented in 3rd International conference on Soft Computing: Theories and application(SoCTA 2018) at Dr. B.R.Ambedkar N.I.T., Jalandhar, Punjab on 21st Dec to 23rd Dec.2018.",
-            "Anjali Yeole, D.R.Kalbande,Avinash Sharma, “Security of 6LoWPAN IoT Networks in Hospitals for Medical Data Exchange”, presented in International Conference on Pervasive Computing Advances and Applications – Jan 8-10,2019 PerCAA 2019(Elsevier).",
-            "Sai Yerramreddy, Samriddha Basu, Ananya Dharmendra Ojha and Dhananjay Kalbande,” Machine Learning approach for diagnosis of Autism spectrum disorder”,at International conferecne on Innovative computing and communication(ICICC2019),presented at Pre-Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute of Management, New Delhi, India on 16th March 2019. (Best Paper Award)",
-            "Madhura Gore, Ananya Dharmendra Ojha, Ananya Navelkar and Dhananjay Kalbande,“Methodologies for Epilepsy Detection: Survey and Review” , at Internationalconferecne on Innovative computing and communication(ICICC2019),presented at Pre-Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute ofManagement, New Delhi, India on 16th March 2019.",
-            "Dhananjay Kalbande, Rithvika Iyer, Tejas Chheda and Avinash Sharma,” Transfer Learning Model for detecting early stage of Prurigo Nodularis, presented at Pre- Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute of Management, New Delhi, India on 16th March 2019.",
-            "Deepak Kapgate and Dhananjay Kalbande,” Optimization of External Stimulus Features for Hybrid Visual Brain Computer Interface,” presented at Pre- Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute of Management, New Delhi, India on 16th March 2019.",
-            "Swati Kulkarni, Dhananjay Kalbande ,”Video-based Human Action Recognition using Multiclass Open set Classification”, presented at International Conference on Emergent Research in Mathematics and Engineering (ICERME-2019) at the Department of Mathematics, NIT Agartala., 17th -18th May, 2019.",
-            "Aarti Karande, Prachi Dalvi and Dhananjay Kalbande,” Emotion Identification using CNN based Transfer Learning”, accepted for presentation at Second International Conference on Advance Computing and Application (ICACTA 2020) on the theme “Intelligent Computing”.DJICACTA2020",
-            "Renuka Pawar, D.R.Kalbande , “Elliptical Curve Cryptography Based Access Control Solution For Iot Based WSN” in International Conference on Innovative Data Communication Technologies and Application (ICIDCA 2019) , Oct 17-18 2019 ,Coimbatore,India",
-            "Jignesh Sisodia, D.R.Kalbande, ” “Machine Learning: An aid in detection of Neurodegenerative disease Parkinson”. International Conference on Innovative Data Communication Technologies and Application (ICIDCA 2019) , Oct 17-18 2019 ,Coimbatore,India.",
-            "Surabhi Ghankutkar, Neelabh Sarkar, Pooja Gajbhiye, Sanyukta Yadav, Dr.Dhananjay Kalbande , Prof.Nida Bakereywala,” Modelling Machine Learning For Analysing Crime”, presented at IEEE International Conference on Advances in Computing, Communication and Control (ICAC3 19) , at Fr.CRCE,Bandra, MumbaiDecember 20 – 21, 2019.",
-            "Ira Durve, Sairandree Patil, Supriya Ghuge, Dhananjay Kalbande, “Machine Learning approach for Physiotherapy Assessment “,presented at IEEE International Conference on Advances in Computing, Communication and Control (ICAC3 19) , at Fr.CRCE,Bandra, MumbaiDecember 20 – 21, 2019.",
-            "Rebecca Dsouza, Shubham Sahu, Ragini Patil,Dhananjay Kalbande ,” Chat with Bots Intelligently:A Critical Review & Analysis “, presented at IEEE International Conference on Advances in Computing, Communication and Control (ICAC3 19) , at Fr.CRCE,Bandra, MumbaiDecember ,20 – 21, 2019.",
-            "Mahendra Mehra, D. R. Kalbande, Shubham Mankar, Sohaa Mutsaddi, “Data mining in educational systems for effective student mentoring”, presented in IEEE 2019 International Conference on Advances in Computing, Communication and Control (ICAC3) 20-21 Dec 2019 DOI: 10.1109/ICAC347590.2019.9036803",
-            "Ghorai Arnab , Gawde Sarah and Kalbande Dhananjay, “Digital Solution for Enforcing Social Distancing “ (May 31, 2020). at Proceedings of the International Conference on Innovative Computing & Communications (ICICC) 2020, Available at SSRN: https://ssrn.com/abstract=3614898 or http://dx.doi.org/10.2139/ssrn.3614898",
-            "Garima Kaushik, Shaney Mantri, Shrishti Kaushik, Dr Dhananjay Kalbande, Dr.B.N. Chaudhari,” Analysis of Effectiveness of Quarantine Measures in Controlling COVID-19”, presented at International Conference on Recent Development in Engineering, Science, Humanities and Management (ESHM-2020), 25th July,2020,Goa, India.",
-            "Rushabh Khara, Deepika Pomendkar, Rishika Gupta, Ishwarlal Hingorani and Dhananjay Kalbande, “Micro Loans for Farmers”, presented at 11th ICCCNT 2020, International conference on Computing, communication and networking technologies, July1-3,2020, IIT Kharagpur, West Bengal, India in association with IEEE Kharagpur Section.",
-            "Priyam Das, Dhananjay Kalbande, “Behavioural Analysis of Multi-Source Social Network Data Using Object-Centric Behavioural Constraints and Data Mining Technique”, presented at 11th ICCCNT 2020, International conference on Computing, communication and networking technologies, July1-3,2020, IIT Kharagpur, West Bengal, India in association with IEEE Kharagpur Section.",
-            "Ajani Yameen, Mangalorkar Krish, Nadar Yohann, Mehra Mahendra, Kalbande Dhananjay, “ College Project Preservation and Emulation using Containerization over Private cloud”, presented in 5th International Conference on Information and Communication Technology for Competitve Strategies Dec 11-12 2020, (ICTCS-2020)",
-            "Mohit Sanjay Badve, Vinal Bagaria, Apoorva Chaudhari, Palak Davda, Dhananjay Kalbande,” Garbage Collection System Using IoT for Smart City”, presented in 4th International conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC 2020) 7th Oct 2020. DOI: 10.1109/I-SMAC49090.2020.9243387",
-            "Manan Doshi, Jimil Shah, Aumkar Gadekar, Anish Dixit, Shloka Shah, Parth Jardosh, Dhananjay Kalbande “MeghNA: Cloud Detection and Motion Prediction in INSAT Images” presented in ICACCP 2021 , 3rd International conf. om Advanced Computational and communication Paradigm, ,SMIT, Sikkim,Mar 22-24 2021, Springer AISC series.",
-            "Shwetambari Borade, Dhananjay Kalbande,” Survey paper based critical reviews for Cosmetic Skin Diseases”, presented in IEEE sponsored International conf. On Artificial Intelligence and smart systems (ICAIS) Mar 2021. DOI: 10.1109/ICAIS50930.2021.9395803",
-            "Sahai Vedant, D’Costa Jason, Srivastava Mayank, Mehra Mahendra, Kalbande Dhananjay, ” Leveraging Deep Learning and IoT for monitoring COVID19 Safety Guidelines within College Campus” presented in 10th International Conference, IACC 2020, Panaji, Goa, India, December 5–6, 2020,published in Book seriea in Avvanced computing, Springer, ISBN: 978-981-16-0401-0",
-            "Tejas Chheda, Soumya Kopakka, Rithvika Iyer ,Dhananjay Kalbande “A Survey on Object Detection, Annotation and Anomaly Detection Methods for Endoscopic Videos” ,presented in 14-16 Oct 2020 5th IEEE International Conference on Computing, Communication and Security (ICCCS) Oct 2020. DOI: 10.1109/ICCCS49678.2020.9277436",
-            "Tejas Chheda, Soumya Kopakka, Rithvika Iyer ,Dhananjay Kalbande ,” Gastrointestinal Tract Anomaly Detection from Endoscopic Videos Using Object Detection Approach” presented in International Symposium on Visual Computing, In: Bebis G. et al. (eds) Advances in Visual Computing. ISVC 2020. Lecture Notes in Computer Science, vol 12510. Springer, Cham. https://doi.org/10.1007/978-3-030-64559-5_39. Dec 2020.",
-            "Anagha Pasalkar, Dhananjay Kalbande, „Prediction and Analysis of Recurrent Depression Disorder: Deep Learning Approach”, presented in 2nd Congress on Intelligent Systems (CIS 2021) organized by Soft Computing Research Society (SCRS Book Series) and CHRIST (Deemed to be University), Bengaluru , India ,during September 04-05, 2021.",
-            "Dhananjay Kalbande, Pulin Prabhu,Anisha Gharat, Tania Rajabally,” A Fraud detection system using Machine Learning”, presented in the 12th IEEE international conference on computing, communication and networking technologies (ICCCNT), IIT Kharagpur,West Bengal, India, during 6th & 8th July, 2021."
+          "Identifying the research areas in the realm of Information technology in Manufacturing at JMI University, Delhi in Jan 2006.",
+          "Neuro-Analytical Hierarchy Process (NAHP)Approach for Selecting ERP Technologies in a Ongoing Project Settings Presented and Published in proceedings of 2010 3rd IEEE International Conference on Computer Science and Information Technology,Chengdu,CHINA",
+          "Lip Reading Using Neural Networks, Published in IEEE2010 International Conference on Graphic and Image Processing (ICGIP December 2010) Manila, Philippines",
+          "Energy Conservation using Face Detection, Published in IEEE 2010 International Conference on Graphic and Image Processing (ICGIP December 2010) Manila, Philippines.",
+          "Total Productive Maintenance Accelerating OEE in a Manufacturing Industry leveraging pervasive technologies. Published in the Proceedings of IEEEInternational conference on Manufacturing Science & Technology (ICMST 2010), Kuala Lumpur, Malaysia 26- 28 Nov 2010.",
+          "Zip it Up SMS: A Path breaking Technology Model in the field of Mobile Messaging Presented and Published in proceedings of 2010 3rd IEEE International Conference on Computer Science and Information Technology,Chengdu,CHINA",
+          "Neural Network Based Empirical Model Development for E-Business (Mobile) Application, Presented and published in the Proceedings of International Conference & workshop on Emerging Trends and Technology(ICWET -ACM MUMBAI 25-26 Feb 2011) ,ACM International Digital Library, SIGART, USA.ISBN: ISBN:978-1-4503-0449-8,DOI:10.1145/1980022.1980353",
+          "Algorithm to access Office Files on Mobile Phones, Presented and published in the Proceedings of International Conference & workshop on Emerging Trends and Technology(ICWET -ACM MUMBAI 25-26 Feb 2011) , and ACM ,New York NY(USA), ISBN :978-1-4503-0449,DOI :10.1145/1980022.1980112",
+          "Neuro Analytical Hierarchy Process (NAHP) Approach for CAD/CAM/CIM Tool Selection in the Context of Small Manufacturing Industries,presented and published in IEEE-2012, International Conference ,ICCICT-2012,Mumbai,India. Print ISBN: 978-1-4577- 2077-2 DOI : 10.1109/ICCICT.2012.6398139.",
+          "Satellite Positioning Simulation System,Presented and published in IEEE-2012, International Conference ,ICCICT- 2012,Mumbai,India.DOI: 10.1109/ICCICT.2012.6398141",
+          "Demonstration of Signature Analysis using Intelligent Systems published and presented at 3rd International Conference on advances in Computing, communication and control , with Springer 18-19 Jan 2013",
+          "Emotion Detection from “The SMS of the Internet” Accepted for presentation in IEEE International Conference Dec 19-21 2013,,IEEE RAICS-2013,Trivandrum,Kerala,India",
+          "Voice enabled Android application for vehicular complaint system: Using GPS and GSM-SMS technology,Published in IEEE sponsored International Conf. on Information and Communication Technologies (WICT), Trivendrum Oct 30, 2012 DOI: 10.1109/WICT.2012.6409133 Publication Year: 2012 , Page(s): 520 – 524",
+          "Machine Learning Applied To Human Learning presented in IEEE Conference IEEE INDICON 2013,13-15 Jan 2013,IIT Bombay,Mumbai,India",
+          "Gesture detection system using smart watch based motion sensors Authors :Sumit G.,O.Karande,A.Pandya,Dr.D.R.Kalbande Presented and published in IEEE Conference (CSCITA –Approved by IEEE), April 4-5 2014,Mumbai.",
+          "Research on Educative Games for Autistic Children Authors: Sridari Iyer,Dr.D.R.Kalbande Presented and published in IEEE Conference (CSCITA –Approved by IEEE), April 4-5 2014,Mumbai.",
+          "Review of Mobile Data Offloading through Wi-Fi “Authors: Deepshikha H.,Dr.D.R.Kalbande Presented and published in IEEE Conference (CSCITA –Approved by IEE), April 4-5 2014,Mumbai",
+          "“Web service selection based on QoS using Feedforward Neural Network”. Authors: Aarti Karande,Dr.D.R.Kalbande Published in International Conference ICICT 2014,IEEE Delhi Section,in KIET,Gaziabad",
+          "Nilakshi Jain , Dr. Dhananjay R Kalbande ,” Computer Forensic Tool using History and Feedback Approach”, International Conference on Reliability, InfoCom Technologies and Optimizations IEEE Conference ,Delhi (ICRITO-2015). (Print ISBN: 978-1-4673-7231-2).",
+          "Nilakshi Jain , Shwetambari Pawar, Dr. Dhananjay R Kalbande , ”Network Security Analyzer: Detection and Prevention of Web Attacks Using Digital Forensic” , International Conference on ICT for Intelligent Systems (ICTIS – 2015)Ahmadabad. (Springer SIST), Series Title: Smart Innovation, Systems and Technologies (SIST) ISSN Number – 2190-3018.",
+          "Nilakshi Jain , Dr. Dhananjay R Kalbande , ”Physical and Cyber Crime Using Digital Forensic Approach”,International Conference on ICT for Intelligent Systems (ICTIS – 2015) Ahmadabad(Springer SIST), Series Title: Smart Innovation, Systems and Technologies (SIST) ISSN Number – 2190-3018.",
+          "Seema Kolkur ,Dhananjay Kalbande,”Review of Machine Learning Algorithms in R software for Diagnosis of ESD Diseases” , presented in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
+          "Anjali Yeole, Dhananjay Kalbande,” Use of Internet of Things (IoT) in Healthcare: A Survey “, accepted for presentation and publication in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
+          "Nilakshi Jain, Dhananjay Kalbande ,” Empirical relationship between Victim’s occupation and their knowledge of Digital Forensic ”, presented and published in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
+          "Nilakshi Jain ,Dhananjay Kalbande, “Computerized Forensic Approach Using Data Mining Techniques”, accepted presented and published in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
+          "Asha Bharambe,Dhananjay Kalbande, “Techniques and Approaches for Disease Outbreak Prediction: A Survey”, presented and published in ACM Women in Research Conference (ACM-WIR 2016),at Sri Aurobindo Institute of Technology,Indore.21st March 2016.",
+          "Ankit Srivastava ,Dhananjay Kalbande,” Neuro-Bi Approach For Management Information System For An Enterprise”, presented in 2016 International conference on Smart structure and system( 2016 IEEE ICSSS),at Saveetha Engineeing College,Anna University,Chennai, India, March 23,24 .2016.",
+          "Nikita Patil, Dhananjay Kalbande, “Demonstrating Protein Analysis for cancer Disease using Approximation Algorithms” presented ,3rd International conference on Electronics and communication system,ICECS.25-26 Feb.2016. Karpagam College of Engineering,Coimbatore,India.",
+          "Devashree Mehta, Faizaan Charania, Dhananjay Kalbande ,” Comparative Study of KNN and ENN approaches for the Netflix Challenge” presented and published in 2016 International Conference on Engineering and Technology (ICET). (IEEE Sponsored) 16 Dec – 17 Dec 2016.",
+          "Suvarnamala Sonune,Dhananjay Kalbande, “Issues in IoT Healthcare Platforms: A Critical Study and Review”, presented and published in 2016 International Conference on Engineering and Technology (ICET). (IEEE Sponsored) 16 Dec – 17 Dec 2016.",
+          "Dr.Mithali Jage, Dr.Uday Khopkar, Dr.Dhananjay Kalbande, Maitri Shroff, Sanskruti Shah, Shivani Inamdar ,Janvi Jatakia, Rohit Naik “ Artificial Intelligence enabled Machine Learning approach for recognizing early stage of Psoriasis and Eczema” presented in 10th ADC 2016, Asian Dermatological Congress, Oct.2016,Mumbai,India. The work presented in this Congress is a research outcome of collaborative research work with Skin and VD department ,Seth G.S.Medical College and KEM Hospital and SPIT,Mumbai.",
+          "Suvarnamala Sonune,Dhananjay Kalbande, “ IoT Enabled API for Secure Transfer of Medical Data”, Presented in IEEE sponsored 2017 International Conference on Intelligent Computing and control(I2C2-17) , at KCEEm Coimbatore , India. 23-24 June 2017.",
+          "Sridari Iyer,Dr.D.R.Kalbande, “Assess Autism level while playing Games “, presented in 2nd International conference on Communication system, computing and IT applications, IEEE-CSCITA , 7-8 April 2017,Mumbai., DOI: 10.1109/CSCITA.2017.8066573, ISBN: 978-1-5090-4381-1",
+          "Ayush Shah, Akash Dubey, Vishesh Hemnani, Divye Gala, D.R.Kalbande, “Smart Farming System : Crop Yield Prediction Using Regression Techniques” ,presented at International conference on Wireless communication (ICWiCOM-2017), 19-20 Jan 2018, in DJSCOE, Mumbai, India.( Paper to be published in Springer Digital Library under the series “Lecture notes on Data Engineering and Communication Technologies”.)",
+          "Anjai Yeole, D.R.Kalbande, “MAC based Group Management Protocol for IoT[MAC- GMP-IoT ]”, presented at International conference on Wireless communication (ICWiCOM-2017), 19-20 Jan 2018, in DJSCOE, Mumbai, India.( Paper to be published in Springer Digital Library under the series “Lecture notes on Data Engineering and Communication Technologies”.",
+          "D.R.Kalbande, Ms.Anushka Kanawade, Ms. Smruti Varvadekar ,” Comparative analysis of methods for monitoring activities of daily living for the elderly people”, presented at International conference on Wireless communication (ICWiCOM-2017), 19-20 Jan 2018, in DJSCOE, Mumbai, India.( Paper to be published in Springer Digital Library under the series “Lecture notes on Data Engineering and Communication Technologies”.",
+          "Ms. Pratiti Desai, Ms. Anushka Kanawade, Ms. Smruti Varvadekar, D.R.Kalbande, “ Gesture and Voice Recognition in Story Telling Application” presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
+          "Aditya Das, Shantanu Gawde ,Khyati Suratwala, D.R.Kalbande, “Sign Language Recognition using Deep Learning on custom processed static gesture images” , presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
+          "Sanket Agrawal, Rucha Rangnekar, Divye Gala, Sheryl Paul , D.R.Kalbande,” Detection of Breast Cancer from Mammograms using a Hybrid Approach of Deep Learning and Linear Classification”, presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
+          "Anjali Yeole , D.R.Kalbande ,” Change Management Approach for integrating IoT Technology in Healthcare System”, presented in International Conference on Smart City and Emerging Technologies (ICSCET 2018) in association with IEEE, in UCE, 5th Jan.,2018, Mumbai, India.",
+          "John Britto, D.R.Kalbande ,” Analysis of Technological Advances in Autism”, presented in International Conference on Incentive Computing and Informatics (ICICI 2017) ,sponsored by IEEE, in REC ,23-24 Nov.2017,Coimbtore ,TN, India.",
+          "Asha Bharambe, D.R.Kalbande ,”Dengue Outbreak Prediction using Data Mining Techniques” , presented in International Conference on Electrical, Electronics, Computers, Communication,Mechanical and Computing (EECCMC) on 28th & 29th January 2018 at Priyadarshini Engineering College, Chettiyappanur, Vaniyambadi – 635751, Vellore District, Tamil Nadu, India.",
+          "Twinkle Rambhia, Madhuri Dhodi ,Vaibhavi Patel, D.R.Kalbande ,” Design of an Intelligent system for Autism “, presented in 2018 International conference on Communication, Information, & Computing Technology (ICCICT), Feb 2-3 2018, Mumbai,India.",
+          "Aarti M. Karande , Dr. Dhananjay R. Kalbande, Dr. Avinash Sharma ,” SCM Enterprise solution using Soft Computing Techniques”, presented in 3rd International conference on Soft Computing: Theories and application(SoCTA 2018) at Dr. B.R.Ambedkar N.I.T., Jalandhar, Punjab on 21st Dec to 23rd Dec.2018.",
+          "Surekha Arjapure, Kalbande D.R.,” Review on Analysis Techniques for Road Pothole Detection” , presented in 3rd International conference on Soft Computing: Theories and application(SoCTA 2018) at Dr. B.R.Ambedkar N.I.T., Jalandhar, Punjab on 21st Dec to 23rd Dec.2018.",
+          "D.R. Kalbande, Dr.Uday Khopkar, Dr.Avinash Sharma, Neil Daftary,,Yash Kokate, and Royston Dmello,” Early stage detection of Psoriasis using Artificial Intelligence and Image Processing” , presented in 3rd International conference on Soft Computing: Theories and application(SoCTA 2018) at Dr. B.R.Ambedkar N.I.T., Jalandhar, Punjab on 21st Dec to 23rd Dec.2018.",
+          "Anjali Yeole, D.R.Kalbande,Avinash Sharma, “Security of 6LoWPAN IoT Networks in Hospitals for Medical Data Exchange”, presented in International Conference on Pervasive Computing Advances and Applications – Jan 8-10,2019 PerCAA 2019(Elsevier).",
+          "Sai Yerramreddy, Samriddha Basu, Ananya Dharmendra Ojha and Dhananjay Kalbande,” Machine Learning approach for diagnosis of Autism spectrum disorder”,at International conferecne on Innovative computing and communication(ICICC2019),presented at Pre-Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute of Management, New Delhi, India on 16th March 2019. (Best Paper Award)",
+          "Madhura Gore, Ananya Dharmendra Ojha, Ananya Navelkar and Dhananjay Kalbande,“Methodologies for Epilepsy Detection: Survey and Review” , at Internationalconferecne on Innovative computing and communication(ICICC2019),presented at Pre-Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute ofManagement, New Delhi, India on 16th March 2019.",
+          "Dhananjay Kalbande, Rithvika Iyer, Tejas Chheda and Avinash Sharma,” Transfer Learning Model for detecting early stage of Prurigo Nodularis, presented at Pre- Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute of Management, New Delhi, India on 16th March 2019.",
+          "Deepak Kapgate and Dhananjay Kalbande,” Optimization of External Stimulus Features for Hybrid Visual Brain Computer Interface,” presented at Pre- Conference Symposium of ICICC-2019(Springer Sponsored) , at Guru Nanak Institute of Management, New Delhi, India on 16th March 2019.",
+          "Swati Kulkarni, Dhananjay Kalbande ,”Video-based Human Action Recognition using Multiclass Open set Classification”, presented at International Conference on Emergent Research in Mathematics and Engineering (ICERME-2019) at the Department of Mathematics, NIT Agartala., 17th -18th May, 2019.",
+          "Aarti Karande, Prachi Dalvi and Dhananjay Kalbande,” Emotion Identification using CNN based Transfer Learning”, accepted for presentation at Second International Conference on Advance Computing and Application (ICACTA 2020) on the theme “Intelligent Computing”.DJICACTA2020",
+          "Renuka Pawar, D.R.Kalbande , “Elliptical Curve Cryptography Based Access Control Solution For Iot Based WSN” in International Conference on Innovative Data Communication Technologies and Application (ICIDCA 2019) , Oct 17-18 2019 ,Coimbatore,India",
+          "Jignesh Sisodia, D.R.Kalbande, ” “Machine Learning: An aid in detection of Neurodegenerative disease Parkinson”. International Conference on Innovative Data Communication Technologies and Application (ICIDCA 2019) , Oct 17-18 2019 ,Coimbatore,India.",
+          "Surabhi Ghankutkar, Neelabh Sarkar, Pooja Gajbhiye, Sanyukta Yadav, Dr.Dhananjay Kalbande , Prof.Nida Bakereywala,” Modelling Machine Learning For Analysing Crime”, presented at IEEE International Conference on Advances in Computing, Communication and Control (ICAC3 19) , at Fr.CRCE,Bandra, MumbaiDecember 20 – 21, 2019.",
+          "Ira Durve, Sairandree Patil, Supriya Ghuge, Dhananjay Kalbande, “Machine Learning approach for Physiotherapy Assessment “,presented at IEEE International Conference on Advances in Computing, Communication and Control (ICAC3 19) , at Fr.CRCE,Bandra, MumbaiDecember 20 – 21, 2019.",
+          "Rebecca Dsouza, Shubham Sahu, Ragini Patil,Dhananjay Kalbande ,” Chat with Bots Intelligently:A Critical Review & Analysis “, presented at IEEE International Conference on Advances in Computing, Communication and Control (ICAC3 19) , at Fr.CRCE,Bandra, MumbaiDecember ,20 – 21, 2019.",
+          "Mahendra Mehra, D. R. Kalbande, Shubham Mankar, Sohaa Mutsaddi, “Data mining in educational systems for effective student mentoring”, presented in IEEE 2019 International Conference on Advances in Computing, Communication and Control (ICAC3) 20-21 Dec 2019 DOI: 10.1109/ICAC347590.2019.9036803",
+          "Ghorai Arnab , Gawde Sarah and Kalbande Dhananjay, “Digital Solution for Enforcing Social Distancing “ (May 31, 2020). at Proceedings of the International Conference on Innovative Computing & Communications (ICICC) 2020, Available at SSRN: https://ssrn.com/abstract=3614898 or http://dx.doi.org/10.2139/ssrn.3614898",
+          "Garima Kaushik, Shaney Mantri, Shrishti Kaushik, Dr Dhananjay Kalbande, Dr.B.N. Chaudhari,” Analysis of Effectiveness of Quarantine Measures in Controlling COVID-19”, presented at International Conference on Recent Development in Engineering, Science, Humanities and Management (ESHM-2020), 25th July,2020,Goa, India.",
+          "Rushabh Khara, Deepika Pomendkar, Rishika Gupta, Ishwarlal Hingorani and Dhananjay Kalbande, “Micro Loans for Farmers”, presented at 11th ICCCNT 2020, International conference on Computing, communication and networking technologies, July1-3,2020, IIT Kharagpur, West Bengal, India in association with IEEE Kharagpur Section.",
+          "Priyam Das, Dhananjay Kalbande, “Behavioural Analysis of Multi-Source Social Network Data Using Object-Centric Behavioural Constraints and Data Mining Technique”, presented at 11th ICCCNT 2020, International conference on Computing, communication and networking technologies, July1-3,2020, IIT Kharagpur, West Bengal, India in association with IEEE Kharagpur Section.",
+          "Ajani Yameen, Mangalorkar Krish, Nadar Yohann, Mehra Mahendra, Kalbande Dhananjay, “ College Project Preservation and Emulation using Containerization over Private cloud”, presented in 5th International Conference on Information and Communication Technology for Competitve Strategies Dec 11-12 2020, (ICTCS-2020)",
+          "Mohit Sanjay Badve, Vinal Bagaria, Apoorva Chaudhari, Palak Davda, Dhananjay Kalbande,” Garbage Collection System Using IoT for Smart City”, presented in 4th International conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC 2020) 7th Oct 2020. DOI: 10.1109/I-SMAC49090.2020.9243387",
+          "Manan Doshi, Jimil Shah, Aumkar Gadekar, Anish Dixit, Shloka Shah, Parth Jardosh, Dhananjay Kalbande “MeghNA: Cloud Detection and Motion Prediction in INSAT Images” presented in ICACCP 2021 , 3rd International conf. om Advanced Computational and communication Paradigm, ,SMIT, Sikkim,Mar 22-24 2021, Springer AISC series.",
+          "Shwetambari Borade, Dhananjay Kalbande,” Survey paper based critical reviews for Cosmetic Skin Diseases”, presented in IEEE sponsored International conf. On Artificial Intelligence and smart systems (ICAIS) Mar 2021. DOI: 10.1109/ICAIS50930.2021.9395803",
+          "Sahai Vedant, D’Costa Jason, Srivastava Mayank, Mehra Mahendra, Kalbande Dhananjay, ” Leveraging Deep Learning and IoT for monitoring COVID19 Safety Guidelines within College Campus” presented in 10th International Conference, IACC 2020, Panaji, Goa, India, December 5–6, 2020,published in Book seriea in Avvanced computing, Springer, ISBN: 978-981-16-0401-0",
+          "Tejas Chheda, Soumya Kopakka, Rithvika Iyer ,Dhananjay Kalbande “A Survey on Object Detection, Annotation and Anomaly Detection Methods for Endoscopic Videos” ,presented in 14-16 Oct 2020 5th IEEE International Conference on Computing, Communication and Security (ICCCS) Oct 2020. DOI: 10.1109/ICCCS49678.2020.9277436",
+          "Tejas Chheda, Soumya Kopakka, Rithvika Iyer ,Dhananjay Kalbande ,” Gastrointestinal Tract Anomaly Detection from Endoscopic Videos Using Object Detection Approach” presented in International Symposium on Visual Computing, In: Bebis G. et al. (eds) Advances in Visual Computing. ISVC 2020. Lecture Notes in Computer Science, vol 12510. Springer, Cham. https://doi.org/10.1007/978-3-030-64559-5_39. Dec 2020.",
+          "Anagha Pasalkar, Dhananjay Kalbande, „Prediction and Analysis of Recurrent Depression Disorder: Deep Learning Approach”, presented in 2nd Congress on Intelligent Systems (CIS 2021) organized by Soft Computing Research Society (SCRS Book Series) and CHRIST (Deemed to be University), Bengaluru , India ,during September 04-05, 2021.",
+          "Dhananjay Kalbande, Pulin Prabhu,Anisha Gharat, Tania Rajabally,” A Fraud detection system using Machine Learning”, presented in the 12th IEEE international conference on computing, communication and networking technologies (ICCCNT), IIT Kharagpur,West Bengal, India, during 6th & 8th July, 2021.",
         ],
         "Research Grant Projects": [
           "Research Grant from National Science & Technology Entrepreneurship Development Board (NSTEDB), Department of Science & Technology (DST), Govt. of India, New Delhi for the project titled ZIUS.",
@@ -552,7 +552,7 @@ export const facultyData = {
           "Attended 4-days Online Course on Examination Reforms conducted during 22-25 April, 2020 organized by AICTE.",
           "Attended 3-days Digital Symposium on AI for India from 26th Aug to 28th Aug.2020 by JIO, AI Division India.",
         ],
-        "Other": [
+        Other: [
           "Worked as an Expert to evaluate the Result Processing Software for MSBTE, Mumbai, India.",
           "Worked as a Technical Expert in the Scrutiny Work assigned by the AICTE, New Delhi, India.",
           "Worked as a Convener and Member of Syllabus Revision Committee of Mumbai University.",
@@ -568,10 +568,6 @@ export const facultyData = {
           "Currently working a s Member, RRC Committe ,Univerisity of Mumbai.",
           "Worked As mentor in Maharashtra State Skill Development Society (MSSDS) in association with National Skill Development Corporation (NSDC) for state level skill competition for level 3 at L&T STA Madh, Oct 2021.",
         ],
-        "Contact Information":
-          "Email: drkalbande@spit.ac.in Tel: +91 (22) – 26707440 Ext:366\
-            Room No.608, 6th Floor,\
-            Department of Computer Science and Engineering, Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
     },
     {
@@ -580,10 +576,16 @@ export const facultyData = {
       image: "/faculty/dr-sujata-s-kulkarni.png",
       designation: "Associate Professor",
       qualification: "Ph.D (Electronics), RSTMNU Nagpur",
-      education:
-        "Ph.D Electronics(RSTMNU Nagpur)\
-            M.E. Electronics Engineering\
-            B.E. Electronics Engineering",
+      education: [
+        "Ph.D Electronics(RSTMNU Nagpur)",
+        "M.E. Electronics Engineering",
+        "B.E. Electronics Engineering",
+      ],
+      contact: [
+        "Email: sujata_kulkarni@spit.ac.in, Extension: 386",
+        "Room No. 503, 5th Floor, Electronics & Telecommunication Department,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
+      ],
       data: {
         "Area of Interests": [
           "Pattern Recognition",
@@ -659,10 +661,6 @@ export const facultyData = {
           "Member,   Organizing Committee,   National   Workshop   on   Emerging   Trends   in Communication Engineering, International Conference TCET, 2010-12.",
           "Course Coordinator, STTP on Internet of Thing: Recent Trends and Multidisciplinary Application in association with IET, June 2016.",
         ],
-        "Contact Information":
-          "Email: sujata_kulkarni@spit.ac.in, Extension: 386\
-                Room No. 503, 5th Floor, Electronics & Telecommunication Department,\
-                Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       },
     },
     {
@@ -671,16 +669,16 @@ export const facultyData = {
       image: "/faculty/prof-varsha-hole.png",
       designation: "Assistant Professor",
       qualification: "M.E. Computer",
-      education:
-        "ME Computer\
-        BE Computer",
+      education: ["ME Computer", "BE Computer"],
       data: {
         "Area of Interests": [
           "Image Processing",
           "Machine Learning",
           "Artificial Intelligence",
-          "Distributed database" < "Distributed Systems",
-          "Cryptography and System security" < "Big Data & Analytics",
+          "Distributed database",
+          "Distributed Systems",
+          "Cryptography and System security",
+          "Big Data & Analytics",
         ],
         "International Journal: 01": [
           "Varsha Hole, Leena Ragha, Pravin Hole, “Pre-processing of Indian Script Handwritten Document” IJCA Proceedings on International Conference and workshop on Emerging Trends in Technology (ICWET) (1):35-42, 2011 TCET Mumbai. Published by Foundation of Computer Science (ISBN: 978-93-80747-65-3)",
@@ -730,10 +728,16 @@ export const facultyData = {
       image: "/faculty/prof-nikahat-mulla.png",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E. Computer Engineering",
-      education:
-        "Pursuing Ph. D. (Computer Engineering)\
-        M.E. (Computer Engineering)\
-        B.E. (Computer Engineering)",
+      education: [
+        "Pursuing Ph. D. (Computer Engineering)",
+        "M.E. (Computer Engineering)",
+        "B.E. (Computer Engineering)",
+      ],
+      contact: [
+        "nikahat_kazi@spit.ac.in",
+        "Extn: 343, Room No. 411, 4th Floor, Department of Information Technology,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
+      ],
       data: {
         "Area of Interests": [
           "Soft Computing",
@@ -766,10 +770,6 @@ export const facultyData = {
           "“Neural networks” for B.E. (IT) students at Fr. Conceicao Rodrigues College of Engineering, Information Technology Department, Bandra, Mumbai on 13th October, 2016.",
           "“Applications of Soft computing” for B.E. (Computer) students at Fr. Conceicao Rodrigues College of Engineering, Computer Engineering Department,Bandra, Mumbai on 13th October, 2016.",
         ],
-        "Contact Information":
-          "nikahat_kazi@spit.ac.in\
-            Extn: 343, Room No. 411, 4th Floor, Department of Information Technology,\
-            Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
       },
     },
   ],

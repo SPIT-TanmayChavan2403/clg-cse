@@ -10,11 +10,10 @@ const FacultyCard = ({dept}) => {
                 <div className={styles.cardContainer}>
                     {
                         facultyData[dept].map(item => (
-                            
                             <Link 
-                            to={item.id} 
+                            to={`${dept.toLowerCase()}/${item.id}`}
                             className={styles.rrdLink}
-                            state={item}>
+                            state={{id: item.id, dept: dept}}>
                                 <div className={styles.card}>
                                     <img src={item.image} alt="" className={styles.cardImg} />
                                     <div className={styles.cardData}>

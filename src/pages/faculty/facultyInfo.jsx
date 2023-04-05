@@ -1,100 +1,83 @@
 import styles from '../../styles/facultyinfo.module.css'
 import { useLocation } from "react-router-dom"
 import { nanoid } from "nanoid";
+import { useState, useEffect } from 'react';
+import { facultyData } from '../../metadata/facultyData';
 
 
 export default function FacultyInfo(){
 
-    const { state } = useLocation();
+    const location = useLocation();
+    const [info, setInfo] = useState({});
 
-    const areaOfInterest = state.data["Area of Interests"]?.map(item => {
-        return <li key={nanoid()}>{item}</li>
-    });
-
-    const certificationDone = state.data["Certification Done"]?.map(item => {
-        return <li key={nanoid()}>{item}</li>
-    });
-
-    const researchGrantProjects = state.data["Research Grant Projects"]?.map(item => {
-        return <li key={nanoid()}>{item}</li>
-    });
-
-    const booksPublished = state.data["Books Published"]?.map(item => {
-        return <li key={nanoid()}>{item}</li>
-    });
-
-    const other = state.data["Other"]?.map(item => {
-        return <li key={nanoid()}>{item}</li>
-    });
-    
-
-    const contactInformation = <li key={nanoid()}>{state.data["Contact Information"]}</li>
-
+    useEffect(() => {
+        const url = location.pathname.split('/');
+        console.log(url)
+        const dept = url[2].toUpperCase();
+        const id = url[3];
+        const res = facultyData[dept].filter(obj => {
+          return obj.id === id
+        })
+        if(res.length > 0) {
+          setInfo(res[0]);
+        }
+        window.scrollTo(0, 500)
+    }, [])
 
     return(
         <div id={styles.facultyinfo}>
-            <div id={styles.header}>
+            {info!=={} && 
+            <>
+                <div className={styles.title}>
+                    {info.name}
+                </div>
                 <div id={styles.img}>
-                    <img src={state.image} alt="" />
+                    <img src={info.image} alt="" />
                 </div>
-                <div id={styles.head_desc}>
-                    <div className={styles.title}>
-                        {state.name}
-                    </div>
-                    <div className={styles.subtitle}>
-                        {state.education}
-                    </div>
+                <div className={styles.subtitle}>
+                    <strong> {info.designation} </strong> <br />
+                    {info.education && Object.values(info.education).map(item => (
+                        <span key={item}>
+                            {item}
+                            <br />
+                        </span>
+                    ))}
                 </div>
-            </div>
-            <div id={styles.info}>
-
-                {areaOfInterest?.length>0 &&
-                <div className={styles.container}>
-                    <div className={styles.heading}>Area of Interest</div>
-                    <ul>
-                        {areaOfInterest}
-                    </ul>
-                </div>}
-
-                {certificationDone?.length>0 && 
-                <div className={styles.container}>
-                    <div className={styles.heading}>Certifications</div>
-                    <ul>
-                        {certificationDone}
-                    </ul>
-                </div>}
-
-                {researchGrantProjects?.length>0 && 
-                <div className={styles.container}>
-                    <div className={styles.heading}>Research Grant Projects</div>
-                    <ul>
-                        {researchGrantProjects}
-                    </ul>
-                </div>}
-
-                {booksPublished?.length>0 && 
-                <div className={styles.container}>
-                    <div className={styles.heading}>Research Grant Projects</div>
-                    <ul>
-                        {booksPublished}
-                    </ul>
-                </div>}
-
-                {other?.length>0 && 
-                <div className={styles.container}>
-                    <div className={styles.heading}>Other</div>
-                    <ul>
-                        {other}
-                    </ul>
-                </div>}
-
-                <div className={styles.container}>
-                    <div className={styles.heading}>Contact Information</div>
-                    <ul>
-                        {contactInformation}
-                    </ul>
+                <div className={styles.mainData}>
+                    {info.data && Object.keys(info.data).map((key, index) => {
+                        return (
+                        <div className={styles.dataContainer} key={index}>
+                            <h2 className={styles.heading}> {key} </h2>
+                            <ul className={styles.list}>
+                                {
+                                    Object.values(info.data[key]).map(item => (
+                                        <li>
+                                        {item}
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </div>
+                        );
+                    })}
+                    <div className={styles.mainData}>
+                        <div className={styles.dataContainer}>
+                            <h2 className={styles.heading}> Contact Information </h2>
+                            <div className={styles.contactInfo}>
+                                {
+                                    info.contact && Object.values(info.contact).map(item => (
+                                        <span key={item}>
+                                            {item}
+                                            <br />
+                                        </span>
+                                    ))
+                                }
+                            </div>
+                        </div>
                 </div>
-            </div>
+                </div>
+            </>
+            }
         </div>
     )
 }

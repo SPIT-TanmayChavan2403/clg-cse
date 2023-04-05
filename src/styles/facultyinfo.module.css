@@ -1,5 +1,8 @@
 #facultyinfo{
-    padding: 4rem;
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -21,9 +24,11 @@
 }
 
 #img img{
-    width: 100%;
+    width: 280px;
+    height: 280px;
     object-position: center;
     object-fit: contain;
+    margin: 15px 0;
 }
 
 #head_desc{
@@ -34,24 +39,30 @@
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .subtitle{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
-
-#info{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
 .container{
     margin: 2rem;
 }
-
 .heading{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.dataContainer {
+    margin: 20px 0;
+}
+.list {
+    list-style-position: outside;
+    padding: 15px 25px;
+}
+.list li {
+    font-size: 1.1rem;
+}
+.contactInfo {
+    padding: 15px 0;
+    font-size: 1.1rem;
 }
