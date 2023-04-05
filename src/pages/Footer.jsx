@@ -16,16 +16,16 @@ function Footer(props){
 
 	        <div id="footer-info">
 				<div id="footer-info-title">
+					Department of Computer Science and Engineering
+				</div>
+				<div id="footer-college-title">
 					Sardar Patel Institute of Technology
 				</div>
 	        	<div className="footer-info-content">
 	            	Bhavan's Campus, Munshi Nagar, Andheri (West), Mumbai 400 058
 	          	</div>
 	          	<div className="footer-info-content">
-	          		Contact Numbers: 9930362034, 9930362014, 9930309463
-	          	</div>
-	          	<div className="footer-info-content">
-	          		Email: principal@spit.ac.in
+	          		Email: hod_cse@spit.ac.in
 	          	</div>
 	        </div>
 
