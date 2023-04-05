@@ -10,7 +10,7 @@ function Footer(props){
 					<div id="footer-head-socials">
 				<i className="fa-brands fa-instagram"></i>
 				<i className="fa-brands fa-facebook"></i>
-				<i className="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-linkedin"></i>
 				</div>
 	        </div>
 

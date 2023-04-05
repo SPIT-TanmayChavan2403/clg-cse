@@ -1,6 +1,5 @@
 import styles from '../../styles/facultyinfo.module.css'
 import { useLocation } from "react-router-dom"
-import { nanoid } from "nanoid";
 import { useState, useEffect } from 'react';
 import { facultyData } from '../../metadata/facultyData';
 

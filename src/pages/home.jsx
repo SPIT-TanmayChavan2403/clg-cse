@@ -5,23 +5,64 @@ export default function Home(){
         <>
         <div id="home">
             <div id="hod-message">
-                <div id="hod-message-title">
-                    <p>
-                        Message from HOD
-                    </p>
-                    <p>
-                        Dr. Dhananjay Kalbande
-                    </p>
-                </div>
-                <div id="hod-message-subtitle">
-                    HOD of Computer Science and Engineering Department
+                <div id="hod-message-head">
+                    <div id="hod-message-head-img">
+                        <img src="/faculty/dr-dhananjay-kalbande.jpg" alt="" />
+                    </div>
+                    <div id="hod-message-head-text">
+                        <div id="hod-message-title">
+                            <p>
+                                Message from HOD
+                            </p>
+                            <p>
+                                Dr. Dhananjay Kalbande
+                            </p>
+                        </div>
+                        <div id="hod-message-subtitle">
+                            HOD of Computer Science and Engineering Department
+                        </div>
+                    </div>
                 </div>
                 <div id="hod-message-desc">
                     <i className="fa-solid fa-quote-left"></i>
-                    I have great pleasure in expressing my thoughts as the Principal of Sardar Patel Institute of Technology (SPIT), the Numero Uno, self-financed, autonomous Institution of Maharashtra. We are a constituent of Bharatiya Vidya Bhavan, not just a conglomeration of more than 300 institutions, but a culture, a saga, a holy journey, started by Dr. K.M. Munshi with the support of Mahatma Gandhi in 1938. Imparting value-based education with Indian cultural ethos has always been the motto of Bhavan.
-                    Engineers & technologists form the backbone of any nation's economic development. 
-                    We focus on “How to learn?” rather than “What to learn?”. We believe in multidisciplinary exposure to the learners, yet ensuring growth in one vertical, cherishing human sensitivity and empathy. We have thoughtfully articulated a unique academic model towards this. Our splendid academic performance, sparkling placements (quantitative and qualitative), enrollment for higher studies at the best places of the world, prizes won by our students in national/international level technical competitions, in past many years are the true testimonials for this.
-                    On behalf of all stakeholders of SPIT, I welcome you to this family and look forward to your valuable association with us for a better tomorrow. Let's grow together…
+                    <p>
+                        Dear Students
+                    </p>
+                    <br />
+
+                    <p>
+                    CSE(Data Science), CSE(AIML) and MCA
+                    </p>
+                    <br />
+
+                    <p>
+
+                    I would like to extend my warmest welcome to the Department of Computer Science and Engineering. The Department offers 2 UG programs [B.Tech CSE (Data Science), B.Tech CSE (AIML) ] and 1 PG Program [ MCA ].
+                    </p>
+                    <br />
+
+                    <p>
+                    We pride ourselves on being pioneers to educate tomorrow's visionaries, conducting research, and leading a broad range of initiatives that validate the transformative power of Computer Science and Engineering and Computer Applications.
+                    </p>
+                    <br />
+                        
+                    <p>
+                    Our innovative academic and research institution gives serious students like you the skills needed to launch successful careers.  Through high-quality academic programs enriched with today's National Education Policy(NEP-2020) that offer a unique blend of teaching, research, activity-based learning including Seva Satva, minors etc. that strengthens your ability to solve problems, you can expand your knowledge base, work independently, think critically, and find new ways to apply Science and Engineering concepts to benefit society.
+                    </p>
+                    <br />
+
+
+                    <p>
+                    Students work alongside faculty members who are leaders in their respective disciplines, have access to labs equipped with the latest technologies, and are connected to a comprehensive University providing breadth and depth of opportunities. As a result, our students acquire critical thinking capabilities as well as practically oriented skills that are prized by prestigious companies and academic institutions of National and International Importance.
+                    </p>
+                    <br />
+
+                    <p>
+                    All faculty members of the Department of Computer Science and Engineering are strongly committed to supporting your success. In return, we know you will study hard, seek out and respect the opinions of faculties and find opportunities to give back to your society. The efforts are consciously planned for the overall development of students. This leads our students to become competent, innovative, socially-responsible and dynamic. We are confident that our students will emerge as assets not only to this institution but also to the entire society, and the nation at large.
+                    </p>
+                    <br />
+
+                    I wish you all very best for the successful career ahead.
                     <i className="fa-solid fa-quote-right right"></i>
                 </div>
             </div>

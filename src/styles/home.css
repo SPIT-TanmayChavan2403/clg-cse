@@ -5,8 +5,35 @@
     column-gap: 3rem;
 }
 
+#hod-message-head{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    width: 100%;
+    grid-template-rows: 40vh;
+    margin-bottom: 2rem;
+    column-gap: 2rem;
+}
+
+#hod-message-head-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #hod-message-title{
     font-size: 2rem;
+}
+
+#hod-message-head-img{
+    width: 100%;
+    height: 100%;
+}
+
+#hod-message-head-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 #hod-message-subtitle{
