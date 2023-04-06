@@ -9,14 +9,6 @@
     align-items: flex-start;
 }
 
-#header{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 75%;
-    grid-template-rows: 40vh;
-    column-gap: 2rem;
-}
-
 #img{
     overflow: hidden;
     width: 100%;
@@ -31,26 +23,23 @@
     margin: 15px 0;
 }
 
-#head_desc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .title{
     font-size: 2.4rem;
+    color: var(--color-dark);
+    font-weight: 600;
 }
 
 .subtitle{
     font-size: 1.1rem;
 }
-.container{
-    margin: 2rem;
+.designation {
+    font-size: 1.3rem;
+    color: var(--color-dark);
 }
 .heading{
     font-size: 1.8rem;
     font-weight: 500;
+    color: var(--color-dark);
 }
 .dataContainer {
     margin: 20px 0;
@@ -65,4 +54,34 @@
 .contactInfo {
     padding: 15px 0;
     font-size: 1.1rem;
+}
+/* for smaller devices */
+@media screen and (max-width: 992px) {
+    #facultyinfo{
+        width: 95%;
+        padding: 2rem 1rem;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    .subtitle {
+        font-size: 1.1rem;
+    }
+    .designation {
+        font-size: 1.3rem;
+    }
+    .education {
+        font-size: 1.1rem;
+    }
+    .mainData {
+        width: 100%;
+    }
+    .list {
+        list-style-position: outside;
+        padding: 15px 15px;
+    }
+    .list li {
+        font-size: 0.9rem;
+        overflow-wrap: break-word;
+    }
 }

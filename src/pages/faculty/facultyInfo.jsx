@@ -34,13 +34,15 @@ export default function FacultyInfo(){
                     <img src={info.image} alt="" />
                 </div>
                 <div className={styles.subtitle}>
-                    <strong> {info.designation} </strong> <br />
+                    <strong className={styles.designation}> {info.designation} </strong> <br />
+                    <div className={styles.education}>
                     {info.education && Object.values(info.education).map(item => (
                         <span key={item}>
                             {item}
                             <br />
                         </span>
                     ))}
+                    </div>
                 </div>
                 <div className={styles.mainData}>
                     {info.data && Object.keys(info.data).map((key, index) => {

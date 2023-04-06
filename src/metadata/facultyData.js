@@ -724,7 +724,7 @@ export const facultyData = {
     },
     {
       id: "prof-nikahat-mulla",
-      name: "Prof. Nikahai Mulla",
+      name: "Prof. Nikahat Mulla",
       image: "/faculty/prof-nikahat-mulla.png",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E. Computer Engineering",
