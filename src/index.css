@@ -5,6 +5,9 @@
   --bg-medium-light: rgb(238, 238, 238);
   --bg-light: rgb(245, 245, 245);
   --main-padding: 4rem;
+
+  --color-dark: #051120;
+  --color-white: #FFF;
 }
 
 *{

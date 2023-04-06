@@ -75,27 +75,37 @@
   margin-left: 1rem;
 }
 
-#hero > img{
+/* #hero > img{
   width: 100%;
   height: 80vh;
   object-fit: cover;
   filter: brightness(50%);
+} */
+
+.hero-background {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(rgba(40,40,40,0.5), rgba(40,40,40, 0.5)), url('../public/banner/spit-banner.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero-title, .hero-subtitle{
-  position: absolute;
   width: 90%;
-  top: 35%;
-  left: 50%;
   font-size: 3rem;
   font-weight: 600;
   color: white;
-  transform: translate(-50%, 0);
   text-align: center;
 }
 
 .hero-subtitle{
-  top: 50%;
+  margin-top: 25px;
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
@@ -103,7 +113,7 @@
 
 #footer{
   padding: 2rem 5rem;
-  background-color: var(--bg-dark);
+  background-color: var(--color-dark);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -118,6 +128,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 25px;
   border-bottom: 2px solid white;
 }
 
@@ -133,8 +144,8 @@
 
 #footer-head-socials > i{
   font-size: 2rem;
-  color: white;
-  background-color: rgb(109 105 103);
+  color: var(--color-dark);
+  background-color: var(--color-white);
   border-radius: 50%;
   padding: 1rem;
   margin-left: 1rem;
@@ -152,11 +163,17 @@
 }
 
 #footer-info-title{
-  font-size: 2rem;
+  font-size: 1.8rem;
+  padding-bottom: 5px;
 }
 
 #footer-college-title {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+
+.footer-info-content {
+  padding-bottom: 5px;
 }
 
 #footer-copyright{
@@ -169,7 +186,7 @@
 }
 
 #mobile i {
-  color: #fff;
+  color: var(--color-white);
   align-items: center;
 }
 
@@ -216,6 +233,7 @@
   }
 }
 
+/* For small devices */
 @media screen and (max-width: 992px){
   .App{
     width: 100vw;
@@ -277,16 +295,16 @@
   }
 
   .hero-title{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .hero-subtitle{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #footer{
     padding: 2rem;
-    background-color: var(--bg-dark);
+    background-color: var(--color-dark);
   }
   
   #footer-head-logo > img{
@@ -295,8 +313,9 @@
 
   
   #footer-head-socials > i{
-    padding: .6rem;
-    font-size: 1.2rem;
+    padding: .4rem;
+    font-size: 1.3rem;
+    margin: 5px 10px;
   }
   
   #footer-info{
@@ -306,6 +325,20 @@
   
   #footer-info-title{
     font-size: 1.5rem;
+    padding: 0 0 15px;
+  }
+
+  #footer-college-title {
+    font-size: 1.1rem;
+    padding: 0 0 15px;
+  }
+
+  .footer-info-content {
+    font-size: 0.9  rem;
+  }
+
+  #footer-copyright {
+    text-align: center;
   }
 }
 

@@ -109,13 +109,15 @@ function Header(){
 			  </div>
 	        </nav>
 	        <div id="hero">
-	          <img src="./banner/spit-banner.jpg" alt="" />
-	          <div className="hero-title">
-	            Department of Computer Science and Engineering
-	          </div>
-	          <div className="hero-subtitle">
-	            Sardar Patel Institute of Technology
-	          </div>
+				<div className='hero-background'>
+	          {/* <img src="./banner/spit-banner.jpg" alt="" /> */}
+				<div className="hero-title">
+					Department of Computer Science and Engineering
+				</div>
+				<div className="hero-subtitle">
+					Sardar Patel Institute of Technology
+				</div>
+			  </div>
 	        </div>
 	      </div>
 	)
