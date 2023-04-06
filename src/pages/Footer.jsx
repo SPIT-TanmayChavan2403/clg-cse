@@ -6,11 +6,11 @@ function Footer(props){
 	        <div id="footer-head">
 				<div id="footer-head-logo">
 					<img src="./spit-transparent-bg-logo.png" alt="" />
-						</div>
-					<div id="footer-head-socials">
-				<i className="fa-brands fa-instagram"></i>
-				<i className="fa-brands fa-facebook"></i>
-				<i className="fa-brands fa-linkedin"></i>
+				</div>
+				<div id="footer-head-socials">
+					<i className="fa-brands fa-linkedin"></i>
+					<i className="fa-brands fa-instagram"></i>
+					<i className="fa-brands fa-facebook"></i>
 				</div>
 	        </div>
 
@@ -32,7 +32,6 @@ function Footer(props){
 			<div id="footer-copyright">
 				Copyrights &copy; 2023 | Department of CSE @ S.P.I.T.
 			</div>
-
 	     </div>
 	)
 }
