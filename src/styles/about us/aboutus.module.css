@@ -13,13 +13,12 @@
 #wrapper{
     width: 780px;
     height: 400px;
-    overflow: hidden;
-    object-fit: cover;
     margin: 25px 0;
     border-radius: 5px;
 }
-.mainSlide{
-    background-color: transparent;
+.sliderImages {
+    width: 100%;
+    height: 400px;
     object-fit: cover;
 }
 .carousel .slider-wrapper{
@@ -44,7 +43,12 @@
     }
     #wrapper{
         width: 320px;
-        height: 240px;
+        height: 220px;
+    }
+    .sliderImages {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
     }
     .aboutDept {
         width: 90%;
