@@ -1,14 +1,15 @@
 import styles from '../../styles/about us/aboutus.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { data } from '../../metadata/aboutDeptData';
 
-const createCarouselItemImage = (index, options = {}) => (
-    <div key={index}>
-        <img src={`/Carousel/${index}.jpeg`} />
+const createCarouselItemImage = (imgFile, options = {}) => (
+    <div key={imgFile}>
+        <img src={`/Carousel/${imgFile}`} />
     </div>
 );
 
-const baseChildren = <div>{["Carousel1", "Carousel2", "Carousel3", "Carousel4", "Carousel5", "Carousel6", "Carousel7"].map(createCarouselItemImage)}</div>;
+const baseChildren = <div>{data["about-us-carousal-images"].map(createCarouselItemImage)}</div>;
 
 const getConfigurableProps = () => ({
     showArrows: true,
@@ -25,8 +26,8 @@ const getConfigurableProps = () => ({
     autoFocus: false,
     thumbWidth: 100,
     selectedItem: 0,
-    interval: 2000,
-    transitionTime: 500,
+    interval: 3000,
+    transitionTime: 800,
     swipeScrollTolerance: 5
 });
 
@@ -36,13 +37,19 @@ export default function AboutUs(){
 
     return(
         <div id={styles.aboutus}>
-            <h2 className={styles.aboutDept}> About The Department </h2>
+            <h2 className={styles.heading}> About The Department </h2>
             <div id={styles.wrapper}>
                 <Carousel {...getConfigurableProps()}>
                     {baseChildren.props.children}
                 </Carousel>
             </div>
-            
+            <div className={styles.aboutDept}>
+            {
+                data["about-the-department"].map((line, index) => (
+                    <span key={index} className={styles.para}> {line} </span>
+                ))
+            }
+            </div>
         </div>
     )
 }

@@ -5,7 +5,7 @@
     flex-direction: column;
     padding: 40px;
 }
-.aboutDept {
+.heading {
     font-size: 35px;
     color: var(--color-dark);
     text-align: center;
@@ -25,12 +25,31 @@
 .carousel .slider-wrapper{
     width: 50%;
 }
+.aboutDept {
+    max-width: 1160px;
+    width: 80%;
+}
+.para {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-align: justify;
+}
 @media screen and (max-width: 992px) {
-    .aboutDept {
+    #aboutus {
+        padding: 30px 10px;
+    }
+    .heading {
         font-size: 28px;
     }
     #wrapper{
         width: 320px;
         height: 240px;
+    }
+    .aboutDept {
+        width: 90%;
+    }
+    .para {
+        font-size: 0.9rem;
     }
 }
