@@ -14,12 +14,13 @@
     width: 780px;
     height: 400px;
     margin: 25px 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .sliderImages {
     width: 100%;
     height: 400px;
     object-fit: cover;
+    border-radius: 10px;
 }
 .carousel .slider-wrapper{
     width: 50%;
