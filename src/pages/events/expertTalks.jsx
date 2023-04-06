@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from '../../styles/guesttalks.module.css'
+import styles from '../../styles/experttalks.module.css'
 
-function GuestTalks(props){
+function ExpertTalks(props){
     return(
         <div className="outer-wrapper">
             <div className={styles.outerWrapper}>
-                <h2 className={styles.title}> Guest Talks </h2>
+                <h2 className={styles.title}> Expert Talks </h2>
                 <img src="/coming-soon.png" className={styles.comingSoonImage} />
             </div>
         </div>
     )
 }
 
-export default GuestTalks;
+export default ExpertTalks;

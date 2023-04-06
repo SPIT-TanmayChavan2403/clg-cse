@@ -17,7 +17,7 @@ import TechnicalStaff from './pages/faculty/technicalStaff';
 import Department from './pages/about us/infrastructure/department';
 import Workshops from './pages/events/workshops';
 import ProgramOutcomes from './pages/about us/ProgramOutcomes';
-import GuestTalks from './pages/events/guestTalks';
+import ExpertTalks from './pages/events/expertTalks';
 import ValueAddedCourse from './pages/events/valueAddedCourses';
 import TeachingStaff from './pages/faculty/teachingStaff';
 import { Projects } from './pages/projects/projects';
@@ -43,7 +43,7 @@ function App(props) {
                 <Route path="/academics/aiml" element={<AimlAcademics />} />
                 <Route path="/academics/ds" element={<DsAcademics />} />
                 <Route path="/events/value-added-courses" element={<ValueAddedCourse />} />
-                <Route path="/events/guest-talks" element={<GuestTalks />} />
+                <Route path="/events/expert-talks" element={<ExpertTalks />} />
                 <Route path="/events/workshops" element={<Workshops />} />
 
 

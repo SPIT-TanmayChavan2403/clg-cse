@@ -80,8 +80,8 @@ function Header(){
 							<StyledLink to="/events/workshops">
 								workshops
 							</StyledLink>
-							<StyledLink to="/events/guest-talks">
-								Guest talk
+							<StyledLink to="/events/expert-talks">
+								Expert talks
 							</StyledLink>
 							<StyledLink to="/events/value-added-courses">
 								value added courses
