@@ -1,116 +1,25 @@
-/* .outerWrapper {}
-
-.heading {
-    background: #948D8D;
-    color: #FFF;
-    width: 450px;
-    font-size: 25px;
-    text-align: center;
-    margin: 25px 70px;
-    padding: 10px;
-}
-
-.content {
-    background: #EEEEEE;
-    width: 80%;
-    margin: 50px 10%;
-    padding: 30px;
-}
-
-.ol {
-    list-style-position: outside;
-}
-
-.liHeading {
-    list-style-type: none;
-    counter-increment: item;
-    margin-bottom: 40px;
-    list-style-position: outside;
-    clear: both;
-    position: relative;
-}
-
-.liHeading:before {
-    content: "S.No.";
-    height: 55px;
-    width: 55px;
-    background-color: #948D8D;
-    color: #000;
-    font-weight: normal;
-    text-align: center;
-    font-size: 20px;
-    padding: 5px;
-    line-height: 1;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    list-style-position: outside;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-.li {
-    list-style-type: none;
-    counter-increment: item;
-    margin-bottom: 40px;
-    list-style-position: outside;
-    clear: both;
-    position: relative;
-}
-
-.li:before {
-    content: "C" counter(item);
-    height: 55px;
-    width: 55px;
-    background-color: #948D8D;
-    color: #000;
-    font-weight: normal;
-    text-align: center;
-    font-size: 20px;
-    padding: 5px;
-    line-height: 1;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    list-style-position: outside;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-.listContentHeading {
-    display: inline-block;
-    margin-left: 6rem;
-    font-size: 22px;
-    background: #948D8D;
-    width: calc(100% - 6rem);
-    text-align: center;
-    height: calc(55px + 10px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.listContent {
-    display: inline-block;
-    margin-left: 6rem;
-    font-size: 18px;
-}
-.space {
-    height: 15px;
-} */
 .outerWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .title {
-    font-size: 28px;
-    padding: 20px;
+    font-size: 35px;
+    padding: 30px;
+    color: var(--color-dark);
 }
+
 .comingSoonImage {
-    width: 420px;
-    height: 250px;
+    width: 480px;
+    height: 300px;
+}
+
+/* For small devices */
+@media screen and (max-width: 992px) {
+    .comingSoonImage {
+        width: 300px;
+        height: 200px;
+    }
 }
