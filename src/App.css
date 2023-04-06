@@ -146,7 +146,7 @@
   font-size: 2rem;
   color: var(--color-dark);
   background-color: var(--color-white);
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 1rem;
   margin-left: 1rem;
   cursor: pointer;
@@ -334,7 +334,7 @@
   }
 
   .footer-info-content {
-    font-size: 0.9  rem;
+    font-size: 0.9rem;
   }
 
   #footer-copyright {
