@@ -36,26 +36,31 @@ export default function Home(){
                     <i className="fa-solid fa-quote-right right"></i>
                 </div>
             </div>
+
+            <div id="line">
+                <div className='break'></div>
+            </div>
+
             <div id="important-links">
                 <p>Important Links</p>
             </div>
         </div>
         <div className='content'>
             <h2 className="programOffered"> Programs offered by the department </h2>
-                <div className="cardContainer">
-                    <div className="card">
-                        <span className="programTitle"> CSE - AIML </span> <br />
-                        <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
-                    </div>
-                    <div className="card">
-                        <span className="programTitle"> CSE - DS </span> <br />
-                        <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
-                    </div>
-                    <div className="card">
-                        <span className="programTitle"> MCA </span> <br />
-                        <a href="https://mca.spit.ac.in/" rel="noreferrer" target="_blank" className="knowMore"> Know More </a>
-                    </div>
+            <div className="cardContainer">
+                <div className="card">
+                    <span className="programTitle"> CSE - AIML </span> <br />
+                    <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
                 </div>
+                <div className="card">
+                    <span className="programTitle"> CSE - DS </span> <br />
+                    <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
+                </div>
+                <div className="card">
+                    <span className="programTitle"> MCA </span> <br />
+                    <a href="https://mca.spit.ac.in/" rel="noreferrer" target="_blank" className="knowMore"> Know More </a>
+                </div>
+            </div>
         </div>
         </>
     )
