@@ -49,12 +49,12 @@ export default function Home(){
             <h2 className="programOffered"> Programs offered by the department </h2>
             <div className="cardContainer">
                 <div className="card">
-                    <span className="programTitle"> CSE - AIML </span> <br />
-                    <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
+                    <span className="programTitle"> CSE (AIML) </span> <br />
+                    <a href="/cse-aiml" rel="noreferrer" className="knowMore"> Know More </a>
                 </div>
                 <div className="card">
-                    <span className="programTitle"> CSE - DS </span> <br />
-                    <a href="/" rel="noreferrer" className="knowMore"> Know More </a>
+                    <span className="programTitle"> CSE (DS) </span> <br />
+                    <a href="/cse-ds" rel="noreferrer" className="knowMore"> Know More </a>
                 </div>
                 <div className="card">
                     <span className="programTitle"> MCA </span> <br />
