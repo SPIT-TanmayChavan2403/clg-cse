@@ -16,7 +16,7 @@ export default function Home(){
                                 { data["message-from-hod"].title }
                             </p>
                             <p>
-                               { data["message-from-hod"].name }
+                               <strong>{ data["message-from-hod"].name }</strong>
                             </p>
                         </div>
                         <div id="hod-message-subtitle">
