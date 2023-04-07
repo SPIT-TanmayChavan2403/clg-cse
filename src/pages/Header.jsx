@@ -48,7 +48,7 @@ function Header(){
 					</div>
 
 					{/* link */}
-					<div className="links-link" onClick={()=>{navigate('/aboutus')}}>
+					<div className="links-link" onClick={()=>{navigate('/about-us')}}>
 						About us
 					</div>
 
