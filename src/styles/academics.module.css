@@ -37,17 +37,17 @@
     margin-left: .5rem;
 }
 
-.gridContainer {
+.outerContainer {
     width: 1140px;
     margin: auto;
     display: grid;
-        grid-template-areas: 'left right';
-        grid-template-columns: 1fr 2fr;
-        grid-auto-flow: row;
-        grid-gap: 2rem;
-        padding: 50px 0;
-        /* background-color: #2196F3; */
+    grid-template-areas: 'left right';
+    grid-template-columns: 1fr 2fr;
+    /* grid-auto-flow: row; */
+    grid-gap: 2rem;
+    padding: 50px 0;
 }
+
 .gridLeft {
     text-align: center;
 }
@@ -61,7 +61,32 @@
     text-decoration: none;
     color: #000;
 }
+.gridRight {
+    padding: 0 50px;
+}
 #data {
     width: 345px;
     height: 345px;
+}
+.academicLinks {
+    list-style-position: inside;
+}
+.academicLinks > li {
+    padding: 5px;
+}
+.academicLinks > li > a {
+    color: var(--color-accent);
+}
+
+/* For small devices */
+@media screen and (max-width: 992px) {
+    .outerContainer {
+        width: 100%;
+        grid-template-areas: none;
+        grid-template-columns: none;
+    }
+    .gridRight {
+        width: 100%;
+        padding: 15px;
+    }
 }

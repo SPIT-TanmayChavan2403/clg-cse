@@ -1,0 +1,109 @@
+.wrapper {
+    min-width: 350px;
+}
+.accordionList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    max-width: 30rem;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.accordionList__item+.accordionList__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.accordionItem__opened .accordionItem__icon {
+    transform: rotate(180deg);
+}
+.accordionItem__opened .accordionItem__inner {
+    max-height: 100rem;
+    transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition-duration: 0.5s;
+    transition-property: max-height;
+}
+.accordionItem__opened .accordionItem__content {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    transition-property: opacity, transform;
+}
+.accordionItem__line {
+    display: block;
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-dark);
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+.accordionItem__title {
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 700;
+    color: #FFF;
+}
+.accordionItem__icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: transform 0.3s ease-in-out;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg fill='%23fff' height='800px' width='800px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve'%3E%3Cpath id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'/%3E%3C/svg%3E%0A");
+    opacity: 0.8;
+}
+.accordionItem__inner {
+    max-height: 0;
+    overflow: hidden;
+    text-transform: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition-duration: 0.5s;
+    transition-property: max-height;
+    z-index: 1;
+    position: relative;
+}
+.accordionItem__content {
+    opacity: 0;
+    transform: translateY(-1rem);
+    transition-timing-function: linear, ease;
+    transition-duration: 0.1s;
+    transition-property: opacity, transform;
+    transition-delay: 0.5s;
+    padding: 0 1.2rem 1.2rem;
+}
+.accordionItem__paragraph {
+    margin: 0;
+    padding: 15px 30px 0;
+}
+.list li {
+    padding: 5px 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.list li > a {
+    color: #000;
+    text-decoration: none;
+}
+.list li:hover {
+    color: var(--color-accent);
+}
+.list li > a:hover {
+    color: var(--color-accent);
+}
+.selectedOption {
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+/* For small devices */
+@media screen and (max-width: 992px) {
+    .wrapper {
+        min-width: 90%;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
