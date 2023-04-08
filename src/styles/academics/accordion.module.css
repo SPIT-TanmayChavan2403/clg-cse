@@ -81,7 +81,7 @@
 }
 .list li {
     padding: 5px 0;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .list li > a {
@@ -105,5 +105,9 @@
         min-width: 90%;
         width: 90%;
         margin-left: 5%;
+    }
+    .list li {
+        padding: 5px 0;
+        font-size: 0.9rem;
     }
 }
