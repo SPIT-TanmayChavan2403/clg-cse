@@ -9,8 +9,9 @@ const FacultyCard = ({dept}) => {
                 <h2 className={styles.facultyHeading}> Faculties for {dept} </h2>
                 <div className={styles.cardContainer}>
                     {
-                        facultyData[dept].map(item => (
+                        facultyData[dept].map((item, index) => (
                             <Link 
+                            key={index}
                             to={`${dept.toLowerCase()}/${item.id}`}
                             className={styles.rrdLink}
                             state={{id: item.id, dept: dept}}>
@@ -35,8 +36,8 @@ export default function TeachingStaff(props){
     return(
         <div>
         {
-        deptList.map(dept => (
-            <FacultyCard dept={dept} />
+        deptList.map((dept, index) => (
+            <FacultyCard key={index} dept={dept} />
         ))}
         <div className={styles.container}>
         <a href="https://mca.spit.ac.in/index.php/facult/" rel="noreferrer" target="_blank" className={styles.facultyHeadingMCA}> Faculties for MCA <FiExternalLink />  </a>

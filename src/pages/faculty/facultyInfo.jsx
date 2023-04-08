@@ -11,7 +11,6 @@ export default function FacultyInfo(){
 
     useEffect(() => {
         const url = location.pathname.split('/');
-        console.log(url)
         const dept = url[2].toUpperCase();
         const id = url[3];
         const res = facultyData[dept].filter(obj => {
@@ -51,8 +50,8 @@ export default function FacultyInfo(){
                             <h2 className={styles.heading}> {key} </h2>
                             <ul className={styles.list}>
                                 {
-                                    Object.values(info.data[key]).map(item => (
-                                        <li>
+                                    Object.values(info.data[key]).map((item, index) => (
+                                        <li key={index}>
                                         {item}
                                         </li>
                                     ))
