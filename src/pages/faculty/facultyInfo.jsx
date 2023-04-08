@@ -1,5 +1,5 @@
 import styles from '../../styles/faculty/facultyinfo.module.css'
-import { useLocation } from "react-router-dom"
+import { Navigate, useLocation } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { facultyData } from '../../metadata/facultyData';
 
@@ -8,6 +8,7 @@ export default function FacultyInfo(){
 
     const location = useLocation();
     const [info, setInfo] = useState({});
+    const [redirect, setRedirect] = useState(false);
 
     useEffect(() => {
         const url = location.pathname.split('/');
@@ -18,12 +19,17 @@ export default function FacultyInfo(){
         })
         if(res.length > 0) {
           setInfo(res[0]);
+        } else {
+            setRedirect(true);
         }
         window.scrollTo(0, 500)
     }, [])
 
     return(
         <div id={styles.facultyinfo}>
+            {
+                redirect && <Navigate to='/404-page-not-found' />
+            }
             {info!=={} && 
             <>
                 <div className={styles.title}>
