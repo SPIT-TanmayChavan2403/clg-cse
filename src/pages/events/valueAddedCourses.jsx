@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from  '../../styles/valueaddedcourse.module.css';
+import styles from  '../../styles/events/valueaddedcourse.module.css';
 
 function ValueAddedCourse(props) {
 

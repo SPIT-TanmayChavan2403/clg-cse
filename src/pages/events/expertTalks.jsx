@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/experttalks.module.css';
+import styles from '../../styles/events/experttalks.module.css';
 import { eventsData } from '../../metadata/events';
 
 function ExpertTalks(props){

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import styles from '../../styles/accordion.module.css';
+import styles from '../../styles/academics/accordion.module.css';
 
 export const Accordion = ({selected, setSelected}) => {
     return (
@@ -37,8 +37,8 @@ const AccordionItem = ({selected, setSelected}) => {
 							<li onClick={() => handleClick('time-table')} className={(selected === 'time-table' ? `${styles.selectedOption}` : '')}> Time Table </li>
 							<li onClick={() => handleClick('syllabus')} className={(selected === 'syllabus' ? `${styles.selectedOption}` : '')}> Syllabus </li>
 							<li onClick={() => handleClick('results')} className={(selected === 'results' ? `${styles.selectedOption}` : '')}> Results </li>
-							<li><a href="https://www.spit.ac.in/wp-content/uploads/2022/03/Placement-Stats_2021-2022_Final-Website21.pdf" target='_blank'> Internships </a> </li>
-							<li><a href="https://www.spit.ac.in/wp-content/uploads/2022/03/Placement-Stats_2021-2022_Final-Website21.pdf" target='_blank'> Placements </a> </li>
+							<li><a href="https://www.spit.ac.in/wp-content/uploads/2022/03/Placement-Stats_2021-2022_Final-Website21.pdf" target='_blank' rel="noreferrer"> Internships </a> </li>
+							<li><a href="https://www.spit.ac.in/wp-content/uploads/2022/03/Placement-Stats_2021-2022_Final-Website21.pdf" target='_blank' rel="noreferrer"> Placements </a> </li>
 							<li onClick={() => handleClick('projects')} className={(selected === 'projects' ? `${styles.selectedOption}` : '')}> Projects </li>
 						</ol>
 					</div>

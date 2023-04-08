@@ -1,4 +1,4 @@
-import styles from "../../styles/teachingStaff.module.css"
+import styles from "../../styles/faculty/teachingStaff.module.css"
 import { facultyData } from "../../metadata/facultyData"
 import { Link } from "react-router-dom"
 import { FiExternalLink } from 'react-icons/fi'
@@ -13,8 +13,7 @@ const FacultyCard = ({dept}) => {
                             <Link 
                             key={index}
                             to={`${dept.toLowerCase()}/${item.id}`}
-                            className={styles.rrdLink}
-                            state={{id: item.id, dept: dept}}>
+                            className={styles.rrdLink}>
                                 <div className={styles.card}>
                                     <img src={item.image} alt="" className={styles.cardImg} />
                                     <div className={styles.cardData}>

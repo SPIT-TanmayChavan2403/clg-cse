@@ -1,5 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-import styles from '../../styles/academics.module.css'
+import styles from '../../styles/academics/academics.module.css'
 import { useState } from 'react';
 import { Accordion } from './Accordion';
 
@@ -17,7 +16,7 @@ export default function DsAcademics() {
                             <h2> Time Table </h2>
                             <br />
                             <ul className={styles.academicLinks}>
-                                <li> <a href="https://www.spit.ac.in/wp-content/uploads/2023/03/SE-DS.pdf" target="_blank">SE DS Sem IV 2022-23</a> </li>
+                                <li> <a href="https://www.spit.ac.in/wp-content/uploads/2023/03/SE-DS.pdf" target="_blank" rel="noreferrer">SE DS Sem IV 2022-23</a> </li>
                             </ul>
                         </div>
                     }
@@ -27,7 +26,7 @@ export default function DsAcademics() {
                             <h2> Syllabus </h2>
                             <br />
                             <ul className={styles.academicLinks}>
-                                <li> <a href="https://library.spit.ac.in/AS2021-22/ds-sem-1-4-2021.pdf" target="_blank">UG Syllabus - 2021-22 CSE-DS Sem I-IV</a> </li>
+                                <li> <a href="https://library.spit.ac.in/AS2021-22/ds-sem-1-4-2021.pdf" target="_blank" rel="noreferrer">UG Syllabus - 2021-22 CSE-DS Sem I-IV</a> </li>
                             </ul>
                         </div>
                     }

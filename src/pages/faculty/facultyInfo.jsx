@@ -1,4 +1,4 @@
-import styles from '../../styles/facultyinfo.module.css'
+import styles from '../../styles/faculty/facultyinfo.module.css'
 import { useLocation } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { facultyData } from '../../metadata/facultyData';

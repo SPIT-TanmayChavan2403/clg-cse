@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/competitions.module.css';
+import styles from '../../styles/events/competitions.module.css';
 import { eventsData } from '../../metadata/events';
 
 function Competitions(props){
