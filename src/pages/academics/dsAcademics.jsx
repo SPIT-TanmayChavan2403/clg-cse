@@ -14,7 +14,7 @@ export default function DsAcademics() {
                     {
                         selected === 'time-table' &&
                         <div>
-                            <h2> Syllabus </h2>
+                            <h2> Time Table </h2>
                             <br />
                             <ul className={styles.academicLinks}>
                                 <li> <a href="https://www.spit.ac.in/wp-content/uploads/2023/03/SE-DS.pdf" target="_blank">SE DS Sem IV 2022-23</a> </li>

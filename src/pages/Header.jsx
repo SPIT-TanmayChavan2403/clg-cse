@@ -36,7 +36,7 @@ function Header(){
 		<div id="header">
 	        <nav>
 	          <div id="logo">
-	            <Link to="/">
+	            <Link to="https://www.spit.ac.in/">
 					<img src="./clg_logo.png" alt="" />
 				</Link>
 	          </div>
