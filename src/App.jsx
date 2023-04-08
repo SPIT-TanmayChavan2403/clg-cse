@@ -2,7 +2,7 @@ import './App.css';
 import Home from './pages/home';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
-import {Routes, Route } from 'react-router-dom';
+import {Routes, Route, Navigate } from 'react-router-dom';
 import Workshops from './pages/events/workshops';
 import ExpertTalks from './pages/events/expertTalks';
 import ValueAddedCourse from './pages/events/valueAddedCourses';
@@ -12,6 +12,7 @@ import FacultyInfo from './pages/faculty/facultyInfo';
 import AimlAcademics from './pages/academics/aimlAcademics';
 import DsAcademics from './pages/academics/dsAcademics';
 import Competitions from './pages/events/competition';
+import { PageNotFound } from './pages/PageNotFound';
 
 function App(props) {
 
@@ -32,6 +33,8 @@ function App(props) {
                 <Route path="/events/expert-talks" element={<ExpertTalks />} />
                 <Route path="/events/workshops" element={<Workshops />} />
                 <Route path="/events/competitions" element={<Competitions />} />
+                <Route path="/404-page-not-found" element={<PageNotFound />} />
+                <Route path="*" element={<Navigate to="/404-page-not-found" />} />
             </Routes>
             <Footer />
         </div>
