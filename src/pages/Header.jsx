@@ -62,7 +62,7 @@ function Header(){
 							<StyledLink to="/cse-ds/">
 								UG DS
 							</StyledLink>
-							<StyledLink to="https://mca.spit.ac.in/">
+							<StyledLink to="https://mca.spit.ac.in/" target='_blank'>
 								PG MCA
 							</StyledLink>
 						</div>
