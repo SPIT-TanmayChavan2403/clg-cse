@@ -215,7 +215,7 @@
 
   .links-link-menu {
     top: 1rem;
-    right: 0;
+    left: 0;
     padding: .5rem;
     background-color: var(--bg-medium);
     border-radius: 5px;
