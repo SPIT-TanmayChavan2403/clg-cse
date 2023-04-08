@@ -1,5 +1,6 @@
 import '../styles/home.css';
 import { data } from '../metadata/aboutDeptData';
+import { Link } from 'react-router-dom';
 
 export default function Home(){
     return(
@@ -50,15 +51,15 @@ export default function Home(){
             <div className="cardContainer">
                 <div className="card">
                     <span className="programTitle"> CSE (AIML) </span> <br />
-                    <a href="/cse-aiml" rel="noreferrer" className="knowMore"> Know More </a>
+                    <Link to="/cse-aiml" rel="noreferrer" className="knowMore"> Know More </Link>
                 </div>
                 <div className="card">
                     <span className="programTitle"> CSE (DS) </span> <br />
-                    <a href="/cse-ds" rel="noreferrer" className="knowMore"> Know More </a>
+                    <Link to="/cse-ds" rel="noreferrer" className="knowMore"> Know More </Link>
                 </div>
                 <div className="card">
                     <span className="programTitle"> MCA </span> <br />
-                    <a href="https://mca.spit.ac.in/" rel="noreferrer" target="_blank" className="knowMore"> Know More </a>
+                    <Link to="https://mca.spit.ac.in/" rel="noreferrer" target="_blank" className="knowMore"> Know More </Link>
                 </div>
             </div>
         </div>
