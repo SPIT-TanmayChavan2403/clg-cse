@@ -11,4 +11,7 @@ export const eventsData = {
             document: "/documents/expert-talks/HMI_ Its future in UI designing.pdf"
         },
     ],
+    "competitions": [],
+    "workshops": [],
+    "value-added-courses": []
 };

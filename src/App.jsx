@@ -25,6 +25,7 @@ import AboutUs from './pages/about us/aboutus';
 import FacultyInfo from './pages/faculty/facultyInfo';
 import AimlAcademics from './pages/academics/aimlAcademics';
 import DsAcademics from './pages/academics/dsAcademics';
+import Competitions from './pages/events/competition';
 
 function App(props) {
 
@@ -45,6 +46,7 @@ function App(props) {
                 <Route path="/events/value-added-courses" element={<ValueAddedCourse />} />
                 <Route path="/events/expert-talks" element={<ExpertTalks />} />
                 <Route path="/events/workshops" element={<Workshops />} />
+                <Route path="/events/competitions" element={<Competitions />} />
 
 
 

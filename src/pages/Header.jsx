@@ -77,6 +77,9 @@ function Header(){
 					<div className="links-link">
 						events
 						<div className="links-link-menu">
+							<StyledLink to="/events/competitions">
+								Competitions
+							</StyledLink>
 							<StyledLink to="/events/workshops">
 								workshops
 							</StyledLink>
