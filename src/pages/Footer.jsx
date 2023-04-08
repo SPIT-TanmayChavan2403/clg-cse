@@ -25,7 +25,7 @@ function Footer(props){
 	            	Bhavan's Campus, Munshi Nagar, Andheri (West), Mumbai 400 058
 	          	</div>
 	          	<div className="footer-info-content">
-	          		Email: hod_cse@spit.ac.in
+	          		Email: hod.cse@spit.ac.in
 	          	</div>
 	        </div>
 
