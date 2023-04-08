@@ -43,12 +43,12 @@ function Header(){
 			  <div id="d-menu">
 			  	<div id="links" className={open ? "#links active" : "#links"}>
 					{/* link */}
-					<div className="links-link"onClick={()=>{navigate('/')}} >
+					<div className="links-link" onClick={()=>{navigate('/'); handleClick()}} >
 						home
 					</div>
 
 					{/* link */}
-					<div className="links-link" onClick={()=>{navigate('/about-us')}}>
+					<div className="links-link" onClick={()=>{navigate('/about-us'); handleClick()}}>
 						About us
 					</div>
 
@@ -56,20 +56,20 @@ function Header(){
 					<div className="links-link">
 						Academics
 						<div className="links-link-menu">
-							<StyledLink to="/cse-aiml/">
+							<StyledLink to="/cse-aiml/" onClick={handleClick}>
 								UG AIML
 							</StyledLink>
-							<StyledLink to="/cse-ds/">
+							<StyledLink to="/cse-ds/" onClick={handleClick}>
 								UG DS
 							</StyledLink>
-							<StyledLink to="https://mca.spit.ac.in/" target='_blank'>
+							<StyledLink to="https://mca.spit.ac.in/" target='_blank' onClick={handleClick}>
 								PG MCA
 							</StyledLink>
 						</div>
 					</div>
 
 					{/* link */}
-					<div className="links-link" onClick={()=>{navigate('/faculty')}}>
+					<div className="links-link" onClick={()=>{navigate('/faculty'); handleClick()}}>
 						faculty
 					</div>
 
@@ -77,16 +77,16 @@ function Header(){
 					<div className="links-link">
 						events
 						<div className="links-link-menu">
-							<StyledLink to="/events/competitions">
+							<StyledLink to="/events/competitions" onClick={handleClick}>
 								Competitions
 							</StyledLink>
-							<StyledLink to="/events/workshops">
+							<StyledLink to="/events/workshops" onClick={handleClick}>
 								workshops
 							</StyledLink>
-							<StyledLink to="/events/expert-talks">
+							<StyledLink to="/events/expert-talks" onClick={handleClick}>
 								Expert talks
 							</StyledLink>
-							<StyledLink to="/events/value-added-courses">
+							<StyledLink to="/events/value-added-courses" onClick={handleClick}>
 								value added courses
 							</StyledLink>
 						</div>
