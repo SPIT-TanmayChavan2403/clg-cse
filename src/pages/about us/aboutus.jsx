@@ -5,7 +5,7 @@ import { data } from '../../metadata/aboutDeptData';
 
 const createCarouselItemImage = (imgFile, options = {}) => (
     <div key={imgFile}>
-        <img src={`/Carousel/${imgFile}`} className={styles.sliderImages} />
+        <img src={`/assets/carousel/${imgFile}`} className={styles.sliderImages} />
     </div>
 );
 

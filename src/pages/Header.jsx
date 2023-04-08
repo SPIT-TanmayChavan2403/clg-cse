@@ -26,18 +26,12 @@ function Header(){
 		setOpen(!open);
 	}
 
-	// function toggleMenu(){
-	// 	const links = document.getElementById("links");
-
-	// 	links.classList.toggle("active");
-	// }
-
 	return(
 		<div id="header">
 	        <nav>
 	          <div id="logo">
 	            <Link to="https://www.spit.ac.in/">
-					<img src="./clg_logo.png" alt="" />
+					<img src="/assets/misc/clg-logo.png" alt="" />
 				</Link>
 	          </div>
 			  <div id="d-menu">

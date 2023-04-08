@@ -3,7 +3,7 @@ export const facultyData = {
     {
       id: "prof-dayanand-ambawade",
       name: "Prof. Dayanand Ambawade",
-      image: "/faculty/prof-dayanand-ambawade.jpg",
+      image: "/assets/faculty/prof-dayanand-ambawade.jpg",
       designation: "Associate Professor",
       qualification: "M.Tech (Electronics & Telecomm.), Pursuing (Ph.D.)",
       contact_short: "dd_ambawade@spit.ac.in Phone: 26287250/26707440",
@@ -180,7 +180,7 @@ export const facultyData = {
     {
       id: "prof-sheetal-chaudhari",
       name: "Prof. Sheetal Chaudhari",
-      image: "/faculty/prof-sheetal-chaudhari.png",
+      image: "/assets/faculty/prof-sheetal-chaudhari.png",
       designation: "Assistant Professor",
       qualification: "M.E.(Computer)",
       education: ["M.E. (Computers)", "B.E. (Computers)"],
@@ -231,7 +231,7 @@ export const facultyData = {
     {
       id: "prof-renuka-pawar",
       name: "Prof.Renuka Pawar",
-      image: "/faculty/prof-renuka-pawar.jpg",
+      image: "/assets/faculty/prof-renuka-pawar.jpg",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E.(Computer) ",
       education: ["M.E. (Computer)", "B.E. (Computer)"],
@@ -301,7 +301,7 @@ export const facultyData = {
     {
       id: "prof-aparna-halbe",
       name: "Prof. Aparna Halbe",
-      image: "/faculty/prof-aparna-halbe.jpg",
+      image: "/assets/faculty/prof-aparna-halbe.jpg",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E. Computer science",
       education: ["BE information Technology", "ME computer science"],
@@ -328,7 +328,7 @@ export const facultyData = {
     {
       id: "dr-dhananjay-kalbande",
       name: "Dr. Dhananjay Kalbande",
-      image: "/faculty/dr-dhananjay-kalbande.jpg",
+      image: "/assets/faculty/dr-dhananjay-kalbande.jpg",
       designation: "Professor and Head of Department",
       qualification: "Post-Doctorate (TISS), Ph.D.,M.E.(I.T.), B.E.(Comp.)",
       education: [
@@ -573,7 +573,7 @@ export const facultyData = {
     {
       id: "dr-sujata-s-kulkarni",
       name: "Dr. Sujata S Kulkarni",
-      image: "/faculty/dr-sujata-s-kulkarni.png",
+      image: "/assets/faculty/dr-sujata-s-kulkarni.png",
       designation: "Associate Professor",
       qualification: "Ph.D (Electronics), RSTMNU Nagpur",
       education: [
@@ -666,7 +666,7 @@ export const facultyData = {
     {
       id: "prof-varsha-hole",
       name: "Prof. Varsha Hole",
-      image: "/faculty/prof-varsha-hole.png",
+      image: "/assets/faculty/prof-varsha-hole.png",
       designation: "Assistant Professor",
       qualification: "M.E. Computer",
       education: ["ME Computer", "BE Computer"],
@@ -725,7 +725,7 @@ export const facultyData = {
     {
       id: "prof-nikahat-mulla",
       name: "Prof. Nikahat Mulla",
-      image: "/faculty/prof-nikahat-mulla.png",
+      image: "/assets/faculty/prof-nikahat-mulla.png",
       designation: "Assistant Professor",
       qualification: "Pursuing Ph.D. (CSE), M.E. Computer Engineering",
       education: [

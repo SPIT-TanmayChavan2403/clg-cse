@@ -8,7 +8,7 @@ function ExpertTalks(props){
             <h2 className={styles.title}> Expert Talks </h2>
             {
                 eventsData["expert-talks"] && eventsData["expert-talks"] .length <= 0 ?
-                    <img src="/coming-soon.png" className={styles.comingSoonImage} /> :
+                    <img src="/assets/misc/coming-soon.png" className={styles.comingSoonImage} /> :
                     <div className={styles.wrapper}>
                         <div className={styles.container}>
                             {

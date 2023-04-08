@@ -8,7 +8,7 @@ export default function Home(){
             <div id="hod-message">
                 <div id="hod-message-head">
                     <div id="hod-message-head-img">
-                        <img src="/faculty/dr-dhananjay-kalbande.jpg" alt="" />
+                        <img src="/assets/faculty/dr-dhananjay-kalbande.jpg" alt="" />
                     </div>
                     <div id="hod-message-head-text">
                         <div id="hod-message-title">

@@ -8,7 +8,7 @@ function Competitions(props){
             <h2 className={styles.title}> Competitions </h2>
             {
                 eventsData["competitions"] && eventsData["competitions"] .length <= 0 ?
-                    <img src="/coming-soon.png" className={styles.comingSoonImage} /> :
+                    <img src="/assets/misc/coming-soon.png" className={styles.comingSoonImage} /> :
                     <div className={styles.wrapper}>
                         <div className={styles.container}>
                             {

@@ -5,7 +5,7 @@ function Footer(props){
 		<div id="footer">
 	        <div id="footer-head">
 				<div id="footer-head-logo">
-					<img src="./spit-transparent-bg-logo.png" alt="" />
+					<img src="/assets/misc/spit-transparent-bg-logo.png" alt="" />
 				</div>
 				<div id="footer-head-socials">
 					<i className="fa-brands fa-linkedin"></i>

@@ -36,7 +36,7 @@
     align-items: center;
     flex-direction: column; */
     border-radius: 5px;
-    box-shadow: 2px 0px 10px rgba(27, 27, 27, 0.5), -2px 0px 10px rgba(27, 27, 27, 0.5), 0px 4px 10px rgba(27, 27, 27, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .banner {
     height: 200px;
@@ -45,7 +45,7 @@
     border-radius: 5px 5px 0 0;
 }
 .data {
-    padding: 10px;
+    padding: 10px 20px;
 }
 .eventTitle {
     text-align: left;
@@ -63,16 +63,23 @@
 }
 .speakerDesignation {
     display: inline-block;
-    /* font-weight: 700; */
+    font-size: 17px;
+}
+.dateHeading, .timeHeading {
+    font-weight: 700;
+    font-size: 17px;
+}
+.dateValue, .timeValue {
     font-size: 17px;
 }
 .document {
     background-color: var(--color-dark);
     color: var(--color-white);
     padding: 7px 15px;
-    margin: 15px 0;
+    margin: 10px 0;
     border-radius: 5px;
     text-decoration: none;
+    display: inline-block;
 }
 
 /* For small devices */
