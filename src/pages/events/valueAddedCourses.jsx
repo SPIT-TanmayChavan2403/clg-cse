@@ -6,7 +6,7 @@ function ValueAddedCourse(props) {
 	return(
 		<div className={styles.outerWrapper}>
             <h2 className={styles.title}> Value Added Courses </h2>
-            <img src="/assets/misc/coming-soon.png" className={styles.comingSoonImage} />
+            <img src="/assets/misc/coming-soon.png" alt="" className={styles.comingSoonImage} />
         </div>
 	)
 }

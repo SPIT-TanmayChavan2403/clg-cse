@@ -6,7 +6,7 @@ function Workshops(props){
         <div className="outer-wrapper">
             <div className={styles.outerWrapper}>
                 <h2 className={styles.title}> Workshops </h2>
-                <img src="/assets/misc/coming-soon.png" className={styles.comingSoonImage} />
+                <img src="/assets/misc/coming-soon.png" alt="" className={styles.comingSoonImage} />
             </div>
         </div>
     )

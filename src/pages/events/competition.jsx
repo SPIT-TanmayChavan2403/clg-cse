@@ -7,8 +7,8 @@ function Competitions(props){
         <div className={styles.outerWrapper}>
             <h2 className={styles.title}> Competitions </h2>
             {
-                eventsData["competitions"] && eventsData["competitions"] .length <= 0 ?
-                    <img src="/assets/misc/coming-soon.png" className={styles.comingSoonImage} /> :
+                eventsData["competitions"] && eventsData["competitions"].length <= 0 ?
+                    <img src="/assets/misc/coming-soon.png" alt="" className={styles.comingSoonImage} /> :
                     <div className={styles.wrapper}>
                         <div className={styles.container}>
                             {
@@ -29,7 +29,7 @@ function Competitions(props){
                                                 <span className={styles.timeHeading}> Time:  </span>
                                                 <span className={styles.timeValue}> {item.time} </span>
                                             </div>
-                                            <a href={item.document} target="_blank" className={styles.document}> View Details </a>
+                                            <a href={item.document} target="_blank" rel="noreferrer" className={styles.document}> View Details </a>
                                         </div>
                                     </div>
                                 ))
