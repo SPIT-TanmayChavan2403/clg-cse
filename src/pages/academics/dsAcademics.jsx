@@ -1,6 +1,8 @@
 import styles from '../../styles/academics/academics.module.css'
 import { useState } from 'react';
 import { Accordion } from './Accordion';
+import TimeTable from './TimeTable';
+import Syllabus from './Syllabus';
 
 export default function DsAcademics() {
     const [selected, setSelected] = useState('time-table');
@@ -12,23 +14,11 @@ export default function DsAcademics() {
                 <div id={styles.data}>
                     {
                         selected === 'time-table' &&
-                        <div>
-                            <h2> Time Table </h2>
-                            <br />
-                            <ul className={styles.academicLinks}>
-                                <li> <a href="https://www.spit.ac.in/wp-content/uploads/2023/03/SE-DS.pdf" target="_blank" rel="noreferrer">SE DS Sem IV 2022-23</a> </li>
-                            </ul>
-                        </div>
+                        <TimeTable dept='CSE-DS' />
                     }
                     {
                         selected === 'syllabus' &&
-                        <div>
-                            <h2> Syllabus </h2>
-                            <br />
-                            <ul className={styles.academicLinks}>
-                                <li> <a href="https://library.spit.ac.in/AS2021-22/ds-sem-1-4-2021.pdf" target="_blank" rel="noreferrer">UG Syllabus - 2021-22 CSE-DS Sem I-IV</a> </li>
-                            </ul>
-                        </div>
+                        <Syllabus dept='CSE-DS' />
                     }
                     {
                         selected === 'results' &&
