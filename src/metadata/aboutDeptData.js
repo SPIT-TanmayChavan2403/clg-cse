@@ -13,6 +13,20 @@ export const data = {
             "I wish you all very best for the successful career ahead."
         ]
     },
+    "important-links": [
+        {
+            "title": "Academics CSE-AIML",
+            "link": "/cse-aiml"
+        },
+        {
+            "title": "Academics CSE-DS",
+            "link": "/cse-ds"
+        },
+        {
+            "title": "Expert Talks",
+            "link": "/events/expert-talks"
+        }
+    ],
     "about-us-carousal-images": ["Carousel1.jpeg", "Carousel2.jpeg", "Carousel3.jpeg", "Carousel4.jpeg", "Carousel5.jpeg", "Carousel6.jpeg", "Carousel7.jpeg"],
     "about-the-department": [
         "The Department of Computer Science and Engineering was established in the year 2021 with the aim of providing students with the necessary skills to excel in the rapidly evolving tech industry. The department consists of 14+ faculty members, 3 technical assistants and more than 220 students working towards their Bachelors’, Masters’ and Doctoral degrees. The department attracts high quality students from all over Maharashtra and also from the country.In the recent past, we have benchmarked our curriculum with select institutions of higher learning around the world and currently we are carefully reviewing the impact of these consequent changes with a view to make our programs even more strong and competitive. The department also attracts the interaction with the IT industries to provide training to the students.",

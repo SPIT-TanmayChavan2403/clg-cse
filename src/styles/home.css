@@ -1,26 +1,18 @@
 #home{
     display: flex;
-    width: 100%;
-    justify-content: center;
-    /* align-items: center; */
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
     padding: 45px;
 }
+
 #hod-message {
-    flex: 0.65;
+    flex: 0.70;
     padding: 15px;
 }
-#line {
-    display: flex;
-    justify-content: center;
-    flex: 0.05;
-}
-.break {
-    height: 100%;
-    width: 0.5px;
-    background-color: #000;
-}
+
 #important-links {
-    flex: 0.30;
+    flex: 0.25;
     padding: 15px;
 }
 
@@ -70,8 +62,43 @@ i.right {
     margin-right: 0;
 }
 
-#important-links>p {
+#important-links-title {
+    position: relative;
     font-size: 1.5rem;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+#important-links-title::after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid var(--color-dark);
+    bottom: -9px;
+    display: block;
+    left: 5%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 9999;
+}
+.important-links-list {
+    list-style-position: inside;
+    padding-left: 15px;
+}
+.important-links-list > li {
+    margin: 5px;
+}
+.important-links-list > li > a {
+    color: var(--color-dark);
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+.important-links-list> li > a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
 }
 
 #hod-message-desc {
@@ -118,12 +145,11 @@ i.right {
 
 .programTitle {
     display: inline-block;
-    width: 100%;
+    width: 90%;
     font-family: 'Shojumaru', cursive;
     text-align: center;
     color: var(--color-dark);
     font-size: 40px;
-    padding: 25px auto;
     font-family: 'Eczar', serif;
 }
 
@@ -150,6 +176,10 @@ i.right {
 }
 
 @media only screen and (max-width: 600px) {
+    #home {
+        width: 100%;
+    }
+
     #hod-message-head {
         grid-template-columns: none;
         grid-template-rows: 250px;

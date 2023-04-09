@@ -38,12 +38,17 @@ export default function Home(){
                 </div>
             </div>
 
-            <div id="line">
-                <div className='break'></div>
-            </div>
-
             <div id="important-links">
-                <p>Important Links</p>
+                <p id="important-links-title">Important Links</p>
+                <ul className='important-links-list'>
+                {
+                    data["important-links"].map((item, index) => (
+                        <li key={index}>
+                            <Link to={item.link} rel="noreferrer"> {item.title} </Link>
+                        </li>
+                    ))
+                }
+                </ul>
             </div>
         </div>
         <div className='content'>
