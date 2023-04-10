@@ -27,8 +27,6 @@ function App(props) {
                 <Route path="/faculty/cse-aiml/:slug" element={<FacultyInfo />} />
                 <Route path="/cse-aiml/" element={<AimlAcademics />} />
                 <Route path="/cse-ds/" element={<DsAcademics />} />
-                <Route path="/academics/aiml" element={<AimlAcademics />} />
-                <Route path="/academics/ds" element={<DsAcademics />} />
                 <Route path="/events/value-added-courses" element={<ValueAddedCourse />} />
                 <Route path="/events/expert-talks" element={<ExpertTalks />} />
                 <Route path="/events/workshops" element={<Workshops />} />
