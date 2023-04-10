@@ -1,5 +1,7 @@
 # Website for Department of Computer Science and Engineering @ S.P.I.T.
 
+<img src="public/assets/misc/open-graph-meta-image.png" alt="" width="75%" align="center" />
+
 ## Steps to run the project locally:
 - Open command prompt (or terminal) and change the current working directory to location where you want to clone the repository.
 - Then type: **git clone {repo-name}** and press Enter.
