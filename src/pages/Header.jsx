@@ -98,8 +98,8 @@ function Header(){
 				</div>
 			  </div>
 	          <div id="account">
-	            <i className="fa-solid fa-magnifying-glass"></i>
-	            <i className="fa-solid fa-circle-user"></i>
+	            {/* <i className="fa-solid fa-magnifying-glass"></i>
+	            <i className="fa-solid fa-circle-user"></i> */}
 	          </div>
 			  <div id="mobile" onClick={handleClick}>
 				<i id="bar" className={open ? "fas fa-times" : "fas fa-bars"}></i>
