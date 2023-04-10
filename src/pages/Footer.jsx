@@ -78,7 +78,7 @@ function Footer(props){
 			</div>
 
 			<div id="footer-copyright">
-				Copyrights &copy; 2023 | Department of CSE @ S.P.I.T.
+				Copyrights &copy; {new Date().getFullYear()} | Department of CSE @ S.P.I.T.
 			</div>
 	     </div>
 	)
