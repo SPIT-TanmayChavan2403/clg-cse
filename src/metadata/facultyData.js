@@ -14,7 +14,7 @@ export const facultyData = {
       ],
       contact: [
         "dd_ambawade@spit.ac.in, Extension: 381",
-        "Room No. 507, 5th Floor, Electronics & Telecommunication Department,",
+        "Department of Computer Science and Engineering,",
         "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       ],
       data: {
@@ -186,7 +186,7 @@ export const facultyData = {
       education: ["M.E. (Computers)", "B.E. (Computers)"],
       contact: [
         "sheetal_chaudhari@spit.ac.in",
-        "Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,",
+        "Department of Computer Science and Engineering,",
         "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       ],
       data: {
@@ -236,8 +236,8 @@ export const facultyData = {
       qualification: "Pursuing Ph.D. (CSE), M.E.(Computer) ",
       education: ["M.E. (Computer)", "B.E. (Computer)"],
       contact: [
-        "renuka_pawar@spit.ac.in",
-        "Extn: 341, Room No. 411, 4th Floor, Department of Information Technology,",
+        "renuka_pawar@spit.ac.in, Extn: 341,",
+        "Department of Computer Science and Engineering,",
         "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       ],
       data: {
@@ -306,8 +306,8 @@ export const facultyData = {
       qualification: "Pursuing Ph.D. (CSE), M.E. Computer science",
       education: ["BE information Technology", "ME computer science"],
       contact: [
-        "aparna_halbe@spit.ac.in",
-        "Extn: 341, Room No. 410, 4th Floor, Department of Information Technology,",
+        "aparna_halbe@spit.ac.in, Extn: 341,",
+        "Department of Computer Science and Engineering,",
         "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
       ],
       data: {
@@ -345,22 +345,21 @@ export const facultyData = {
         "Post Ph.D Collaborative Research Completed": [
           [
             "Research work Title : Skin Image Analysis Software to recognize skin diseases:- A clinical study to recognize skin diseases at the early stage.",
-                "Principal Investigator and Guide: Dr.Uday Khopkar,Professor & Head, Dept.of Dermatology,Seth G.S.Medical College and KEM Hospital.",
-                "Co-Investigators : Dr.Dhananjay Kalbande,Dr.Mithali Jage",
-                "Results of the Investigation are approved from Institutional Ethics Committee(IEC Committee) ,Seth G.S.Medical College & KEM Hospital.",
-                "Status : Completed",
+            "Principal Investigator and Guide: Dr.Uday Khopkar,Professor & Head, Dept.of Dermatology,Seth G.S.Medical College and KEM Hospital.",
+            "Co-Investigators : Dr.Dhananjay Kalbande,Dr.Mithali Jage",
+            "Results of the Investigation are approved from Institutional Ethics Committee(IEC Committee) ,Seth G.S.Medical College & KEM Hospital.",
+            "Status : Completed",
           ],
           [
             "Research work Title : Skin Image Analysis Software for diagnosis of chronic pruritic Skin Diseases at early stage.",
-                "Principal Investigator and Guide: Dr.Uday Khopkar,Professor & Head, Dept.of Dermatology,Seth G.S.Medical College and KEM Hospital.",
-                "Co-Investigators : Dr.Dhananjay Kalbande,Dr. Akansha Chadha,Dr. Bhushan Darkase, Dr. Naziya M , Junior Resident, Seth G.S.Medical College & KEM Hospital.",
-                "Protocol is submitted to Institutional Ethics Committee(IEC Committee) ,Seth G.S.Medical College & KEM Hospital.",
-                "Status : In Process"
-
-            ],
+            "Principal Investigator and Guide: Dr.Uday Khopkar,Professor & Head, Dept.of Dermatology,Seth G.S.Medical College and KEM Hospital.",
+            "Co-Investigators : Dr.Dhananjay Kalbande,Dr. Akansha Chadha,Dr. Bhushan Darkase, Dr. Naziya M , Junior Resident, Seth G.S.Medical College & KEM Hospital.",
+            "Protocol is submitted to Institutional Ethics Committee(IEC Committee) ,Seth G.S.Medical College & KEM Hospital.",
+            "Status : In Process",
+          ],
           [
-            "MIS Project: MIS Application for Skin and VD Department, KEM Hospital, Parel , Mumbai"
-          ]
+            "MIS Project: MIS Application for Skin and VD Department, KEM Hospital, Parel , Mumbai",
+          ],
         ],
         "Visiting Faculty": [
           "Worked as Guest Faculty (Artificial Intelligence and Deep Learning) at Lal Bahadur Shastri Institute of Management, Delhi from 22nd Oct 2020 to 15th Jan 2021 (Online Mode)",
@@ -583,7 +582,7 @@ export const facultyData = {
       ],
       contact: [
         "Email: sujata_kulkarni@spit.ac.in, Extension: 386",
-        "Room No. 503, 5th Floor, Electronics & Telecommunication Department,",
+        "Department of Computer Science and Engineering,",
         "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058.",
       ],
       data: {
@@ -670,6 +669,11 @@ export const facultyData = {
       designation: "Assistant Professor",
       qualification: "M.E. Computer",
       education: ["ME Computer", "BE Computer"],
+      contact: [
+        "varsha_hole@spit.ac.in",
+        "Department of Computer Science and Engineering,",
+        "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
+      ],
       data: {
         "Area of Interests": [
           "Image Processing",
@@ -734,8 +738,8 @@ export const facultyData = {
         "B.E. (Computer Engineering)",
       ],
       contact: [
-        "nikahat_kazi@spit.ac.in",
-        "Extn: 343, Room No. 411, 4th Floor, Department of Information Technology,",
+        "nikahat_kazi@spit.ac.in, Extn: 343,",
+        "Department of Computer Science and Engineering,",
         "Sardar Patel Institute of Technology, Andheri(W), Mumbai 400058",
       ],
       data: {
