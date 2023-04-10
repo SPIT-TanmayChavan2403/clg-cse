@@ -51,3 +51,8 @@
 - All images regarding meta tags and manifest are stored directly inside the public directory.
 - All other images to be used in the web pages are stored inside public &#8594; assets &#8594; {respective folders}.
 - All **document** to be used in the webpages are stored in public &#8594; assets &#8594; documents.
+
+## Adding a New Route
+ - Routes are defined in src/App.jsx file
+ - New routes can be added directly in this file.
+ - You can also get the path value for each page from this file in case you need to speciy it in metadata files.
