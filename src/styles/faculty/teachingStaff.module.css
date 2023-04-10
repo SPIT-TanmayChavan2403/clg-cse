@@ -83,14 +83,15 @@
 @media screen and (max-width: 992px) {
     .facultyHeading, .facultyHeadingMCA {
         font-size: 20px;
-        width: 85%;
+        width: 400px;
     }
     .cardContainer {
         width: 90%;
+        flex-direction: column;
     }
     .card {
         margin: 20px 0;
-        width: 100%;
+        width: 425px;
     }
     .cardName {
         font-size: 18px;
@@ -102,5 +103,18 @@
     .qualification {
         font-size: 14px;
         font-weight: 400;
+    }
+}
+/* For small devices */
+@media screen and (max-width: 600px) {
+    .cardContainer {
+        width: 90%;
+    }
+    .facultyHeading, .facultyHeadingMCA {
+        width: 85%;
+    }
+    .card {
+        width: 95%;
+        margin: 20px 2.5%;
     }
 }
